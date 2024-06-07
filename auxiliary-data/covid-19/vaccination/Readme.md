@@ -75,3 +75,30 @@ print(f"Total doses administered in 2022: {total_doses_2022}")
 total_doses_2023 = post23_df['doses_administered'].sum()
 print(f"Total doses administered in 2023: {total_doses_2023}")
 ```
+
+Or, alternatively, in R as follows:
+```R
+# Load necessary library
+library(dplyr)
+
+# Load datasets
+pre23_df <- read.csv('covid_vax_pre23.csv')
+post23_df <- read.csv('covid_vax_post23.csv')
+
+# Display the first few rows of each dataset
+head(pre23_df)
+head(post23_df)
+
+# Example: Total doses administered in 2022
+total_doses_2022 <- pre23_df %>% 
+  filter(date < '2023-01-01') %>% 
+  summarise(total = sum(doses_administered, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total doses administered in 2022:", total_doses_2022))
+
+# Example: Total doses administered in 2023
+total_doses_2023 <- post23_df %>% 
+  summarise(total = sum(doses_administered, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total doses administered in 2023:", total_doses_2023))
+```
