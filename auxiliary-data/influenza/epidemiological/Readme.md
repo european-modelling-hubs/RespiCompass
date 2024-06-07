@@ -1,6 +1,6 @@
-# COVID-19 Consultation Rate Data
+# Consultation Rate Data
 
-This repository contains datasets related to COVID-19 consultation rates for Acute Respiratory Infections (ARI) and Influenza-like Illnesses (ILI). Each dataset provides detailed information segmented by location, date, and demographic group.
+This repository contains datasets related tO consultation rates for Acute Respiratory Infections (ARI) and Influenza-like Illnesses (ILI). Each dataset provides detailed information segmented by location, date, and demographic group.
 
 ## Datasets
 
@@ -54,7 +54,7 @@ This dataset includes information on consultation rates for Influenza-like Illne
 
 ## Usage
 
-These datasets can be used to analyze the trends and patterns in COVID-19 consultation rates over time. The data is structured to allow for time-series analysis and comparison across different locations and demographic groups.
+These datasets can be used to analyze the trends and patterns in consultation rates over time. The data is structured to allow for time-series analysis and comparison across different locations and demographic groups.
 
 ### Example Analysis
 
