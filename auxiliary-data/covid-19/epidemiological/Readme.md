@@ -109,3 +109,40 @@ print(f"Total hospital admissions in Austria: {total_hospital_admissions_locatio
 total_deaths = deaths_df['value'].sum()
 print(f"Total deaths: {total_deaths}")
 ```
+
+Or, alternatively, in R as follows:
+
+```R
+# Load necessary library
+library(dplyr)
+
+# Load datasets
+icu_admissions_df <- read.csv('ICUadmissions.csv')
+hospital_admissions_df <- read.csv('hospitaladmissions.csv')
+deaths_df <- read.csv('deaths.csv')
+
+# Display the first few rows of each dataset
+head(icu_admissions_df)
+head(hospital_admissions_df)
+head(deaths_df)
+
+# Example: Total ICU admissions in a specific week
+total_icu_admissions_week <- icu_admissions_df %>% 
+  filter(yearweek == '2023-W19') %>% 
+  summarise(total = sum(value, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total ICU admissions in week 2023-W19:", total_icu_admissions_week))
+
+# Example: Total hospital admissions in a specific location
+total_hospital_admissions_location <- hospital_admissions_df %>% 
+  filter(location_name == 'Austria') %>% 
+  summarise(total = sum(value, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total hospital admissions in Austria:", total_hospital_admissions_location))
+
+# Example: Total deaths across all weeks
+total_deaths <- deaths_df %>% 
+  summarise(total = sum(value, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total deaths:", total_deaths))
+```
