@@ -76,3 +76,31 @@ print(f"Average vaccine coverage for all age groups in the 2020-2021 season: {av
 average_coverage_65plus_2020 = vaccine_coverage_65plus_df[vaccine_coverage_65plus_df['season'] == '2020-2021']['vaccine_coverage'].mean()
 print(f"Average vaccine coverage for 65+ age group in the 2020-2021 season: {average_coverage_65plus_2020}")
 ```
+
+Or, alternatively, in R as follows:
+```R
+# Load necessary library
+library(dplyr)
+
+# Load datasets
+vaccine_coverage_all_df <- read.csv('vaccine_coverage_all.csv')
+vaccine_coverage_65plus_df <- read.csv('vaccine_coverage_65plus.csv')
+
+# Display the first few rows of each dataset
+head(vaccine_coverage_all_df)
+head(vaccine_coverage_65plus_df)
+
+# Example: Average vaccine coverage for all age groups in the 2020-2021 season
+average_coverage_all_2020 <- vaccine_coverage_all_df %>% 
+  filter(season == '2020-2021') %>% 
+  summarise(average = mean(vaccine_coverage, na.rm = TRUE)) %>% 
+  pull(average)
+print(paste("Average vaccine coverage for all age groups in the 2020-2021 season:", average_coverage_all_2020))
+
+# Example: Average vaccine coverage for 65+ age group in the 2020-2021 season
+average_coverage_65plus_2020 <- vaccine_coverage_65plus_df %>% 
+  filter(season == '2020-2021') %>% 
+  summarise(average = mean(vaccine_coverage, na.rm = TRUE)) %>% 
+  pull(average)
+print(paste("Average vaccine coverage for 65+ age group in the 2020-2021 season:", average_coverage_65plus_2020))
+```
