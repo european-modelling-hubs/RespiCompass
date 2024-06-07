@@ -75,3 +75,30 @@ sweden_df = pd.read_csv('Sweden.csv')
 total_population_sweden = sweden_df['population'].sum()
 print(f"Total population in Sweden: {total_population_sweden}")
 ```
+
+Or, alternatively, in R as follows:
+```R
+# Load necessary library
+library(dplyr)
+
+# Load the dataset for Norway
+norway_df <- read.csv('Norway.csv')
+
+# Display the first few rows of the dataset
+head(norway_df)
+
+# Example: Total population in Norway
+total_population_norway <- norway_df %>% 
+  summarise(total = sum(population, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total population in Norway:", total_population_norway))
+
+# Load the dataset for another country (e.g., Sweden)
+sweden_df <- read.csv('Sweden.csv')
+
+# Example: Compare total population between Norway and Sweden
+total_population_sweden <- sweden_df %>% 
+  summarise(total = sum(population, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total population in Sweden:", total_population_sweden))
+```
