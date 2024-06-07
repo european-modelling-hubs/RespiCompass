@@ -1,4 +1,4 @@
-# COVID-19 Healthcare Data
+# COVID-19 Epidemiological Data
 
 This repository contains three datasets related to COVID-19 healthcare metrics: ICU admissions, hospital admissions, and deaths. Each dataset provides detailed information segmented by location, date, and demographic group.
 
