@@ -12,7 +12,7 @@ def get_country_population(df_total, iso2, year, mult_factor=1000):
 df = pd.read_csv("./WPP2022_Population1JanuaryByAge5GroupSex_Medium.csv", compression="gzip")
 
 # import location isocode
-iso_df = pd.read_csv("../../../supporting-files/locations_iso2_codes.csv")
+iso_df = pd.read_csv("../../supporting-files/locations_iso2_codes.csv")
 
 # get population for each country 
 for _, row in iso_df.iterrows():
@@ -20,7 +20,7 @@ for _, row in iso_df.iterrows():
     country = row["location_name"]
     print(f"Processing {country}...")
     df_country = get_country_population(df, iso2, 2024)
-    df_country.to_csv(f"../{country}.csv", index=False)
+    df_country.to_csv(f"../population/{country}.csv", index=False)
 
 
 
