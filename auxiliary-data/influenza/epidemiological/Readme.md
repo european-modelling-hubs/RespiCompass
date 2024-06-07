@@ -79,3 +79,31 @@ print(f"Average ARI consultation rate in week 2024-W21: {average_ari_rate_week}"
 total_ili_rate_location = ili_consultation_rate_df[ili_consultation_rate_df['location_name'] == 'Austria']['value'].sum()
 print(f"Total ILI consultation rate in Austria: {total_ili_rate_location}")
 ```
+
+Or, alternatively, in R as follows:
+```R
+# Load necessary library
+library(dplyr)
+
+# Load datasets
+ari_consultation_rate_df <- read.csv('ARIconsultationrate.csv')
+ili_consultation_rate_df <- read.csv('ILIconsultationrate.csv')
+
+# Display the first few rows of each dataset
+head(ari_consultation_rate_df)
+head(ili_consultation_rate_df)
+
+# Example: Average ARI consultation rate in a specific week
+average_ari_rate_week <- ari_consultation_rate_df %>% 
+  filter(yearweek == '2024-W21') %>% 
+  summarise(average = mean(value, na.rm = TRUE)) %>% 
+  pull(average)
+print(paste("Average ARI consultation rate in week 2024-W21:", average_ari_rate_week))
+
+# Example: Total ILI consultation rate in a specific location
+total_ili_rate_location <- ili_consultation_rate_df %>% 
+  filter(location_name == 'Austria') %>% 
+  summarise(total = sum(value, na.rm = TRUE)) %>% 
+  pull(total)
+print(paste("Total ILI consultation rate in Austria:", total_ili_rate_location))
+```
