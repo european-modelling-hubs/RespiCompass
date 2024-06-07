@@ -11,6 +11,27 @@ This dataset includes information on the population distribution for Norway.
 - **Columns:**
   - `age_group`: The age group (e.g., 0-4, 5-9, etc.).
   - `population`: The total population in the specified age group.
+ 
+- **Age Groups Covered:**
+  - 0-4
+  - 5-9
+  - 10-14
+  - 15-19
+  - 20-24
+  - 25-29
+  - 30-34
+  - 35-39
+  - 40-44
+  - 45-49
+  - 50-54
+  - 55-59
+  - 60-64
+  - 65-69
+  - 70-74
+  - 75-79
+  - 80-84
+  - 85-89
+  - 90+
 
 - **Sample Data:**
   ```csv
