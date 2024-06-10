@@ -23,8 +23,8 @@ The file `ili_plus.csv` in this repository contains weekly ILI+ data across diff
 | `yearweek`    | Year and week of the data point (YYYY-WW)|
 | `week_end_date`| End date of the week (YYYY-MM-DD)       |
 | `age`         | Age group (e.g., 0-4, 15-64, 5-14, 65+, total)|
-| `value`       | ILI rate per 100,000 population          |
-| `source`      | Source of the data                       |
+| `value`       | ILI+ rate per 100,000 population          |
+| `source`      | Source of the data (sentinel or non-sentinel)                       |
 
 ## Data Sample
 
