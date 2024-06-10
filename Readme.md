@@ -1,4 +1,4 @@
-# European Respiratory Diseases Scenario Hub
+# RespiCompass - European Respiratory Diseases Scenario Hub
 
 ## Rationale 
 TODO
