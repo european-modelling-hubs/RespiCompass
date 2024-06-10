@@ -22,7 +22,7 @@ We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 
 
 $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 
-Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered.
+Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered. Historical ILI+ data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv).
 
 ### Data
 TODO
