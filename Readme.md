@@ -23,6 +23,9 @@ For any questions, please email us at [modelling@ecdc.europa.eu](mailto:modellin
 You can choose to participate in projections for either COVID-19 or Influenza, and for a single or a limited number of countries.
 
 ## Influenza - Round 1 2024/2025 Scenarios
+Deadline: 
+- First deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
+- Second deadline: 2024/09/30 (draft report will be revised after this date considering all models' projections)
 
 | | Lower Burden Season (Transmission potential* is 10% lower with respect to last three influenza seasons, excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
