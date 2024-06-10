@@ -18,7 +18,11 @@ TODO
 TODO
 
 ### Targets and Submission Format
-TODO
+We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countries. The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). ILI+ is computed as follows:
+
+$$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
+
+Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered.
 
 ### Data
 TODO
