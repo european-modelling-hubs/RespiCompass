@@ -9,3 +9,8 @@
 | Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
 |No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
 
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
