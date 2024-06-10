@@ -49,6 +49,10 @@ Where ILI is the consulation rate for influenza-like-illness reported in a given
 TODO
 
 ## COVID-19 - Round 1 2024/2025 Scenarios
+Deadline: 
+- First deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
+- Second deadline: 2024/09/30 (draft report will be revised after this date considering all models' projections)
+
 | | Optimistic waning (Protection against infection: 6 months median time to transition to 70% of the initial immunity; Protection against severe outcomes: no waning) | Pessimistic waning (Protection against infection: 6 months median time to transition to 40% of the initial immunity; Protection against severe outcomes: 6 months median time to transition to 80% of the initial immunity) |
 |  :-:|  :-: | :-: |
 | Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than in the 2023-24 winter season in 65+ in all countries) | Scenario A | Scenario B |
