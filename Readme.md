@@ -17,7 +17,7 @@ TODO
 ### Shared Assumptions
 TODO
 
-### Submission Format and Targets
+### Targets and Submission Format
 TODO
 
 ### Data
@@ -33,7 +33,7 @@ TODO
 ### Shared Assumptions
 TODO
 
-### Submission Format and Targets
+### Targets and Submission Format
 TODO
 
 ### Data
