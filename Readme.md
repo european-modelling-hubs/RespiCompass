@@ -37,7 +37,14 @@ Deadline:
 TODO
 
 ### Targets and Submission Format
-We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countries. The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). ILI+ is computed as follows:
+We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countriesfor the following age groups: 
+- 0-4
+- 5-14
+- 15-64
+- 65+
+- total
+
+The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). ILI+ is computed as follows:
 
 $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 
@@ -57,7 +64,14 @@ TODO
 TODO
 
 ### Targets and Submission Format
-TODO
+We are currently asking for weekly hospital admissions related to COVID-19 between August 1, 2024 and May 31, 2025 in European countries for the following age groups: 
+- 0-4
+- 5-14
+- 15-64
+- 65+
+- total
+
+The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Data
 TODO
