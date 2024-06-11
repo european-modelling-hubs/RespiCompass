@@ -34,7 +34,10 @@ Deadline:
 | No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
 
 ### Shared Assumptions
-TODO
+#### Vaccine Effectiveness
+
+#### Vaccine Rollout
+
 
 ### Targets and Submission Format
 We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countries for the following age groups: 0-4, 5-14, 15-64, 65+, total.
