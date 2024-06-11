@@ -53,9 +53,11 @@ Target data:
 
 Auxiliary data: 
 - [ILI](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/epidemiological/ILIconsultationrate.csv) and [ARI](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/epidemiological/ARIconsultationrate.csv) consultation rates
-- [Vaccination for 65+](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/vaccine_coverage_65plus.csv) (needed for scenario axis, more information below) and for all [other available age groups](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/vaccine_coverage_all.csv)
+- [Vaccination for 65+](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/vaccine_coverage_65plus.csv) (needed for scenario axis, more information above) and for all [other available age groups](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/vaccine_coverage_all.csv)
 - [Pathogen detections](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/miscellaneous/detections/pathogen_detection.csv)
 - [Population](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/miscellaneous/population) by age group in different European countries
+
+Additional references to external data sources that may be used for modeling are provided [here](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data)
 
 ## COVID-19 - Round 1 2024/2025 Scenarios
 Deadline: 
@@ -77,4 +79,17 @@ We are currently asking for weekly hospital admissions related to COVID-19 betwe
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Data
-TODO
+We provide the following data to support models development and calibration.
+
+Target data: 
+- [historical hospital admissions](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv) data by age group and country
+
+Auxiliary data: 
+- COVID-19 [ICU](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/epidemiological/ICUadmissions.csv) admissions and [deaths](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/epidemiological/deaths.csv) 
+- [Vaccination after 2023](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/vaccination/covid_vax_post23.csv) (needed for scenario axis, more information above) and [before 2023](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/vaccination/covid_vax_pre23.csv)
+- [Pathogen detections](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/miscellaneous/detections/pathogen_detection.csv)
+- [Population](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/miscellaneous/population) by age group in different European countries
+
+Additional references to external data sources that may be used for modeling are provided [here](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data)
+
+
