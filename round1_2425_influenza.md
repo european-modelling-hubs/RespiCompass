@@ -10,12 +10,14 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 
 Ultimately, we also want to explore the interactions between these two dimensions and, for instance, we aim to examine how an actionable increase in vaccination coverage in target groups might counterbalance variations in transmission potential from one season to the next.
 
-Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years)
+### Scenarios
 | | Lower Burden Season (Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
 | Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
 | Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
 | No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
+
+* Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
 ### Shared Assumptions
 #### Vaccine Effectiveness
