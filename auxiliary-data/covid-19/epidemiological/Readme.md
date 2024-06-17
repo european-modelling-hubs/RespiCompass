@@ -2,9 +2,12 @@
 
 This repository contains three datasets related to COVID-19 epidemiological metrics: ICU admissions, hospital admissions, and deaths. Each dataset provides detailed information segmented by location, date, and demographic group.
 
+Data are taken from [ERVISS](https://erviss.org/) 
+
 ## Datasets
 
 ### 1. ICUadmissions.csv
+(Source: [ERVISS](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelSeverity.csv))
 
 This dataset includes information on ICU admissions related to COVID-19.
 
@@ -29,6 +32,7 @@ This dataset includes information on ICU admissions related to COVID-19.
   ```
 
 ### 2. hospitaladmissions.csv
+(Source: [ERVISS](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelSeverity.csv))
 
 This dataset includes information on hospital admissions related to COVID-19.
 
@@ -53,6 +57,7 @@ This dataset includes information on hospital admissions related to COVID-19.
   ```
 
 ### 3. deaths.csv
+(Source: [ERVISS](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelSeverity.csv))
 
 This dataset includes information on deaths related to COVID-19.
 
