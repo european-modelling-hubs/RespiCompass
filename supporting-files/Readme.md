@@ -30,13 +30,14 @@ This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_
   - `start_week_day`: Start day of the week (Monday).
   - `end_week_day`: End day of the week (Sunday).
   - `year_week`: Year and ISO week in the format YYYY-WW.
+  - `horizon`: Weeks ahead in the projection period.
 
 - **Sample Data:**
   ```csv
-  start_week_day,end_week_day,year_week
-  2024-08-05,2024-08-11,2024-32
-  2024-08-12,2024-08-18,2024-33
-  2024-08-19,2024-08-25,2024-34
-  2024-08-26,2024-09-01,2024-35
-  2024-09-02,2024-09-08,2024-36
+  start_week_day,end_week_day,year_week,horizon
+  2024-08-05,2024-08-11,2024-32,1
+  2024-08-12,2024-08-18,2024-33,2
+  2024-08-19,2024-08-25,2024-34,3
+  2024-08-26,2024-09-01,2024-35,4
+  2024-09-02,2024-09-08,2024-36,5
   ```
