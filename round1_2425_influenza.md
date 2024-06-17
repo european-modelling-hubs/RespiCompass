@@ -20,9 +20,9 @@ Ultimately, we also want to explore the interactions between these two dimension
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
 ### Targets
-We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no)
+We are currently asking for ILI+ weekly between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no)
 
-The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). ILI+ is computed as follows:
+The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv). ILI+ is computed as follows:
 
 $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 
