@@ -1,9 +1,17 @@
 ## Influenza - Round 1 2024/2025 Scenarios
 Deadline: 
-- First deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
-- Second deadline: 2024/09/30 (draft report will be revised after this date considering all models' projections)
+- Submission deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
+- Late submissions deadline: 2024/09/20 (draft report will be revised after this date considering all models' projections)
 
-| | Lower Burden Season (Transmission potential* is 10% lower with respect to last three influenza seasons, excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to last three influenza seasons, excluding pandemic years) |
+### Rationale
+We aim to explore the potential impact of Influenza during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios that examine two main axes:
+- Impact of Higher/Lower Vaccination Coverage in the Target Population (65+): with these assumptions we want to test the impact of seasonal vaccination campaigns on influenza spread and burden. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
+- Impact of higher/lower transmission potential: with these assumptions we want to test the impact of potential changes in transmission potential from season to season. 
+
+Ultimately, we also want to explore the interactions between these two dimensions and, for instance, we aim to examine how an actionable increase in vaccination coverage in target groups might counterbalance variations in transmission potential from one season to the next.
+
+Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years)
+| | Lower Burden Season (Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
 | Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
 | Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
