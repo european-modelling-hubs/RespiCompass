@@ -19,13 +19,7 @@ Ultimately, we also want to explore the interactions between these two dimension
 
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
-### Shared Assumptions
-#### Vaccine Effectiveness
-
-#### Vaccine Rollout
-
-
-### Targets and Submission Format
+### Targets
 We are currently asking for ILI+ weekly between August 1, 2024 and May 31, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+), total and vaccination status (yes, no)
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](TODO). ILI+ is computed as follows:
@@ -33,6 +27,25 @@ The list of countries is provided [here](https://github.com/european-modelling-h
 $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 
 Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered. Historical ILI+ data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv). The rationale for using ILI+ instead of ILI is rooted in the increased non-specificity of ILI, particularly after the advent of COVID-19. By combining ILI with detection rates, we obtain a signal more specific to influenza.
+
+### Submission Format
+
+### Shared Assumptions
+#### Vaccine Effectiveness
+For all scenarios we assume a VE = 40% against infection based on available literature (see here for list of studies considered). For this round we assume the same VE for all age groups.
+Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
+
+#### Vaccine Coverage and Rollout
+In scenarios A and B, we assume vaccination coverage for the 65+ age group is 15% higher compared to the data reported during the last season for which data is available (2021/2022 for most of the countries). This represents a relative increase, meaning that a coverage of 50% would increase to 57.5%.
+
+In scenarios C and D, we assume vaccination coverage for the 65+ age group is 15% lower compared to the data reported during the last season for which data is available
+
+We advise that teams maintain vaccination coverage in other age groups at the same levels as the last season for which data is available. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 65+ (at-risk) population.
+
+Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
+
+We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season.
+
 
 ### Data
 We provide the following data to support models development and calibration.
