@@ -21,11 +21,11 @@ This dataset includes vaccination data to be used in the scenarios.
 - **Sample Data:**
   ```csv
   location_name,iso2_code,scenario,target_group,total_doses,coverage,population
-  Belgium,BE,higher_vax_coverage,Age60+,1653959,52.65414524555604,3141177
-  Bulgaria,BG,higher_vax_coverage,Age60+,9517,0.49126070667956406,1937342
-  Cyprus,CY,higher_vax_coverage,Age60+,5422,2.0424018019918337,265484
-  Czechia,CZ,higher_vax_coverage,Age60+,355708,12.75954924787959,2787785
-  Germany,DE,higher_vax_coverage,Age60+,4395907,17.246967984934084,25488000
+  Belgium,BE,higher_vax_coverage,Age60+,1653959,52.6,3141177
+  Bulgaria,BG,higher_vax_coverage,Age60+,9517,0.49,1937342
+  Cyprus,CY,higher_vax_coverage,Age60+,5422,2.0,265484
+  Czechia,CZ,higher_vax_coverage,Age60+,355708,12.7,2787785
+  Germany,DE,higher_vax_coverage,Age60+,4395907,17.2,25488000
   ```
 
 **Note**: This dataset includes the total doses administered (or related coverage) for the 60+ age group, which must be used in the simulation to meet the scenario definitions. The implementation of rollout and coverage for other non-target age groups is left to the discretion of the teams. For guidance, please refer to the next two datasets to inform these choices.
