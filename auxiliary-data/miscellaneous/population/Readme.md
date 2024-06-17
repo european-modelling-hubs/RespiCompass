@@ -1,6 +1,6 @@
 # European Countries Population Data
 
-This repository contains datasets related to the population distribution across various age groups for 30 European countries. Each file represents data for a specific country, including the total population segmented by age group.
+This repository contains datasets related to the population distribution across various age groups for 30 European countries. Each file represents data for a specific country, including the total population segmented by age group. Data is taken from [UN World Population Prospects](https://population.un.org/wpp/) (2024 population estimates).
 
 ## Datasets
 
