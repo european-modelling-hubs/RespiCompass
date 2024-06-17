@@ -9,15 +9,15 @@ Details on current rounds can be found at:
 TODO
 
 ## How to Join RespiCompass
-RespiCompass welcomes teams willing to contribute their projections. Detailed information on how to join are provided in the [Wiki](link). Here’s a concise guide on how to participate:
+RespiCompass welcomes teams willing to contribute their projections. Detailed information on how to join are provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki). Here’s a concise guide on how to participate:
 
 1. **Create a Metadata File**:
    - Include key information about your team and model.
-   - Detailed instructions can be found [here](link).
+   - Detailed instructions can be found [here](https://github.com/european-modelling-hubs/RespiCompass/wiki/Metadata).
 
 2. **Develop Your Model**:
    - Independently develop your model and produce projections.
-   - Ensure your projections respect the provided scenario assumptions (see below).
+   - Ensure your projections respect the provided scenario assumptions (refer to specific rounds information).
 
 3. **Submit Model Projections**:
    - Follow the submission format detailed [here](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format).
