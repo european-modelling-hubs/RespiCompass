@@ -29,6 +29,19 @@ $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered. Historical ILI+ data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv). The rationale for using ILI+ instead of ILI is rooted in the increased non-specificity of ILI, particularly after the advent of COVID-19. By combining ILI with detection rates, we obtain a signal more specific to influenza.
 
 ### Submission Format
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific Influenza round, submission file must be named
+
+```2024_2025_1_FLU1-<team>-<model>.parquet```
+
+Where <team>-<model> will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
+-  ```round_id = '2024_2025_1_FLU1'```
+-  ```scenario_id```: allowed values are 'A', 'B', 'C', 'D', 'E', 'F' related to different scenarios
+-  ```target = ili_plus```
+-  ```pop_group``` allowed values are ```0-4_vaxYes, 0-4_vaxNo, 5-14_vaxYes, 5-14_vaxNo, 15-64_vaxYes, 15-64_vaxNo, 65+_vaxYes, 65+_vaxNo, total_vaxYes, total_vaxNo```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual vaccination during the 2024-2025 season.
+- ```horizon``` see this [file](TODO) for a horizon/week correspondence.
+- ```target_end_date``` see this [file](TODO) for a date/week correspondence.
+- ```output_type```: we request team to submit 100-300 individual trajectories for each scenario. For trajectories ```output_type='sample'```. Team may also submit quantiles, but this optional. In that case ```output_type='quantile'```
+- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type.
 
 ### Shared Assumptions
 #### Vaccine Effectiveness (VE)
