@@ -6,7 +6,7 @@ Details on current rounds can be found at:
 
 
 ## Rationale 
-TODO
+With many uncertain factors at play, it is challenging to predict how respiratory viruses will spread during the winter season. However, by combining data from national surveillance systems with published scientific evidence, expert knowledge, and leveraging global quantitative expertise, modelling can provide public health advisors and policy decision-makers at European, national or subnational level with the best available information on likely winter season scenarios. Thus, in the context of uncertainty about respiratory infectious disease burden, this project will provide guidance—a "compass"—to support public health stakeholders.
 
 ## How to Join RespiCompass
 RespiCompass welcomes teams willing to contribute their projections. Detailed information on how to join are provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki). Here’s a concise guide on how to participate:
