@@ -19,7 +19,7 @@ Ultimately, we also want to explore the interactions between these two dimension
 
 
 ### Targets
-We are currently asking for weekly hospital admissions related to COVID-19 between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no).
+We are currently asking for weekly COVID-19 hospital admissions (mandatory) and infenctions (optional) between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no).
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
@@ -31,7 +31,7 @@ General guidance for the submission format is provided in the [Wiki](https://git
 Where <team>-<model> will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
 -  ```round_id = '2024_2025_1_COVID1'```
 -  ```scenario_id```: allowed values are 'A', 'B', 'C', 'D', 'E', 'F' related to different scenarios
--  ```target = hospital_admissions```
+-  ```target = hospital_admissions``` or ```target = infections```
 -  ```pop_group``` allowed values are ```0-4_vaxYes, 0-4_vaxNo, 5-14_vaxYes, 5-14_vaxNo, 15-64_vaxYes, 15-64_vaxNo, 65+_vaxYes, 65+_vaxNo, total_vaxYes, total_vaxNo```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season.
 - ```horizon``` see this [file](TODO) for a horizon/week correspondence.
 - ```target_end_date``` see this [file](TODO) for a date/week correspondence.
