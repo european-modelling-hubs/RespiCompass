@@ -1,6 +1,9 @@
 # Pathogen Detections Data
 
-This folder contains pathogen detection. The dataset includes information about sentinel and non-sentinel detections of Influenza (and subtypes), SARS-CoV-2, and RSV, includeing the number of detections and tests conducted across different locations and time periods.
+This folder contains pathogen detection. The dataset includes information about sentinel and non-sentinel detections of Influenza (and subtypes), SARS-CoV-2, and RSV, includeing the number of detections and tests conducted across different locations and time periods. Data are taken from [ERVISS](https://erviss.org/): 
+- [Sentinel detections](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/sentinelTestsDetectionsPositivity.csv)
+- [Non-sentinel detections](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelTestsDetections.csv)
+
 
 ## Dataset
 
