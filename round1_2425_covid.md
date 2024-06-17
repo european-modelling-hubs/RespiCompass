@@ -24,6 +24,16 @@ We are currently asking for weekly hospital admissions related to COVID-19 betwe
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Submission Format
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, you should set: 
+-  ```round_id = '2024_2025_1_COVID1'```
+-  ```scenario_id```: allowed values are 'A', 'B', 'C', 'D', 'E', 'F' related to different scenarios
+-  ```target = hospital_admissions```
+-  ```pop_group``` allowed values are ```0-4_vaxYes, 0-4_vaxNo, 5-14_vaxYes, 5-14_vaxNo, 15-64_vaxYes, 15-64_vaxNo, 65+_vaxYes, 65+_vaxNo, total_vaxYes, total_vaxNo```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season.
+- ```horizon``` see this [file](TODO) for a horizon/week correspondence.
+- ```target_end_date``` see this [file](TODO) for a date/week correspondence.
+- ```output_type```: we request team to submit 100-300 individual trajectories for each scenario. For trajectories ```output_type='sample'```. Team may also submit quantiles, but this optional. In that case ```output_type='quantile'```
+- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type.
+
 ### Shared Assumptions
 #### COVID-19 Waning Immunity
 We assume that vaccine-induced immunity wanes at specific rates as outlined in the scenario axes. In Scenario A, C, E, we assume a median time of 6 months for immunity to decline to 50% of the initial vaccine effectiveness (VE). This means that an individual vaccinated against COVID-19 on day t with a certain VE will, after 6 months (in median terms), have a protection level of 0.5 x VE against infection. In these scenarios, we also assume that VE against severe outcomes, such as hospitalisation, does not wane. In scenarios B, D, F, we assume that after 6 months, the VE against infection will decrease to 0.3 of the initial VE, and VE against hospitalisation will decrease to 0.6 of the initial VE.
