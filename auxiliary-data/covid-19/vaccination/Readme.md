@@ -10,10 +10,13 @@ This dataset includes vaccination data to be used in the scenarios.
   - `location_name`: The name of the location (country or region).
   - `iso2_code`: The ISO 3166-1 alpha-2 code of the location.
   - `scenario`: The scenario to which the data refers to, more in detail:
-    - higher_vax_coverage: data related to these rows must be used in scenarios A and B, where we assume a 15% higher vaccine coverage in 60+ 
-  - `target_group`: The demographic group targeted by the vaccination (e.g., ALL, Age25_49, HCW, LTCF).
-  - `dose`: The type of dose administered (e.g., FirstDose, SecondDose).
-  - `doses_administered`: The number of doses administered.
+    - `higher_vax_coverage`: data related to these rows must be used in scenarios A and B, where we assume a 15% higher vaccine coverage in 60+
+    - `lower_vax_coverage`: data related to these rows must be used in scenarios C and D, where we assume a 15% lower vaccine coverage in 60+
+    - `no_vaccination`: data related to these rows must be used in scenarios E and F, where we assume a no vaccination in all age groups scenario.
+  - `target_group`: The demographic group targeted by the vaccination. This is always equal to `60+`, as this is the target group considered in the scenarios definition.
+  - `total_doses`: The total number of doses to be administered in the simulation.
+  - `coverage`: The percentage coverage to be used in the simulation (this is simply total_doses / population * 100)
+  - `population`: Total 60+ population (used to compute coverage).
 
 ### 2. covid_vax_pre23.csv
 
