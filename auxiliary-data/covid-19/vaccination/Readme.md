@@ -1,10 +1,21 @@
 # COVID-19 Vaccination Data
 
-This repository contains two datasets related to COVID-19 vaccination, split into two periods: before 2023 and after 2023.
+This repository contains three datasets related to COVID-19 vaccination.
 
 ## Datasets
 
-### 1. covid_vax_pre23.csv
+### 1. covid_vax_scenarios.csv
+This dataset includes vaccination data to be used in the scenarios. 
+- **Columns:**
+  - `location_name`: The name of the location (country or region).
+  - `iso2_code`: The ISO 3166-1 alpha-2 code of the location.
+  - `scenario`: The scenario to which the data refers to, more in detail:
+    - higher_vax_coverage: data related to these rows must be used in scenarios A and B, where we assume a 15% higher vaccine coverage in 60+ 
+  - `target_group`: The demographic group targeted by the vaccination (e.g., ALL, Age25_49, HCW, LTCF).
+  - `dose`: The type of dose administered (e.g., FirstDose, SecondDose).
+  - `doses_administered`: The number of doses administered.
+
+### 2. covid_vax_pre23.csv
 
 This dataset includes vaccination data up to the end of 2022.
 
@@ -26,7 +37,7 @@ This dataset includes vaccination data up to the end of 2022.
   2020-12-27,Denmark,DK,ALL,FirstDose,9
   ```
 
-### 2. covid_vax_post23.csv
+### 3. covid_vax_post23.csv
 
 This dataset includes vaccination data from the beginning of 2023 onwards.
 
