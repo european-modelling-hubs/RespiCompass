@@ -24,7 +24,11 @@ We are currently asking for weekly hospital admissions related to COVID-19 betwe
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Submission Format
-General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, you should set: 
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be named
+
+2024_2025_1_COVID1-<team>-<model>.parquet
+
+Where <team>-<model> will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
 -  ```round_id = '2024_2025_1_COVID1'```
 -  ```scenario_id```: allowed values are 'A', 'B', 'C', 'D', 'E', 'F' related to different scenarios
 -  ```target = hospital_admissions```
