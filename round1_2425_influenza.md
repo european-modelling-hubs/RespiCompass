@@ -1,12 +1,12 @@
 ## Influenza - Round 1 2024/2025 Scenarios
-Deadline: 
+### Deadline
 - Submission deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
 - Late submissions deadline: 2024/09/20 (draft report will be revised after this date considering all models' projections)
 
 ### Rationale
 We aim to explore the potential impact of Influenza during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios that examine two main axes:
-- Impact of Higher/Lower Vaccination Coverage in the Target Population (65+): with these assumptions we want to test the impact of seasonal vaccination campaigns on influenza spread and burden. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
-- Impact of higher/lower transmission potential: with these assumptions we want to test the impact of potential changes in transmission potential from season to season. 
+- **Impact of Higher/Lower Vaccination Coverage in the Target Population (65+)**: with these assumptions we want to test the impact of seasonal vaccination campaigns on influenza spread and burden. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
+- **Impact of higher/lower transmission potential**: with these assumptions we want to test the impact of potential changes in transmission potential from season to season. 
 
 Ultimately, we also want to explore the interactions between these two dimensions and, for instance, we aim to examine how an actionable increase in vaccination coverage in target groups might counterbalance variations in transmission potential from one season to the next.
 
@@ -31,8 +31,8 @@ Where ILI is the consulation rate for influenza-like-illness reported in a given
 ### Submission Format
 
 ### Shared Assumptions
-#### Vaccine Effectiveness
-For all scenarios we assume a VE = 40% against infection based on available literature (see here for list of studies considered). For this round we assume the same VE for all age groups.
+#### Vaccine Effectiveness (VE)
+For all scenarios we assume a VE = 40% against infection based on available literature (see [here](https://docs.google.com/document/d/1RKkT9aYD5D8tsRYE1-jQ1jUDhckEWxIhMQ9plO1dk_c/edit?usp=sharing) for list of studies considered). For this round we assume the same VE for all age groups.
 Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
 
 #### Vaccine Coverage and Rollout
@@ -46,12 +46,17 @@ Scenarios E and F are hypothetical scenarios where teams are asked not to includ
 
 We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season.
 
+Vaccine coverage data for the 65+ age group, already adjusted according to the scenario definitions, are provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/influenza_vax_scenarios.csv).
+
 
 ### Data
 We provide the following data to support models development and calibration.
 
 Target data: 
 - [historical ILI+](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv) data by age group and country
+
+Vaccination data: 
+- [Scenario vaccination coverage](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/influenza_vax_scenarios.csv): vaccine coverage data for the 65+ age group to be used in the scenarios (i.e., already adjusted according to the scenario definitions) 
 
 Auxiliary data: 
 - [ILI](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/epidemiological/ILIconsultationrate.csv) and [ARI](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/epidemiological/ARIconsultationrate.csv) consultation rates
