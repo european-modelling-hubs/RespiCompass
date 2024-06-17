@@ -1,5 +1,10 @@
 # RespiCompass - European Respiratory Diseases Scenario Hub
 
+Details on current rounds can be found at: 
+- [Influenza Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_influenza.md)
+- [COVID-19 Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_covid.md)
+
+
 ## Rationale 
 TODO
 
