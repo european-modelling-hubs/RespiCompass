@@ -24,14 +24,13 @@ The file `hospitaladmissions.csv` in this repository contains weekly COVID-19 re
 ## Data Sample
 
 Here is a sample of the dataset:
-
-| location_name | iso2_code | yearweek | week_end_date | age   | value      | source  |
-|---------------|-----------|----------|---------------|-------|------------|---------|
-| Austria       | AT        | 2024-W14 | 2024-04-07    | 0-4   | 0.000000   | sentinel|
-| Austria       | AT        | 2024-W14 | 2024-04-07    | 15-64 | 145.060920 | sentinel|
-| Austria       | AT        | 2024-W14 | 2024-04-07    | 5-14  | 156.486207 | sentinel|
-| Austria       | AT        | 2024-W14 | 2024-04-07    | 65+   | 68.945977  | sentinel|
-| Austria       | AT        | 2024-W14 | 2024-04-07    | total | 121.703448 | sentinel|
+| survtype     | location_name | iso2_code | yearweek | week_end_date | indicator          | age  | value |
+|--------------|---------------|-----------|----------|---------------|--------------------|------|-------|
+| non-sentinel | Austria       | AT        | 2023-W24 | 2023-06-18    | hospitaladmissions | 15-64| 1     |
+| non-sentinel | Austria       | AT        | 2023-W24 | 2023-06-18    | hospitaladmissions | total| 1     |
+| non-sentinel | Austria       | AT        | 2023-W23 | 2023-06-11    | hospitaladmissions | 15-64| 1     |
+| non-sentinel | Austria       | AT        | 2023-W23 | 2023-06-11    | hospitaladmissions | 65+  | 1     |
+| non-sentinel | Austria       | AT        | 2023-W23 | 2023-06-11    | hospitaladmissions | total| 2     |
 
 
 ## Usage
@@ -42,10 +41,10 @@ You can load and explore the dataset using Python and pandas:
 import pandas as pd
 
 # Load the dataset
-ili_plus_df = pd.read_csv('ili_plus.csv')
+hospitaladmissions_df = pd.read_csv('hospitaladmissions.csv')
 
 # Display the first few rows
-print(ili_plus_df.head())
+print(hospitaladmissions_df.head())
 ```
 Or, alternatively, in R
 
@@ -54,8 +53,8 @@ Or, alternatively, in R
 library(readr)
 
 # Load the dataset
-ili_plus_df <- read_csv('ili_plus.csv')
+hospitaladmissions_df <- read_csv('hospitaladmissions.csv')
 
 # Display the first few rows
-print(head(ili_plus_df))
+print(head(hospitaladmissions_df))
 ```
