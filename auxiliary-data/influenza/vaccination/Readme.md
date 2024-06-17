@@ -4,7 +4,29 @@ This repository contains datasets related to Influenza vaccine coverage. The dat
 
 ## Datasets
 
-### 1. vaccine_coverage_all.csv
+### 1. influenza_vax_scenarios.csv
+This dataset includes vaccination data to be used in the scenarios. 
+- **Columns:**
+  - `location_name`: The name of the location (country or region).
+  - `iso2_code`: The ISO 3166-1 alpha-2 code of the location.
+  - `scenario`: The scenario to which the data refers to, more in detail:
+    - `higher_vax_coverage`: Data related to these rows must be used in scenarios A and B, where we assume a 15% higher vaccine coverage in 60+
+    - `lower_vax_coverage`: Data related to these rows must be used in scenarios C and D, where we assume a 15% lower vaccine coverage in 60+
+    - `no_vaccination`: Data related to these rows must be used in scenarios E and F, where we assume a no vaccination in all age groups scenario.
+  - `target_group`: The demographic group targeted by the vaccination. This is always equal to `65+y`, as this is the target group considered in the scenarios definition.
+  - `vaccine_coverage`: The percentage coverage to be used in the simulation (note that this already accounts for the +/- 15%)..
+ 
+- **Sample Data:**
+  ```csv
+  location_name,iso2_code,scenario,target_group,vaccine_coverage
+  Belgium,BE,higher_vax_coverage,65+y,65.9
+  Bulgaria,BG,higher_vax_coverage,65+y,10.2
+  Czechia,CZ,higher_vax_coverage,65+y,29.1
+  Denmark,DK,higher_vax_coverage,65+y,89.7
+  Germany,DE,higher_vax_coverage,65+y,49.8
+  ```
+  
+### 2. vaccine_coverage_all.csv
 
 This dataset includes information on vaccine coverage for all age groups.
 
@@ -26,7 +48,7 @@ This dataset includes information on vaccine coverage for all age groups.
   2016-2017,Belgium,BE,65+y,52.88,EUROSTAT
   ```
 
-### 2. vaccine_coverage_65plus.csv
+### 3. vaccine_coverage_65plus.csv
 
 This dataset includes information on vaccine coverage specifically for individuals aged 65 and above.
 
