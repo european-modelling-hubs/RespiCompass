@@ -31,7 +31,9 @@ This dataset includes information on the population distribution for Norway.
   - 75-79
   - 80-84
   - 85-89
-  - 90+
+  - 90-94
+  - 95-99
+  - 100+
 
 - **Sample Data:**
   ```csv
