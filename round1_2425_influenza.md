@@ -45,7 +45,7 @@ Where <team>-<model> will be specific for each team/model and must match the tea
 
 ### Shared Assumptions
 #### Vaccine Effectiveness (VE)
-For all scenarios we assume a VE = 40% against infection based on available literature (see [here](https://docs.google.com/document/d/1RKkT9aYD5D8tsRYE1-jQ1jUDhckEWxIhMQ9plO1dk_c/edit?usp=sharing) for list of studies considered). For this round we assume the same VE for all age groups.
+For all scenarios we assume a VE = 40% against symptomatic infection based on available literature (see [here](https://docs.google.com/document/d/1RKkT9aYD5D8tsRYE1-jQ1jUDhckEWxIhMQ9plO1dk_c/edit?usp=sharing) for list of studies considered). For this round we assume the same VE for all age groups.
 Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
 
 #### Vaccine Coverage and Rollout
