@@ -1,1 +1,15 @@
-{}
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.0/admin-schema.json",
+    "name": "RespiCompass - European Scenario Modelling Hub",
+    "maintainer": "ISI Foundation",
+    "contact": {
+        "name": "Paolo Milano",
+        "email": "paolo.milano@isi.it"
+    },   
+    "repository": {
+        "name": "https://github.com/european-modelling-hubs/RespiCompass"
+    },
+
+    "file_format": ["csv", "parquet"],
+    "timezone": "Europe/Stockholm"
+}
