@@ -1,1 +1,109 @@
-{}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Schema for Scenario Modeling Hub model metadata",
+    "description": "This is the schema for scenario hub model metadata files, please refer to https://github.com/european-modelling-hubs/RespiCompass/wiki/Metadata for more information.",
+    "type": "object",
+    "properties": {
+        "team_name": {
+            "description": "The name of the team submitting the model",
+            "type": "string",
+            "maxLength": 50
+        },
+        "team_abbr": {
+            "description": "Abbreviated name of the team submitting the model",
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_+]+$",
+            "maxLength": 15
+        },
+        "model_name": {
+            "description": "The name of the model",
+            "type": "string",
+            "maxLength": 50
+        },
+        "model_abbr": {
+            "description": "Abbreviated name of the model",
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_+]+$",
+            "maxLength": 15
+        },
+        "model_contributors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "affiliation": {
+                        "type": "string"
+                    },
+                    "orcid": {
+                        "type": "string",
+                        "pattern": "^\\d{4}\\-\\d{4}\\-\\d{4}\\-[\\dX]{4}$"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email"
+                    },
+                    "twitter": {
+                        "type": "string"
+                    },
+                    "additionalProperties": false
+                }
+            }
+        },
+        "methods": {
+            "description": "A brief (200 char.) description of the methods used by this model",
+            "type": "string",
+            "maxLength": 200
+        },
+        "data_inputs": {
+            "description": "List or description of data inputs used by the model",
+            "type": "string"
+        },
+        "license": {
+            "description": "License for use of model output data",
+            "type": "string",
+            "enum": [
+                "CC0-1.0",
+                "CC-BY-4.0",
+                "CC-BY_SA-4.0",
+                "PPDL",
+                "ODC-by",
+                "ODbL",
+                "OGL-3.0"
+            ]
+        },
+        "team_model_designation": {
+            "type": "string",
+            "enum": ["primary", "secondary", "proposed", "other", "ensemble", "hub_other"]
+        },
+        "team_funding": {
+            "description": "Any information about funding source for the team or members of the team.",
+            "type": "string"
+        },
+        "website_url": {
+            "description": "Public facing website for the model",
+            "type": "string",
+            "format": "uri"
+        },
+        "citation": {
+            "description": "One or more citations for this model",
+            "type": "string"
+        },
+        "methods_long": {
+            "description": "A full description of the methods used by this model.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": true,
+    "required": [
+        "team_name",
+        "model_name",
+        "team_abbr",
+        "model_abbr",
+        "model_contributors",
+        "methods",
+        "data_inputs"
+    ]
+}
