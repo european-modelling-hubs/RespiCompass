@@ -1,1 +1,116 @@
-{}
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.0/tasks-schema.json",
+    "rounds": [
+        {
+            "round_id_from_variable": true,
+            "round_id": "round_id",
+            "model_tasks": [
+                {
+                    "task_ids": {
+                        "round_id": {
+                            "required": ["2024_2025_1_FLU1", "2024_2024_1_COVID1"],
+                            "optional": null
+                        },
+                        "target": {
+                            "required": ["ILI incidence"],
+                            "optional": null
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": ["2024-02-04"]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [1]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": ["GR"]
+                        },
+                        "scenario_id": {
+                            "required": null,
+                            "optional": ["A-2024-09-01"]
+                        },
+                        "pop_group": {
+                            "required": null,
+                            "optional": ["0-12"]
+                        }
+                    },
+                    "output_type": {
+                        "quantile": {
+                            "output_type_id": {
+                                "required": [
+                                    0.010,
+                                    0.025,
+                                    0.050,
+                                    0.100,
+                                    0.150,
+                                    0.200,
+                                    0.250,
+                                    0.300,
+                                    0.350,
+                                    0.400,
+                                    0.450,
+                                    0.500,
+                                    0.550,
+                                    0.600,
+                                    0.650,
+                                    0.700,
+                                    0.750,
+                                    0.800,
+                                    0.850,
+                                    0.900,
+                                    0.950,
+                                    0.975,
+                                    0.990
+                                ],
+                                "optional": null
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            }
+                        },
+                        "median": {
+                            "output_type_id": {
+                                "required": null,
+                                "optional": ["NA"]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            }                        
+                        },
+                        "sample": {
+                            "output_type_id_params": {
+                                 "is_required": true,
+                                 "type": "integer",
+                                 "min_samples_per_task": 2,
+                                 "max_samples_per_task": 100
+                            },
+                            "value": {
+                                "type": "integer",
+                                "minimum": 0
+                             }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                           "target_id": "ILI incidence",
+                           "target_name": "Weekly incidence for Influenza like illness",
+                           "target_units": "cases per 100,000 population",
+                           "target_keys": {
+                               "target": "ILI incidence"
+                           },
+                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
+                           "target_type": "continuous",
+                           "is_step_ahead": true,
+                           "time_unit": "week"
+                        }
+                    ]
+                }
+            ],
+            "submissions_due": {"start":"2024-04-14","end":"2024-05-14"}
+        }
+    ]
+}
