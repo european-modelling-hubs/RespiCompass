@@ -57,7 +57,7 @@ jobs:
       env:
         data: ${{ inputs.changes-list }}
       run: |
-        python ./tools/code/persist_changes.py
+        python ./tools/code/SH_persist_changes.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
