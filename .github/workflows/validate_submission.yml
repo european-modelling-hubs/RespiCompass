@@ -94,6 +94,45 @@ jobs:
             shell: Rscript {0}
 
 
+          # Eventually comment on it
+          # ---------------------------
+          - name: Comment PR
+            uses: thollander/actions-comment-pull-request@v2
+            with:
+              message: |
+                All validation checks completed successfully.
+              pr_number: ${{ github.event.pull_request.number }}
 
 
-            
+          # Approve the pull request 
+          # ---------------------------
+          - name: Approve Pull Request
+            uses: juliangruber/approve-pull-request-action@v2.0.0
+            with:
+              github-token: ${{ secrets.GITHUB_TOKEN }}
+              number: ${{ github.event.pull_request.number }}
+
+
+
+          # And then finally do the merge
+          # -------------------------------
+          - name: Merge the pull request
+            id: merge_pr
+            run: |
+              echo ">>> Merging PR URL: ${{ github.event.pull_request.html_url }}"
+              gh pr merge --auto --squash $PR_URL
+            env:
+              PR_URL: ${{ github.event.pull_request.html_url }}
+              GH_TOKEN: ${{ github.token }}
+
+
+    # As a last step, call a job that persists changes from the pull-request
+    # to a json db for further upload to the web-server platform
+    call-persisting-wf_job:
+      needs: validate-submission_job
+      uses: european-modelling-hubs/RespiCompass/.github/workflows/persist_changes.yml@main
+      with:
+        changes-list: ${{ needs.validate-submission_job.outputs.changed_files }}
+  
+      secrets:
+        envPAT: ${{ secrets.GITHUB_TOKEN }}
