@@ -1,0 +1,99 @@
+name: Validate Submissions V3
+
+# Activate the validation process on pull-requests for model-output data submissions or on meta-data changes
+on:
+  pull_request_target:
+    branches:
+      - main
+
+    paths:
+      - 'model-output/**'
+      - 'model-metadata/*'
+      - '!**README**'
+      - '!**.md'
+      - '!**.MD'
+
+jobs:
+    validate-submission_job:
+        runs-on: ubuntu-latest
+        
+        outputs:
+          changed_files: ${{ steps.get_changed_files.outputs.all_changed_files }}
+
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+
+        steps:
+
+          # Setup R env
+          # ---------------------------------
+          - uses: r-lib/actions/setup-r@v2
+            with:
+              install-r: false
+              use-public-rspm: true
+
+
+          # Install hubValidations package from HubVerse
+          # ----------------------------------------------
+          - uses: r-lib/actions/setup-r-dependencies@v2
+            with:
+              packages: hubverse-org/hubValidations, any::sessioninfo
+
+
+          # Install System dependencies
+          # ---------------------------------
+          - name: Install system dependencies
+            run: |
+              sudo apt-get update
+              sudo apt-get install libcurl4-openssl-dev libv8-dev
+
+                    
+
+          # checkout the repository with reference to the SHA of the HEAD 
+          # commit of the branch that is being merged into the Base
+          # ------------------------------------------------------------------
+          - name: Checkout repository
+            uses: actions/checkout@v3
+            with:
+              ref: ${{ github.event.pull_request.head.sha }}
+              fetch-depth: 1
+
+
+          # Get changes from pull request for later use
+          # --------------------------------------------      
+          - name: Get changes
+            id: get_changed_files
+            uses: tj-actions/changed-files@v41
+
+        
+          # Trace changes 
+          # ---------------------------------
+          - name: List all changed files
+            run: |
+              for file in ${{ steps.get_changed_files.outputs.all_changed_files }}; do
+                echo "$file was changed"
+              done
+
+
+          # Validate data submission
+          # ---------------------------------
+          - name: Run validations
+            env:
+              files: ${{ steps.get_changed_files.outputs.all_changed_files }}
+              PR_NUMBER: ${{ github.event.number }}
+            run: |
+              library("hubValidations")
+  
+              v <- hubValidations::validate_pr(
+                gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
+                pr_number = Sys.getenv("PR_NUMBER"),
+                skip_submit_window_check = FALSE
+              )
+                                    
+            shell: Rscript {0}
+
+
+
+
+            
