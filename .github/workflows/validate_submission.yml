@@ -84,12 +84,12 @@ jobs:
               PR_NUMBER: ${{ github.event.number }}
             run: |
               library("hubValidations")
-  
               v <- hubValidations::validate_pr(
-                gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
-                pr_number = Sys.getenv("PR_NUMBER"),
-                skip_submit_window_check = FALSE
+                  gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
+                  pr_number = Sys.getenv("PR_NUMBER"),
+                  skip_submit_window_check = FALSE
               )
+              hubValidations::check_for_errors(v, verbose = TRUE)
                                     
             shell: Rscript {0}
 
