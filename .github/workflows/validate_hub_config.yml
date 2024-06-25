@@ -1,0 +1,48 @@
+name: Validate Hub Configuration
+
+on:
+  workflow_dispatch:
+
+  
+jobs:
+  validate-hub_config_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+
+    - name: checkout data repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'Teuropean-modelling-hubs/RespiCompass'
+        ref: 'main'
+        path: './repo/'
+
+    # TEST ONLY -----------------------------------
+    - uses: r-lib/actions/setup-r@v2
+      with:
+        install-r: false
+        use-public-rspm: true
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev libv8-dev libudunits2-dev libgdal-dev
+
+    # install test dep
+    - uses: r-lib/actions/setup-r-dependencies@v2
+      with:
+        packages: hubverse-org/hubAdmin, any::sessioninfo
+
+
+    # validate hub configurations
+    - name: Run hub config validations
+      run: |
+        library("hubAdmin")
+        v <- hubAdmin::validate_hub_config(hub_path = "./repo")
+      shell: Rscript {0}
+
+    - name: trace
+      run: echo "Validation completed"
