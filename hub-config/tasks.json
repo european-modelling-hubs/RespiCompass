@@ -8,7 +8,7 @@
                 {
                     "task_ids": {
                         "round_id": {
-                            "required": ["2024_2025_1_FLU1", "2024_2024_1_COVID1"],
+                            "required": ["2024_2025_1_FLU", "2024_2024_1_COVID"],
                             "optional": null
                         },
                         "target": {
@@ -120,7 +120,7 @@
                             "output_type_id_params": {
                                  "is_required": true,
                                  "type": "integer",
-                                 "min_samples_per_task": 2,
+                                 "min_samples_per_task": 0,
                                  "max_samples_per_task": 100
                             },
                             "value": {
@@ -141,7 +141,20 @@
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
+                        },
+                                                {
+                           "target_id": "ili_plus",
+                           "target_name": "Weekly incidence for Influenza like illness",
+                           "target_units": "cases per 100,000 population",
+                           "target_keys": {
+                               "target": "ili_plus"
+                           },
+                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
+                           "target_type": "continuous",
+                           "is_step_ahead": true,
+                           "time_unit": "week"
                         }
+
                     ]
                 }
             ],
