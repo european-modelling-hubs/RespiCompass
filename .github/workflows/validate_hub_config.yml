@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: 'Teuropean-modelling-hubs/RespiCompass'
+        repository: 'european-modelling-hubs/RespiCompass'
         ref: 'main'
         path: './repo/'
 
