@@ -8,7 +8,7 @@
                 {
                     "task_ids": {
                         "round_id": {
-                            "required": ["2024_2025_1_FLU", "2024_2024_1_COVID"],
+                            "required": ["2024_2025_1_FLU", "2024_2025_1_COVID"],
                             "optional": null
                         },
                         "target": {
