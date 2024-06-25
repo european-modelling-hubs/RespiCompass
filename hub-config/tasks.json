@@ -141,20 +141,7 @@
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
-                        },
-                                                {
-                           "target_id": "ili_plus",
-                           "target_name": "Weekly incidence for Influenza like illness",
-                           "target_units": "cases per 100,000 population",
-                           "target_keys": {
-                               "target": "ili_plus"
-                           },
-                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
-                           "target_type": "continuous",
-                           "is_step_ahead": true,
-                           "time_unit": "week"
                         }
-
                     ]
                 }
             ],
