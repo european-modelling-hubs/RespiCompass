@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "TestModel",
+            "changes": [
+                "model-output/ISI-TestModel/2024-2025_1_FLU-TeamTest-ModelTest.parquet"
+            ]
+        }
+    ]
+}
