@@ -106,19 +106,9 @@
                                 "minimum": 0
                             }
                         },
-                        "median": {
-                            "output_type_id": {
-                                "required": null,
-                                "optional": ["NA"]
-                            },
-                            "value": {
-                                "type": "double",
-                                "minimum": 0
-                            }                        
-                        },
                         "sample": {
                             "output_type_id_params": {
-                                 "is_required": true,
+                                 "is_required": false,
                                  "type": "integer",
                                  "min_samples_per_task": 1,
                                  "max_samples_per_task": 100
