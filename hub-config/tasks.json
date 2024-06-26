@@ -8,12 +8,12 @@
                 {
                     "task_ids": {
                         "round_id": {
-                            "required": ["2024_2025_1_FLU", "2024_2025_1_COVID"],
-                            "optional": null
+                            "required": null,
+                            "optional": ["2024_2025_1_FLU", "2024_2025_1_COVID"]
                         },
                         "target": {
-                            "required": ["ILI incidence", "ili_plus"],
-                            "optional": null
+                            "required": null,
+                            "optional": ["ILI incidence", "ili_plus"]
                         },
                         "target_end_date": {
                             "required": null,
