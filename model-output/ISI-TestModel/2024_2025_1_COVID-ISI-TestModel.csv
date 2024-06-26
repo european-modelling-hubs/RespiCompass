@@ -22,4 +22,4 @@ round_id,target,target_end_date,horizon,location,scenario_id,pop_group,output_ty
 2024_2025_1_COVID,ILI incidence,2024-08-18,1,GR,A-2024-09-01,0-12,quantile,0.95,1450.1710231750574
 2024_2025_1_COVID,ILI incidence,2024-08-18,1,GR,A-2024-09-01,0-12,quantile,0.975,1751.4824513602587
 2024_2025_1_COVID,ILI incidence,2024-08-18,1,GR,A-2024-09-01,0-12,quantile,0.99,2262.6944306796945
-2024_2025_1_COVID,ili_plus, 2024-08-18,1,DE,A-2024-09-01,0-4,sample,0,12
+2024_2025_1_COVID,ili_plus,2024-08-18,1,DE,A-2024-09-01,0-4,sample,0,12
