@@ -72,6 +72,18 @@
                         }
                     },
                     "output_type": {
+                        "sample":{
+                    		"output_type_id_params": {
+                    			"is_required": false,
+                    			"type": "integer",
+                                "min_samples_per_task": 2,
+                    			"max_samples_per_task": 100
+                    		},
+                    		"value":{
+                    			"type":"double",
+                    			"minimum":0
+                    		}
+                    	},
                         "quantile": {
                             "output_type_id": {
                                 "required": [
