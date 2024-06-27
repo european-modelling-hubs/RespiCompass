@@ -3,14 +3,10 @@
     "rounds": [
         {
             "round_id_from_variable": true,
-            "round_id": "origin_date",
+            "round_id": "round_id",
             "model_tasks": [
                 {
                     "task_ids": {
-                        "origin_date":{
-							"required":["2024-08-11"],
-							"optional":null
-						},
                         "round_id": {
                             "required": ["2024_2025_1_FLU", "2024_2025_1_COVID"],
                             "optional": null
