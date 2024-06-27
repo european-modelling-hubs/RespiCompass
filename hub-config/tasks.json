@@ -47,7 +47,7 @@
                             "value":{
                                 "type":"double",
                                 "minimum":0
-                            },
+                            }
                         },
                         "quantile": {
                             "output_type_id": {
