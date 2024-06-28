@@ -19,7 +19,7 @@ Ultimately, we also want to explore the interactions between these two dimension
 
 
 ### Targets
-We are currently asking for weekly COVID-19 hospital admissions (mandatory) and infenctions (optional) between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no).
+We are currently asking for weekly COVID-19 hospital admissions (mandatory) and infenctions (optional) between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no). **Note**: here “vaccinated” indicated individuals that received a vaccination during the 2024/2025 season.
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
