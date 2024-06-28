@@ -11,7 +11,7 @@ We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025
 Ultimately, we also want to explore the interactions between these two dimensions and, for instance, investigate whether actionable improvements in vaccination coverage can offset the negative effects of more pessimistic waning immunity assumptions.
 
 ### Scenarios
-| | Optimistic waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
+| | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
 |  :-:|  :-: | :-: |
 | Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than in the 2023-24 winter season in 65+ in all countries) | Scenario A | Scenario B |
 | Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than in the 2023-24 winter season in 65+ in all countries) | Scenario C | Scenario D |
