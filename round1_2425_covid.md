@@ -65,7 +65,7 @@ We advise that teams maintain vaccination coverage in other age groups at the sa
 
 Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
 
-We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season.
+We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season. We leave it to the modeller’s discretion how specific population groups (e.g., individuals with comorbidities, health care workers) are vaccinated in their model.
 
 Doses administered (and related vaccine coverage) for the 60+ age group, already adjusted according to the scenario definitions, are provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/vaccination/covid_vax_scenarios.csv).
 
