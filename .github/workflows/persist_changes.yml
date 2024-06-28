@@ -66,6 +66,6 @@ jobs:
           message: "Update data storage"
           default_author: github_actions
           push: origin main --force --set-upstream
-          push: true
+          # push: true
       env:
         GITHUB_TOKEN: ${{ secrets.envPAT }}
