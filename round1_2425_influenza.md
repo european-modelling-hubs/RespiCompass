@@ -20,7 +20,7 @@ Ultimately, we also want to explore the interactions between these two dimension
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
 ### Targets
-We are currently asking for ILI+ weekly between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no)
+We are currently asking for ILI+ weekly between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season.
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv). ILI+ is computed as follows:
 
@@ -53,7 +53,7 @@ In scenarios A and B, we assume vaccination coverage for the 65+ age group is 15
 
 In scenarios C and D, we assume vaccination coverage for the 65+ age group is 15% lower compared to the data reported during the last season for which data is available
 
-We advise that teams maintain vaccination coverage in other age groups at the same levels as the last season for which data is available. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 65+ (at-risk) population.
+Teams should mantain vaccination coverage in other age groups at the same levels as the last season for which data is available. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 65+ (at-risk) population.
 
 Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
 
