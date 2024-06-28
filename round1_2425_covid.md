@@ -61,7 +61,7 @@ In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15
 
 In scenarios C and D, we assume vaccination coverage for the 60+ age group is 15% lower compared to the data reported during the 2023/2024 winter season.
 
-We advise that teams maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 60+ (at-risk) population.
+Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 60+ (at-risk) population.
 
 Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
 
