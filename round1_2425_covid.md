@@ -26,10 +26,10 @@ The list of countries is provided [here](https://github.com/european-modelling-h
 ### Submission Format
 General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be named
 
-```2024_2025_1_COVID1-<team>-<model>.parquet```
+```2024_2025_1_COVID-<team>-<model>.parquet```
 
 Where <team>-<model> will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
--  ```round_id = '2024_2025_1_COVID1'```
+-  ```round_id = '2024_2025_1_COVID'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'hospital_admissions'``` or ```target = 'infections'```
 -  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '5-14_vaxYes', '5-14_vaxNo', '15-64_vaxYes', '15-64_vaxNo', '65+_vaxYes', '65+_vaxNo', 'total_vaxYes', 'total_vaxNo'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season.
