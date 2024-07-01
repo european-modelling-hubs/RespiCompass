@@ -29,7 +29,7 @@
                         },
                         "scenario_id": {
                             "required": null,
-                            "optional": ["A-2024-09-01"]
+                            "optional": ["A", "B", "C", "D", "E", "F"]
                         },
                         "pop_group": {
                             "required": null,
