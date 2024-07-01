@@ -1,0 +1,10 @@
+team_name: ISI Foundation
+model_name: Test Model
+team_abbr: ISI
+model_abbr: TestModel
+model_contributors:
+    - name: Paolo Milano
+      affiliation: ISI Foundation
+      email: paolo.milano@isi.it
+methods: A test model to submit my test only data
+data_inputs: ECDC ERVISS
