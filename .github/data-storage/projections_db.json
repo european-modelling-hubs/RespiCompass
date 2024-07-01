@@ -1,10 +1,1 @@
-{
-    "ISI": [
-        {
-            "model": "TestModel",
-            "changes": [
-                "model-output/ISI-TestModel/2024_2025_1_COVID-ISI-TestModel.parquet"
-            ]
-        }
-    ]
-}
+{}
