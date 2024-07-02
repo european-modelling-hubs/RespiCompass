@@ -8,3 +8,10 @@ In particular, it contains:
 - Miscellaneous:
   - [Population](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/miscellaneous/population) by age groups in EU countries
   - [Pathogen detections](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/miscellaneous/population)
+
+
+## Additional data 
+
+### Contact matrices 
+- [The CoMix Data](https://socialcontactdata.org/data/).
+- Synthetic contact matrices from [Mistry et al, 2021](https://github.com/mobs-lab/mixing-patterns), [Prem et al, 2021](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009098), [Prem et al, 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005697).
