@@ -1,7 +1,5 @@
 {
     "changes": [
-        "model-metadata/Safinea-Respinea.yml",
-        "model-metadata/ISI-TestModel.yml",
-        "model-metadata/ISI-TestModel2.yml"
+        "model-metadata/Safinea-Respinea.yml"
     ]
 }
