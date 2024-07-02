@@ -44,7 +44,29 @@ This dataset includes information on the population distribution for Norway.
   15-19,328313
   20-24,334883
   ```
+### Sample File: Norway_aggr.csv
 
+This dataset includes information on the population distribution for Norway for the same age groups used in the epidemiological data. 
+
+- **Columns:**
+  - `age_group`: The age group (e.g., 0-4, 5-14, etc.).
+  - `population`: The total population in the specified age group.
+ 
+- **Age Groups Covered:**
+  - 0-4
+  - 5-14
+  - 15-64
+  - 65+
+
+- **Sample Data:**
+  ```csv
+  age_group,population
+  0-4,273874
+  5-14,621294
+  15-64,3560689
+  65+,1038544
+  ```
+  
 ### Files for Other Countries
 
 In the folder, you will find similar CSV files for each of the 30 European countries. Each file follows the same format as described above, providing detailed population data by age group.
