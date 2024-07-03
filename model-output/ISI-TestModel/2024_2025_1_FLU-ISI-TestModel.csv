@@ -1,5 +1,0 @@
-round_id,scenario_id,target,location,pop_group,horizon,target_end_date,output_type,output_type_id,value
-2024_2025_1_FLU,A,ili_plus,BE,0-4_vaxYes,2,2024-08-11,sample,1,9094.76704231312
-2024_2025_1_FLU,A,ili_plus,BE,0-4_vaxYes,3,2024-08-18,sample,1,6882.481835554183
-2024_2025_1_FLU,A,ili_plus,BE,0-4_vaxYes,4,2024-08-25,sample,1,5126.374843742584
-2024_2025_1_FLU,A,ili_plus,BE,0-4_vaxYes,5,2024-09-01,sample,1,5706.071067162362
