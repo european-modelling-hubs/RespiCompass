@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.csv"
             ]
+        },
+        {
+            "model": "TestModel2",
+            "changes": [
+                "model-output/ISI-TestModel2/2024_2025_1_FLU-ISI-TestModel2.parquet"
+            ]
         }
     ]
 }
