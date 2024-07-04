@@ -7,16 +7,7 @@ Details on current rounds can be found at:
 
 
 ## Rationale 
-With many uncertain factors at play, it is challenging to predict how respiratory viruses will spread during the winter season. However, by combining data from national surveillance systems with published scientific evidence, expert knowledge, and leveraging global quantitative expertise, modelling can provide public health advisors and policy decision-makers at European, national or subnational level with the best available information on likely winter season scenarios. Thus, in the context of uncertainty about respiratory infectious disease burden, this project will provide guidance—a "compass"—to support public health stakeholders.
-
-What RespiCompass will practically do in the coming years: 
-- RespiCompass will create and disseminate regular reports and maintain a live website (openly available and separate from the ECDC website) to clearly communicate modelling estimates as an early indicator for potential increases in respiratory virus activity and respiratory illness presentation to secondary care.
-- To generate its insights, RespiCompass will apply cutting edge modelling, analysis methods, and leverage “open challenge” contributions as well as open data. Through directing and coordinating research activities, RespiCompass will contribute to those fields.
-- By maintaining virtual meetings and fora, RespiCompass will bring together modellers and public health stakeholders both to align modelling with public health perspectives and to increase understanding of modelling work among the stakeholders.
-- At the same time, RespiCompass will bring together modellers and surveillance experts to enable an informed application of data sources by the modellers and to offer data experts insights into how data are used.
-- Through directly stored data or links on its web platforms, RespiCompass will provide valuable resources in terms of:
-   - Modelling results that support public health stakeholders to conduct their work
-   - Data relevant to infectious disease modelling and other resources that support the activities of modellers.
+With many uncertain factors at play, it is challenging to predict how respiratory viruses will spread during the winter season. However, by combining data from national surveillance systems with published scientific evidence, expert knowledge, and leveraging expertise from global modelling groups, this respiratory disease scenario modelling hub provides public health advisors and policy decision-makers at European, national, or subnational level with the best available information on plausible winter season scenarios. This hub will provide guidance—a "compass"—to support public health stakeholders in their long-term planning and anticipatory action. Secondly, such a hub builds a synergistic community of policy advisors, policy makers and modellers and brings modelling closer to decision making.
 
 ## How to Join RespiCompass
 RespiCompass welcomes teams willing to contribute their projections. Detailed information on how to join are provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki). Here’s a concise guide on how to participate:
