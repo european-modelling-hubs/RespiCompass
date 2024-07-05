@@ -4,9 +4,11 @@
 - Late submissions deadline: 2024/09/20 (draft report will be revised after this date considering all models' projections)
 
 ### Rationale
-We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios that examine two main axes:
-- **Impact of Higher/Lower Vaccination Coverage in the Target Population (60+)**: as COVID-19 has transitioned to an endemic phase, public health systems in Europe have adapted vaccination campaigns against SARS-CoV-2 to a seasonal pattern, similar to influenza. However, due to the recent emergence of COVID-19, the impact of such seasonal vaccination campaigns on COVID-19 spread and burden remains unclear. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
-- **Impact of Waning Immunity**: these assumptions aim to test the impact of waning immunity on COVID-19 spread and burden. More in detail, we focus on scenarios where immunity against infection wanes but protection against severe outcomes remains intact, and a more pessimistic scenario where both types of protection wane.
+We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios:
+- To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions.
+- To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season.
+- To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
+ 
 
 Ultimately, we also want to explore the interactions between these two dimensions and, for instance, investigate whether actionable improvements in vaccination coverage can offset the negative effects of more pessimistic waning immunity assumptions.
 
