@@ -9,13 +9,6 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 - To estimate the averted Influenza burden due to vaccines in the 2024-2025 season.
 - To assess the accuracy of model projections using testable predictions for Influenza burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
  
-
-that examine two main axes:
-- **Impact of Higher/Lower Vaccination Coverage in the Target Population (65+)**: with these assumptions we want to test the impact of seasonal vaccination campaigns on influenza spread and burden. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
-- **Impact of higher/lower transmission potential**: with these assumptions we want to test the impact of potential changes in transmission potential from season to season. 
-
-Ultimately, we also want to explore the interactions between these two dimensions and, for instance, we aim to examine how an actionable increase in vaccination coverage in target groups might counterbalance variations in transmission potential from one season to the next.
-
 ### Scenarios
 | | Lower Burden Season (Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
