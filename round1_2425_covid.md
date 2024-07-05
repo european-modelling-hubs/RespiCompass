@@ -8,9 +8,6 @@ We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025
 - To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions.
 - To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season.
 - To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
- 
-
-Ultimately, we also want to explore the interactions between these two dimensions and, for instance, investigate whether actionable improvements in vaccination coverage can offset the negative effects of more pessimistic waning immunity assumptions.
 
 ### Scenarios
 | | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
