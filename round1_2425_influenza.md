@@ -3,8 +3,14 @@
 - Submission deadline: 2024/08/31 (after this date a first report for 2024/25 respiratory diseases insights will be drafted with available models' projections)
 - Late submissions deadline: 2024/09/20 (draft report will be revised after this date considering all models' projections)
 
-### Rationale
-We aim to explore the potential impact of Influenza during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios that examine two main axes:
+### Rationale and Goals
+We aim to explore the potential impact of Influenza during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios: 
+- To anticipate the burden of Influenza during the 2024-2025 respiratory disease season under different scenario assumptions.
+- To estimate the averted Influenza burden due to vaccines in the 2024-2025 season.
+- To assess the accuracy of model projections using testable predictions for Influenza burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
+ 
+
+that examine two main axes:
 - **Impact of Higher/Lower Vaccination Coverage in the Target Population (65+)**: with these assumptions we want to test the impact of seasonal vaccination campaigns on influenza spread and burden. More in detail, we seek to understand the space of effectiveness of policies aimed at improving coverage in at-risk groups.
 - **Impact of higher/lower transmission potential**: with these assumptions we want to test the impact of potential changes in transmission potential from season to season. 
 
