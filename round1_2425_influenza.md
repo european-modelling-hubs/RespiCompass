@@ -19,7 +19,7 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
 ### Targets
-We are currently asking for ILI+ weekly between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season.
+We are currently asking for ILI+ weekly incidence between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no, total). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season.
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv). ILI+ is computed as follows:
 
