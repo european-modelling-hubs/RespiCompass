@@ -1,6 +1,6 @@
 # Consultation Rate Data
 
-This repository contains datasets related to consultation rates for Acute Respiratory Infections (ARI) and Influenza-like Illnesses (ILI). Each dataset provides detailed information segmented by location, date, and demographic group.
+This repository contains datasets related to consultation rates per 100k for Acute Respiratory Infections (ARI) and Influenza-like Illnesses (ILI). Each dataset provides detailed information segmented by location, date, and demographic group.
 Data are taken from [ERVISS](https://erviss.org/).
 
 ## Datasets
