@@ -18,7 +18,7 @@ This dataset includes information on consultation rates for Acute Respiratory In
   - `week_end_date`: The end date of the week in YYYY-MM-DD format.
   - `indicator`: The type of indicator (e.g., ARIconsultationrate).
   - `age`: The age group (e.g., 0-4, 15-64, total).
-  - `value`: The consultation rate.
+  - `value`: The consultation rate (per 100k).
 
 - **Sample Data:**
   ```csv
@@ -43,7 +43,7 @@ This dataset includes information on consultation rates for Influenza-like Illne
   - `week_end_date`: The end date of the week in YYYY-MM-DD format.
   - `indicator`: The type of indicator (e.g., ILIconsultationrate).
   - `age`: The age group (e.g., 0-4, 15-64, total).
-  - `value`: The consultation rate.
+  - `value`: The consultation rate (per 100k).
 
 - **Sample Data:**
   ```csv
