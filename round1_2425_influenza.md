@@ -10,13 +10,13 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 - To assess the accuracy of model projections using testable predictions for Influenza burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
  
 ### Scenarios
-| | Lower Burden Season (Transmission potential* is 10% lower with respect to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
+| | Typical Burden Season (Transmission potential* is equal to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
 | Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
 | Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
 | No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
 
-*Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be +/- 10%. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
+*Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be equal or 10% higher depending on the scenario. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
 ### Targets
 We are currently asking for ILI+ weekly incidence between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no, total). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season.
