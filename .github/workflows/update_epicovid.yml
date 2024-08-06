@@ -1,0 +1,98 @@
+name: "UpdateEpidemiolocialCovid-19"
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  import_erviss_data_job:
+    if: github.repository_owner == 'european-modelling-hubs'
+    runs-on: ubuntu-latest
+    outputs:
+      changed_files:  ${{ steps.import_erviss.outputs.imported_files }} 
+
+
+    steps:
+
+    # Checkout the hub tools repo for python scripts
+    # -------------------------------------------------      
+    - name: checkout hub tools repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/hub-tools'
+        ref: 'main'
+        path: './tools/'
+
+
+    # Checkout the data repository
+    # -------------------------------------------      
+    - name: checkout data repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/RespiCompass'
+        ref: 'main'
+        path: './repo/'
+
+    # Setup Pyton env, version 3.10
+    # --------------------------------
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    # Install additional packages 
+    # --------------------------------
+    - run: pip install pandas
+
+
+    # Run Python script to import erviss data
+    # -----------------------------------------
+    - name: Import Erviss data
+      id: import_erviss
+      run: |
+        echo ">>> Updating ICUadmissions..."
+        python ./tools/code/SH_get_erviss_data.py --indicator "ICUadmissions" --pathogen "SARS-CoV-2"  \
+        --url "https://raw.githubusercontent.com/EU-ECDC/Respiratory_viruses_weekly_data/main/data/nonSentinelSeverity.csv" \
+        --path_to_save "./repo/auxiliary-data/covid-19/epidemiological"
+        echo ">>> Updating deaths..."
+        python ./tools/code/SH_get_erviss_data.py --indicator "deaths" --pathogen "SARS-CoV-2"  \
+        --url "https://raw.githubusercontent.com/EU-ECDC/Respiratory_viruses_weekly_data/main/data/nonSentinelSeverity.csv" \
+        --path_to_save "./repo/auxiliary-data/covid-19/epidemiological"
+        echo ">>> Updating hospitaladmissions..."
+        python ./tools/code/SH_get_erviss_data.py --indicator "hospitaladmissions" --pathogen "SARS-CoV-2" \
+        --url "https://raw.githubusercontent.com/EU-ECDC/Respiratory_viruses_weekly_data/main/data/nonSentinelSeverity.csv" \
+        --path_to_save "./repo/auxiliary-data/covid-19/epidemiological"
+        echo ">>> Updates completed"
+
+
+    # Make a copy of targets
+    # -----------------------------------------------
+    - name: Copy Targets
+      id: copy_targets
+      run: |
+        echo ">>> Copying hospitaladmissions to targets"
+        cp -rf ./repo/auxiliary-data/covid-19/epidemiological/hospitaladmissions.csv ./repo/target-data/covid-19/hospitaladmissions.csv
+        echo ">>> hospitaladmissions copy completed"
+    
+
+    # Commit changes to dt
+    # -----------------------------------------
+    - name: Commit data repo changes
+      uses: EndBug/add-and-commit@v7
+      with: 
+          cwd: './repo'
+          message: "Updating Truth Data repo ..."
+          default_author: github_actions
+          push: true
+
+
+
+  # call-persisting-wf:
+  #   needs: import_erviss_data_job    
+  #   uses: european-modelling-hubs/RespiCompass/.github/workflows/persist_changes.yml@main
+  #   with:
+  #     changes-list: ${{ needs.import_erviss_data_job.outputs.changed_files }}
+
+  #   secrets:
+  #     envPAT: ${{ secrets.GITHUB_TOKEN }} 
