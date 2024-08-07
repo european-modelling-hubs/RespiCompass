@@ -11,9 +11,21 @@
                             "required": null,
                             "optional": ["2024_2025_1_COVID", "2024_2025_1_FLU"]
                         },
+                        "scenario_id": {
+                            "required": null,
+                            "optional": ["A", "B", "C", "D", "E", "F"]
+                        },
                         "target": {
                             "required": null,
                             "optional": ["ILI incidence", "ili_plus"]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": ["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK","GB-ENG","GB-WLS","GB-NIR","GB-SCT"]
+                        },
+                        "pop_group": {
+                            "required": null,
+                            "optional": ["0-4_vaxYes", "0-4_vaxNo"]
                         },
                         "target_end_date": {
                             "required": null,
@@ -22,18 +34,6 @@
                         "horizon": {
                             "required": null,
                             "optional": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43]
-                        },
-                        "location": {
-                            "required": null,
-                            "optional": ["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK","GB-ENG","GB-WLS","GB-NIR","GB-SCT"]
-                        },
-                        "scenario_id": {
-                            "required": null,
-                            "optional": ["A", "B", "C", "D", "E", "F"]
-                        },
-                        "pop_group": {
-                            "required": null,
-                            "optional": ["0-4_vaxYes", "0-4_vaxNo"]
                         }
                     },
                     "output_type": {
