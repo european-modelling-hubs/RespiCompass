@@ -1,0 +1,10 @@
+team_name: ISI Foundation
+model_name: Test Model
+team_abbr: ISI
+model_abbr: TestModel
+model_contributors:
+    - name: Paolo Milano
+      affiliation: ISI Foundation
+      email: paolo.milano@isi.it
+methods: A brief description of your methodology
+data_inputs: Description of datasources used to inform the model
