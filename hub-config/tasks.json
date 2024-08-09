@@ -43,7 +43,7 @@
                                "type": "character",
                                "max_length": 6,
                                "min_samples_per_task": 1,
-                               "max_samples_per_task": 100,
+                               "max_samples_per_task": 300,
                                "compound_taskid_set": ["round_id", "scenario_id", "target", "location", "pop_group"]
                            },
                            "value":{
