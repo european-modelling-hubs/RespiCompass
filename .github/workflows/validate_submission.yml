@@ -1,4 +1,4 @@
-name: Validate Submissions V3
+name: Validate Submissions
 
 # Activate the validation process on pull-requests for model-output data submissions or on meta-data changes
 on:
