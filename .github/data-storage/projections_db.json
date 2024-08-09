@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.parquet"
             ]
+        },
+        {
+            "model": "FluABC",
+            "changes": [
+                "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
+            ]
         }
     ]
 }
