@@ -25,7 +25,7 @@
                         },
                         "pop_group": {
                             "required": null,
-                            "optional": ["0-4_vaxYes", "0-4_vaxNo"]
+                            "optional": ["0-4_vaxYes","0-4_vaxNo", "0-4_vaxTotal", "5-14_vaxYes", "5-14_vaxNo", "5-14_vaxTotal", "15-64_vaxYes", "15-64_vaxNo", "15-64_vaxTotal", "65+_vaxYes", "65+_vaxNo", "65+_vaxTotal", "total_vaxYes", "total_vaxNo", "total_vaxTotal"]
                         },
                         "target_end_date": {
                             "required": null,
