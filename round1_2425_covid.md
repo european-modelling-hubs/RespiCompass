@@ -27,7 +27,7 @@ General guidance for the submission format is provided in the [Wiki](https://git
 
 ```2024_2025_1_COVID-<team>-<model>.parquet```
 
-Where <team>-<model> will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
+Where ```<team>-<model>``` will be specific for each team/model and must match the team_abbr and model_abbr parameters in the metadata file. Additionally, you should set: 
 -  ```round_id = '2024_2025_1_COVID'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'hospital_admissions'``` or ```target = 'infections'```
