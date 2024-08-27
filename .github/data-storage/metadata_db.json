@@ -1,8 +1,8 @@
 {
     "changes": [
-        "model-metadata/ISI-FluABC.yaml",
-        "model-metadata/ECDC-flumod.yml",
+        "model-metadata/ISI-TestModel.yml",
         "model-metadata/Safinea-Respinea.yml",
-        "model-metadata/ISI-TestModel.yml"
+        "model-metadata/ECDC-flumod.yml",
+        "model-metadata/ISI-FluABC.yaml"
     ]
 }
