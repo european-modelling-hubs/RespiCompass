@@ -1,0 +1,12 @@
+team_name: European Centre for Disease Prevention and Control
+model_name: flumod
+team_abbr: ECDC
+model_abbr: flumod
+model_contributors:
+  - name: ECDC Mathematical Modelling Team
+    affiliation: European Centre for Disease Prevention and Control
+    email: modelling@ecdc.europa.eu
+team_model_designation: primary
+methods: A deterministic age and vaccination dissaggregated SIR model for influenza. Model is fitted via variational inference.
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
