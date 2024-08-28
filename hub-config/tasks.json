@@ -65,12 +65,12 @@
                     "target_metadata": [
                         {
                            "target_id": "hospital_admissions",
-                           "target_name": "Weekly incidence for Influenza like illness",
-                           "target_units": "cases per 100,000 population",
+                           "target_name": "Weekly COVID-19 related hospital admissions",
+                           "target_units": "The number of hospital admissions",
                            "target_keys": {
                                "target": "hospital_admissions"
                            },
-                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
+                           "description": "This target represents the count of new COVID-19 related hospital admissions in the week ending on the date [horizon] weeks after the reference_date",
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
@@ -137,12 +137,12 @@
                     "target_metadata": [
                         {
                            "target_id": "infections",
-                           "target_name": "Weekly incidence for Influenza like illness",
+                           "target_name": "Weekly incidence for Covid19",
                            "target_units": "cases per 100,000 population",
                            "target_keys": {
                                "target": "infections"
                            },
-                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
+                           "description": "This target represents the count of new Covid19 cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
