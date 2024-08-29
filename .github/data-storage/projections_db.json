@@ -6,5 +6,13 @@
                 "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.parquet"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_TWO",
+            "changes": [
+                "model-output/ECDC-CM_TWO/2024_2025_1_COVID-ECDC-CM_TWO.parquet"
+            ]
+        }
     ]
 }
