@@ -15,8 +15,7 @@ on:
 
 jobs:
     validate-submission_job:
-        runs-on: ubuntu-20.04
-        # runs-on: ubuntu-latest
+        runs-on: ubuntu-latest
         
         outputs:
           changed_files: ${{ steps.get_changed_files.outputs.all_changed_files }}
