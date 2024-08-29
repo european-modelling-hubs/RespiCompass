@@ -8,5 +8,5 @@ model_contributors:
     email: modelling@ecdc.europa.eu
 team_model_designation: primary
 methods: SIRS-type compartmental model with seasonality and stochastic observation model. Population divided by age, vaccination status and time since last recovery. Fitting based on extended Kalman filter
-license: cc-by-nc-4.0
+license: CC-BY-4.0
 data_inputs: ECDC ERVISS
