@@ -1,7 +1,7 @@
 team_name: Helmholtz Zentrum fuer Infektionsforschung
 model_name: COVID-19 model 
-team_abhr: HZI
-model_abhr: COVIDmodel
+team_abbr: HZI
+model_abbr: COVIDmodel
 model_contributors:
   - name: Isti Rodiah
     affiliation: Helmholtz Zentrum fuer Infektionsforschung
