@@ -88,7 +88,7 @@ jobs:
                   gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
                   pr_number = Sys.getenv("PR_NUMBER"),
                   skip_submit_window_check = FALSE,
-                  derived_task_ids = c("target_end_date")
+                  derived_task_ids = c("target_end_date", "pop_group")
               )
               hubValidations::check_for_errors(v, verbose = TRUE)
                                     

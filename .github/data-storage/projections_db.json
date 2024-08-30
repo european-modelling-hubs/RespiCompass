@@ -1,23 +1,23 @@
 {
     "ISI": [
         {
-            "model": "FluABC",
-            "changes": [
-                "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
-            ]
-        },
-        {
             "model": "TestModel",
             "changes": [
                 "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.parquet"
+            ]
+        },
+        {
+            "model": "FluABC",
+            "changes": [
+                "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
             ]
         }
     ],
     "ECDC": [
         {
-            "model": "flumod",
+            "model": "CM_TWO",
             "changes": [
-                "model-output/ECDC-flumod/2024_2025_1_FLU-ECDC-flumod.parquet"
+                "model-output/ECDC-CM_TWO/2024_2025_1_COVID-ECDC-CM_TWO.parquet"
             ]
         }
     ]
