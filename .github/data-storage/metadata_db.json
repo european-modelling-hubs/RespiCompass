@@ -1,10 +1,11 @@
 {
     "changes": [
         "model-metadata/ECDC-flumod.yml",
-        "model-metadata/ECDC-CM_TWO.yml",
         "model-metadata/HZI-COVIDmodel.yml",
-        "model-metadata/ISI-FluABC.yaml",
         "model-metadata/Safinea-Respinea.yml",
-        "model-metadata/ISI-TestModel.yml"
+        "model-metadata/ISI-TestModel.yml",
+        "model-metadata/ECDC-CM_TWO.yml",
+        "model-metadata/HZI-Flumodel.yml",
+        "model-metadata/ISI-FluABC.yaml"
     ]
 }
