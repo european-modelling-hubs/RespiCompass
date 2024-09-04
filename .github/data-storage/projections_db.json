@@ -5,6 +5,34 @@
             "changes": [
                 "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.parquet"
             ]
+        },
+        {
+            "model": "FluABC",
+            "changes": [
+                "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_TWO",
+            "changes": [
+                "model-output/ECDC-CM_TWO/2024_2025_1_COVID-ECDC-CM_TWO.parquet"
+            ]
+        }
+    ],
+    "HZI": [
+        {
+            "model": "COVIDmodel",
+            "changes": [
+                "model-output/HZI-COVIDmodel/2024_2025_1_COVID-HZI-COVIDmodel.parquet"
+            ]
+        },
+        {
+            "model": "Flumodel",
+            "changes": [
+                "model-output/HZI-Flumodel/2024_2025_1_FLU-HZI-Flumodel.parquet"
+            ]
         }
     ]
 }
