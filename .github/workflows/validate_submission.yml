@@ -48,7 +48,14 @@ jobs:
               sudo apt-get update
               sudo apt-get install libcurl4-openssl-dev libv8-dev
 
-                    
+
+          # Install Pyton env and lib
+          # ---------------------------
+          - uses: actions/setup-python@v4
+            with:
+              python-version: '3.10' 
+          
+          - run: pip install pandas pyarrow
 
           # checkout the repository with reference to the SHA of the HEAD 
           # commit of the branch that is being merged into the Base
@@ -66,6 +73,15 @@ jobs:
             id: get_changed_files
             uses: tj-actions/changed-files@v41
 
+
+          # Checkout the python tools repo
+          # -------------------------------------------      
+          - name: checkout python tools repo
+            uses: actions/checkout@v3
+            with:
+              repository: 'european-modelling-hubs/hub-tools'
+              ref: 'main'
+              path: './tools/'
         
           # Trace changes 
           # ---------------------------------
@@ -94,6 +110,13 @@ jobs:
                                     
             shell: Rscript {0}
 
+          # Validate derived_task_ids since their validation
+          # is currently skipped in the validate_pr
+          - name: Validate derived task ids
+            env:
+              input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
+            run: |
+              python ./tools/code/validate_derived_task_ids.py
 
           # Eventually comment on it
           # ---------------------------
