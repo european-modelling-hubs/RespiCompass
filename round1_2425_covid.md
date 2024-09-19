@@ -5,9 +5,9 @@
 
 ### Rationale
 We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios:
-- To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions.
-- To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season.
-- To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
+1. To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions
+1. To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season
+1. To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets
 
 ### Scenarios
 | | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
