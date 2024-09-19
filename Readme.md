@@ -16,17 +16,17 @@ RespiCompass welcomes teams willing to contribute their projections. Detailed in
    - Include key information about your team and model.
    - read more [detailed instructions to create a metadata file](https://github.com/european-modelling-hubs/RespiCompass/wiki/Metadata).
 
-2. **Develop Your Model**:
+2. **Develop Your Model and model projections**:
    - Develop your model and produce projections. We value diverse model approaches and implementations.
    - Ensure your projections respect the provided scenario assumptions (refer to specific rounds information).
 
 3. **Submit Model Projections**:
    - Follow the [submission format guidelines](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format).
-   - Submit your projections by following the [instructions to open a pull request](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submitting-using-GitHub-Website).
+   - Submit your projections by following the [instructions to open a pull request on GitHub](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submitting-using-GitHub-Website).
 
-For any questions, please email us at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu).
+For any questions, please email us at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu) or [join our slack channel](https://join.slack.com/...).
 
-You can choose to participate in projections for either COVID-19 or Influenza, and for a single or a limited number of countries. We encourage submissions for as many EU/EEA member states as possible.
+You can choose to participate in projections for either COVID-19 or Influenza (or both), and for a single or a limited number of countries. We encourage submissions for as many EU/EEA member states as possible.
 
 
 
