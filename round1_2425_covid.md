@@ -31,11 +31,11 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 -  ```round_id = '2024_2025_1_COVID'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'hospital_admissions'``` or ```target = 'infections'```
--  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season.
-- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence.
-- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence.
+-  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season
+- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence
+- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence
 - ```output_type```: we request teams to submit 100-300 individual trajectories for each scenario (at least 100 are needed, at most 300 are accepted). For trajectories ```output_type='sample'```. Teams may also submit quantiles, but this optional. In that case ```output_type='quantile'```
-- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type.
+- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type
 
 ### Shared Assumptions
 #### COVID-19 Waning Immunity
