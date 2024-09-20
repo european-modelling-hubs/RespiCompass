@@ -1,0 +1,22 @@
+team_name: SIMID
+model_name: OCTAtrimmed
+team_abbr: SIMID
+model_abbr: SMC
+model_contributors:
+  - name: Niel Hens
+    affiliation: University of Antwerp, Hasselt University
+    email: niel.hens@uhasselt.be
+    orcid: https://orcid.org/0000-0003-1881-0637
+  - name: Steven Abrams
+    affiliation: University of Antwerp, Hasselt University
+    email: steven.abrams@uhasselt.be
+  - name: Lander Willem
+    affiliation: University of Antwerp, Hasselt University
+    email: lander.willem@uantwerpen.be
+  - name: Maikel Bosschaert
+    affiliation: Hasselt University
+    email: maikel.bosschaert@uhasselt.be
+team_model_designation: primary
+methods: This COVID-19 meta-population model is an adaptation of the framework from the study “The impact of quality-adjusted life years on evaluating COVID-19 mitigation strategies: lessons from age-specific vaccination roll-out and variants of concern in Belgium (2020-2022), Willem et al., 2024.” The model categorizes the population into four age groups as defined by the ECDC scenarios. Furthermore, the original two-strain submodels have been simplified to single-strain submodels due to insufficient data for accurate parameterization. The model has been calibrated using Turing.jl.
+license: CC-BY-4.0
+data_inputs: social contact data, hospital incidence data, initial values are derived from the paper mentioned in the description
