@@ -1,12 +1,13 @@
 {
     "changes": [
-        "model-metadata/HZI-COVIDmodel.yml",
-        "model-metadata/Safinea-Respinea.yml",
-        "model-metadata/ECDC-flumod.yml",
-        "model-metadata/ISI-TestModel.yml",
-        "model-metadata/ISI-FluABC.yaml",
-        "model-metadata/ISI-FluGLEAM.yaml",
+        "model-metadata/QMUL-FluSEIR.yml",
         "model-metadata/HZI-Flumodel.yml",
-        "model-metadata/ECDC-CM_TWO.yml"
+        "model-metadata/ISI-TestModel.yml",
+        "model-metadata/HZI-COVIDmodel.yml",
+        "model-metadata/ISI-FluGLEAM.yaml",
+        "model-metadata/ECDC-CM_TWO.yml",
+        "model-metadata/ECDC-flumod.yml",
+        "model-metadata/ISI-FluABC.yaml",
+        "model-metadata/Safinea-Respinea.yml"
     ]
 }
