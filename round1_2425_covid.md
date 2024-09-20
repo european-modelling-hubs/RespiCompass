@@ -23,7 +23,7 @@ We are currently asking for weekly COVID-19 hospital admissions (mandatory) and 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Submission Format
-General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be named
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
 
 ```2024_2025_1_COVID-<team>-<model>.parquet```
 
@@ -31,7 +31,7 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 -  ```round_id = '2024_2025_1_COVID'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'hospital_admissions'``` or ```target = 'infections'```
--  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season
+-  ```pop_group``` allowed case sensistive values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season
 - ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence
 - ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence
 - ```output_type```: we request teams to submit 100-300 individual trajectories for each scenario (at least 100 are needed, at most 300 are accepted). For trajectories ```output_type='sample'```. Teams may also submit quantiles, but this optional. In that case ```output_type='quantile'```
@@ -56,7 +56,7 @@ Teams may, at their discretion, include additional effects of vaccines, such as 
 VE estimates from studies considered to define scenario assumptions are reported [here](https://docs.google.com/document/d/1XdbVyWbehuqqa2qdu7028tWh7UGCSP2V-opsp4F83fo/edit?usp=sharing).
 
 #### Vaccine Coverage
-In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15% higher compared to the data reported during the 2023/2024 winter season. This represents a relative increase, meaning that a coverage of 50% would increase to 57.5%.
+In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15% higher compared to the data reported during the 2023/2024 winter season. This represents a relative increase, meaning that a past coverage of 50% would increase to 57.5%.
 
 In scenarios C and D, we assume vaccination coverage for the 60+ age group is 15% lower compared to the data reported during the 2023/2024 winter season.
 
