@@ -12,7 +12,7 @@ Where $Positivity_{Influenza}$ is the test positivity rate for influenza (overal
 
 ## Dataset Overview
 
-The file `ili_plus.csv` in this repository contains weekly ILI+ data across different age groups and locations. Dataset is updated weekly as new data becomes available.
+The file [`ili_plus.csv`](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv) in this repository contains weekly ILI+ data across different age groups and locations. Dataset is updated weekly as new data becomes available.
 
 ### File: `ili_plus.csv`
 
