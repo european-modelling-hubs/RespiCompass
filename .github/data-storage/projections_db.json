@@ -34,5 +34,13 @@
                 "model-output/HZI-Flumodel/2024_2025_1_FLU-HZI-Flumodel.parquet"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "FluSEIR",
+            "changes": [
+                "model-output/QMUL-FluSEIR/2024_2025_1_FLU-QMUL-FluSEIR.parquet"
+            ]
+        }
     ]
 }
