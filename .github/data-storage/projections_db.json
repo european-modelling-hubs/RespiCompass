@@ -48,5 +48,13 @@
                 "model-output/QMUL-FluSEIR/2024_2025_1_FLU-QMUL-FluSEIR.parquet"
             ]
         }
+    ],
+    "SIMID": [
+        {
+            "model": "SMC",
+            "changes": [
+                "model-output/SIMID-SMC/2024_2025_1_COVID-SIMID-SMC.parquet"
+            ]
+        }
     ]
 }
