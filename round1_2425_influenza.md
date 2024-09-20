@@ -5,16 +5,16 @@
 
 ### Rationale and Goals
 We aim to explore the potential impact of Influenza during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios: 
-- To anticipate the burden of Influenza during the 2024-2025 respiratory disease season under different scenario assumptions.
-- To estimate the averted Influenza burden due to vaccines in the 2024-2025 season.
-- To assess the accuracy of model projections using testable predictions for Influenza burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
+1. To anticipate the burden of Influenza during the 2024-2025 respiratory disease season under different scenario assumptions
+1. To estimate the averted Influenza burden due to vaccines in the 2024-2025 season
+1. To assess the accuracy of model projections using testable predictions for Influenza burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets
  
 ### Scenarios
 | | Typical Burden Season (Transmission potential* is equal to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
-| Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
-| Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
-| No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
+| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
+| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
+| **No Vaccination** (baseline scenario without vaccination) | Scenario E | Scenario F |
 
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be equal or 10% higher depending on the scenario. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
 
@@ -28,7 +28,7 @@ $$ILI+ = ILI \times \frac{Positivity_{Influenza}}{100}$$
 Where ILI is the consulation rate for influenza-like-illness reported in a given country and week, and $Positivity_{Influenza}$ is the test positivity rate for influenza (overall, without considering subtypes) from either sentinel or non-sentinel detections in that country and week. All countries consider sentinel surveillance except for Malta, Iceland, Croatia, Romania, Latvia, Finland, where non-sentinel detections are considered. Historical ILI+ data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/influenza/ili_plus.csv). The rationale for using ILI+ instead of ILI is rooted in the increased non-specificity of ILI, particularly after the advent of COVID-19. By combining ILI with detection rates, we obtain a signal more specific to influenza.
 
 ### Submission Format
-General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific Influenza round, submission file must be named
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific Influenza round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
 
 ```2024_2025_1_FLU-<team>-<model>.parquet```
 
@@ -36,11 +36,11 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 -  ```round_id = '2024_2025_1_FLU'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'ili_plus'```
--  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual vaccination during the 2024-2025 season.
-- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence.
-- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence.
-- ```output_type```: we request team to submit 100-300 individual trajectories for each scenario. For trajectories ```output_type='sample'```. Team may also submit quantiles, but this optional. In that case ```output_type='quantile'```
-- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type.
+-  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual vaccination during the 2024-2025 season
+- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence
+- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence
+- ```output_type```: we request teams to submit 100-300 individual trajectories for each scenario (at least 100 are needed, at most 300 are accepted). For trajectories ```output_type='sample'```. Teams may also submit quantiles, but this optional. In that case ```output_type='quantile'```
+- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type
 
 ### Shared Assumptions
 #### Vaccine Effectiveness (VE)

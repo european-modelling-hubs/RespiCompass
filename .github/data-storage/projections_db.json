@@ -11,6 +11,12 @@
             "changes": [
                 "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
             ]
+        },
+        {
+            "model": "CovidGLEAM",
+            "changes": [
+                "model-output/ISI-CovidGLEAM/2024_2025_1_COVID-ISI-CovidGLEAM.parquet"
+            ]
         }
     ],
     "ECDC": [
@@ -32,6 +38,14 @@
             "model": "Flumodel",
             "changes": [
                 "model-output/HZI-Flumodel/2024_2025_1_FLU-HZI-Flumodel.parquet"
+            ]
+        }
+    ],
+    "QMUL": [
+        {
+            "model": "FluSEIR",
+            "changes": [
+                "model-output/QMUL-FluSEIR/2024_2025_1_FLU-QMUL-FluSEIR.parquet"
             ]
         }
     ]

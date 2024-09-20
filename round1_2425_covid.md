@@ -5,16 +5,16 @@
 
 ### Rationale
 We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025 respiratory disease season. To this end, we have designed a set of scenarios:
-- To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions.
-- To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season.
-- To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets.
+1. To anticipate the burden of COVID-19 during the 2024-2025 respiratory disease season under different scenario assumptions
+1. To estimate the averted COVID-19 burden due to vaccines in the 2024-2025 season
+1. To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets
 
 ### Scenarios
-| | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
+| | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning)| Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
 |  :-:|  :-: | :-: |
-| Higher than usual Vaccine Coverage (Vaccine coverage is 15% higher than in the 2023-24 winter season in 60+ in all countries) | Scenario A | Scenario B |
-| Lower than usual Vaccine Coverage (Vaccine coverage is 15% lower than in the 2023-24 winter season in 60+ in all countries) | Scenario C | Scenario D |
-| No Vaccination (baseline scenario without vaccination) | Scenario E | Scenario F |
+| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than in the 2023-24 winter season in 60+ in all countries) | Scenario A | Scenario B |
+| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than in the 2023-24 winter season in 60+ in all countries) | Scenario C | Scenario D |
+| **No Vaccination** (baseline scenario without vaccination) | Scenario E | Scenario F |
 
 
 ### Targets
@@ -23,7 +23,7 @@ We are currently asking for weekly COVID-19 hospital admissions (mandatory) and 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here]([TODO](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv)). Historical hospital admissions data is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/target-data/covid-19/hospitaladmissions.csv).
 
 ### Submission Format
-General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be named
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific COVID-19 round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
 
 ```2024_2025_1_COVID-<team>-<model>.parquet```
 
@@ -31,11 +31,11 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 -  ```round_id = '2024_2025_1_COVID'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E', 'F'``` related to different scenarios
 -  ```target = 'hospital_admissions'``` or ```target = 'infections'```
--  ```pop_group``` allowed values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season.
-- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence.
-- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence.
-- ```output_type```: we request team to submit 100-300 individual trajectories for each scenario. For trajectories ```output_type='sample'```. Team may also submit quantiles, but this optional. In that case ```output_type='quantile'```
-- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type.
+-  ```pop_group``` allowed case sensistive values are ```'0-4_vaxYes', '0-4_vaxNo', '0-4_vaxTotal', '5-14_vaxYes', '5-14_vaxNo', '5-14_vaxTotal', '15-64_vaxYes', '15-64_vaxNo', '15-64_vaxTotal', '65+_vaxYes', '65+_vaxNo', '65+_vaxTotal', 'total_vaxYes', 'total_vaxNo', 'total_vaxTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```vaxYes``` are individuals that received an updated annual boosters during the 2024-2025 season
+- ```horizon```: weeks ahead in the projection period, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a horizon/week correspondence
+- ```target_end_date``` end date of target week, see this [file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv) for a date/week correspondence
+- ```output_type```: we request teams to submit 100-300 individual trajectories for each scenario (at least 100 are needed, at most 300 are accepted). For trajectories ```output_type='sample'```. Teams may also submit quantiles, but this optional. In that case ```output_type='quantile'```
+- ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type
 
 ### Shared Assumptions
 #### COVID-19 Waning Immunity
@@ -56,7 +56,7 @@ Teams may, at their discretion, include additional effects of vaccines, such as 
 VE estimates from studies considered to define scenario assumptions are reported [here](https://docs.google.com/document/d/1XdbVyWbehuqqa2qdu7028tWh7UGCSP2V-opsp4F83fo/edit?usp=sharing).
 
 #### Vaccine Coverage
-In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15% higher compared to the data reported during the 2023/2024 winter season. This represents a relative increase, meaning that a coverage of 50% would increase to 57.5%.
+In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15% higher compared to the data reported during the 2023/2024 winter season. This represents a relative increase, meaning that a past coverage of 50% would increase to 57.5%.
 
 In scenarios C and D, we assume vaccination coverage for the 60+ age group is 15% lower compared to the data reported during the 2023/2024 winter season.
 
