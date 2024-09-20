@@ -10,7 +10,7 @@ We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025
 1. To assess the accuracy of model projections using testable predictions for COVID-19 burden in the EU/EEA and individual countries. This involves understanding the factors that reduce accuracy and identifying ways to improve projections, such as making regional projections and changing modelling targets
 
 ### Scenarios
-| | **Optimistic vaccine-induced immunity waning** (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
+|<span style="font-weight:normal">heading</span> | **Optimistic vaccine-induced immunity waning** (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning) | Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
 |  :-:|  :-: | :-: |
 | **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than in the 2023-24 winter season in 60+ in all countries) | Scenario A | Scenario B |
 | **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than in the 2023-24 winter season in 60+ in all countries) | Scenario C | Scenario D |
