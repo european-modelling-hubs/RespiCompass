@@ -82,6 +82,12 @@ We leave the implementation of the vaccination rollout to the discretion of the 
 
 Doses administered (and related vaccine coverage) for the 60+ age group, already adjusted according to the scenario definitions, are provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/covid-19/vaccination/covid_vax_scenarios.csv).
 
+### Assumptions left to the modellers judgement
+- Vaccination (and uptake levels) of at-risk individuals of all ages as well as vaccination of healthcare workers.
+- We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season
+- Functional shape of waning immunity against infection and against severe outcomes (following the specified decrease of immunity against infection within the specified time frame).
+- Impact of seasonality, including seasonal behavioural changes.
+
 
 ### Data
 We provide the following data to support models development and calibration.
