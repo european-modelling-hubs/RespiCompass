@@ -57,7 +57,7 @@ Below we provide more details on specific shared assumptions.
 
 #### Vaccine Effectiveness (VE)
 For all scenarios we assume a VE = 40% against symptomatic infection based on available literature (see [here](https://docs.google.com/document/d/1RKkT9aYD5D8tsRYE1-jQ1jUDhckEWxIhMQ9plO1dk_c/edit?usp=sharing) for list of studies considered). For this round we assume the same VE for all age groups.
-Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
+Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected. Teams can model waning of vaccine-induced protection at their discretion.
 
 #### Vaccine Coverage and Rollout
 In scenarios A and B, we assume vaccination coverage for the 65+ age group is 15% higher compared to the data reported during the last season for which data is available (2021/2022 for most of the countries). This represents a relative increase, meaning that a coverage of 50% would increase to 57.5%.
