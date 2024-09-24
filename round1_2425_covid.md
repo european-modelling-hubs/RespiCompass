@@ -57,7 +57,7 @@ We assume that vaccine-induced immunity wanes at specific rates as outlined in t
 
 We acknowledge that VE may continue to wane beyond the 6-month median time, leaving the specifics of this progression to the discretion of the modellers. Additionally, modellers have the flexibility to determine the method of waning implementation (e.g., linear decay of immunity, stepwise approach, etc). 
 
-We note that the scenario assumptions pertain specifically to the waning of vaccine-induced immunity. Modellers should also incorporate the waning of natural immunity; however, the rate of waning for natural immunity must be slower than that of vaccine-induced immunity.
+We note that the scenario assumptions pertain specifically to the waning of vaccine-induced immunity. Modellers should also incorporate the waning of natural immunity; however, the rate of waning for natural immunity must be slower than that of vaccine-induced immunity, as shown by [research](https://www.clinicalmicrobiologyandinfection.com/article/S1198-743X(23)00388-9/fulltext).
 
 Additionally, for this round, teams should not factor in the additional impact of reduced protection due to the emergence of immune escape variants. Although we are not explicitly modelling the emergence of immune-escaping variants in this round, this factor is effectively accounted for in the waning of immunity.
 
