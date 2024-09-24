@@ -38,6 +38,20 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 - ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type
 
 ### Shared Assumptions
+List of shared assumptions: 
+- Vaccine-induced immunity wanes at specific rates as outlined in the scenario axes
+- Vaccination coverage in 60+ as outlined in the scenario axes
+- Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season
+- VE against infection of 50% few days after inoculation, (combined) VE against hospitalisation few days after inoculation of 75%
+- No additional impact of reduced protection due to the emergence of immune escape variants
+- Modellers should also incorporate the waning of natural immunity; however, the rate of waning for natural immunity must be slower than that of vaccine-induced immunity.
+- There is sufficient vaccine supply.
+- No new public health and social measures (non-pharmaceutical interventions / NPIs).
+- No changes in demography given the short timeframe.
+- No novel drugs that strongly impact COVID-19 burden or SARS-CoV-2 transmission.
+
+Below we provide more details on specific shared assumptions.
+
 #### COVID-19 Waning Immunity
 We assume that vaccine-induced immunity wanes at specific rates as outlined in the scenario axes. In Scenario A, C, E, we assume a median time of 6 months for immunity to decline to 50% of the initial vaccine effectiveness (VE). This means that an individual vaccinated against COVID-19 on day t with a certain VE will, after 6 months (in median terms), have a protection level of 0.5 x VE against infection. In these scenarios, we also assume that VE against severe outcomes, such as hospitalisation, does not wane. In scenarios B, D, F, we assume that after 6 months, the VE against infection will decrease to 0.3 of the initial VE, and VE against hospitalisation will decrease to 0.6 of the initial VE. In this round, waning immunity reflects both the decline of immune system responses over time and the gradual immune escape of the virus.
 
