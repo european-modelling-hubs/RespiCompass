@@ -43,6 +43,16 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 - ```output_type_id```: '1' to '300' for samples, one of the allowed quantiles for quantile output type
 
 ### Shared Assumptions
+List of shared assumptions
+- Vaccination coverage in 65+ as outlined in the scenario axes
+- Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season
+- VE against laboratory confirmed ILI case of 40% few days after inoculation
+- There is sufficient vaccine supply.
+- No new public health and social measures (non-pharmaceutical interventions / NPIs).
+- No changes in demography given the short timeframe.
+
+Below we provide more details on specific shared assumptions.
+
 #### Vaccine Effectiveness (VE)
 For all scenarios we assume a VE = 40% against symptomatic infection based on available literature (see [here](https://docs.google.com/document/d/1RKkT9aYD5D8tsRYE1-jQ1jUDhckEWxIhMQ9plO1dk_c/edit?usp=sharing) for list of studies considered). For this round we assume the same VE for all age groups.
 Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
@@ -59,6 +69,12 @@ Scenarios E and F are hypothetical scenarios where teams are asked not to includ
 We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season.
 
 Vaccine coverage data for the 65+ age group, already adjusted according to the scenario definitions, are provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/influenza/vaccination/influenza_vax_scenarios.csv).
+
+### Assumptions left to the modellers judgement
+- Vaccination (and uptake levels) of at-risk individuals of all ages as well as vaccination of healthcare workers.
+- We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season
+- VE against other endpoints
+- Impact of seasonality, including seasonal behavioural changes.
 
 
 ### Data
