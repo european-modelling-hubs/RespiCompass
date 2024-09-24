@@ -1,7 +1,6 @@
 # Hospital Admission Data
 
-This repository contains data of COVID-19 related hospital admissions. Data are taken from [ERVISS](https://erviss.org/): 
-- [Hospital Admissions](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelSeverity.csv)
+This repository contains data of COVID-19 related hospital admissions. Data are taken from [ERVISS](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/blob/main/data/nonSentinelSeverity.csv).
 
 
 ## Dataset Overview
