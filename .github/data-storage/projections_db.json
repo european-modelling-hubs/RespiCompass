@@ -56,5 +56,13 @@
                 "model-output/SIMID-SMC/2024_2025_1_COVID-SIMID-SMC.parquet"
             ]
         }
+    ],
+    "OptimAgent": [
+        {
+            "model": "GEMS",
+            "changes": [
+                "model-output/OptimAgent-GEMS/2024_2025_1_COVID-OptimAgent-GEMS.parquet"
+            ]
+        }
     ]
 }
