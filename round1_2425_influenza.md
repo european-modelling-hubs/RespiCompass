@@ -21,7 +21,7 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 **Note**: The scenario definitions for Influenza have been updated from the initial formulation. Originally, they included a lower and higher burden season, but now they reflect a typical and higher burden season.
 
 ### Targets
-We are currently asking for ILI+ weekly incidence between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no, total). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season.
+We are currently asking for ILI+ weekly incidence between August 5, 2024 and June 1, 2025 in European countries by age groups (0-4, 5-14, 15-64, 65+, total) and vaccination status (yes, no, total). Note: here “vaccinated” indicates individuals that received a vaccination during the 2024/2025 season, while "not vaccinated" are those that did not received a vaccination during the 2024/2025 season. The total vaccination group is the sum of those vaccinated and not vaccianted during the 2024/2025 season. 
 
 The list of countries is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/locations_iso2_codes.csv) and the list of weeks is provided [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/supporting-files/iso_weeks.csv). ILI+ is computed as follows:
 
