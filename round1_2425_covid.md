@@ -12,8 +12,8 @@ We aim to explore the potential impact of COVID-19 during the upcoming 2024-2025
 ### Scenarios
 | | Optimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 50% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: no waning)| Pessimistic vaccine-induced immunity waning (Protection against infection: 6 months median time to transition to 30% of the initial immunity; Protection against severe outcomes, e.g., hospitalisation: 6 months median time to transition to 60% of the initial immunity) |
 |  :-:|  :-: | :-: |
-| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than in the 2023-24 winter season in 60+ in all countries) | Scenario A | Scenario B |
-| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than in the 2023-24 winter season in 60+ in all countries) | Scenario C | Scenario D |
+| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than in the 2023-24 winter season in 60+ age group in all countries) | Scenario A | Scenario B |
+| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than in the 2023-24 winter season in 60+ age group in all countries) | Scenario C | Scenario D |
 | **No Vaccination** (baseline scenario without vaccination) | Scenario E | Scenario F |
 
 
@@ -40,7 +40,7 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 ### Shared Assumptions
 List of shared assumptions: 
 - Vaccine-induced immunity wanes at specific rates as outlined in the scenario axes
-- Vaccination coverage in 60+ as outlined in the scenario axes
+- Vaccination coverage in 60+ age group as outlined in the scenario axes
 - Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season
 - VE against infection of 50% few days after inoculation, (combined) VE against hospitalisation few days after inoculation of 75%
 - No additional impact of reduced protection due to the emergence of immune escape variants
@@ -74,7 +74,7 @@ In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15
 
 In scenarios C and D, we assume vaccination coverage for the 60+ age group is 15% lower compared to the data reported during the 2023/2024 winter season.
 
-Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 60+ (at-risk) population.
+Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 60+ age group (at-risk) population.
 
 Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
 
