@@ -12,8 +12,8 @@ We aim to explore the potential impact of Influenza during the upcoming 2024-202
 ### Scenarios
 | | Typical Burden Season (Transmission potential* is equal to average of last three influenza seasons (excluding pandemic years) | Higher Burden Season (Transmission potential is 10% higher with respect to average of last three influenza seasons, excluding pandemic years) |
 |  :-:|  :-: | :-: |
-| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than last flu season with available data in 65+ in all countries) | Scenario A | Scenario B |
-| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than last flu season with available data in 65+ in all countries) | Scenario C | Scenario D |
+| **Higher than usual Vaccine Coverage** (Vaccine coverage is 15% higher than last flu season with available data in 65+ age group in all countries) | Scenario A | Scenario B |
+| **Lower than usual Vaccine Coverage** (Vaccine coverage is 15% lower than last flu season with available data in 65+ age group in all countries) | Scenario C | Scenario D |
 | **No Vaccination** (baseline scenario without vaccination) | Scenario E | Scenario F |
 
 *Teams should use data from the last three influenza seasons (2017-2018, 2018-2019, and 2023-2024 excluding pandemic years) to estimate an average transmission potential (e.g., $R_t$) and assume it to be equal or 10% higher depending on the scenario. Transmission potential includes all factors that may impact transmission rate, except for vaccination coverage, which is captured by the other scenario axis. 
@@ -46,7 +46,7 @@ Where `<team>-<model>` will be specific for each team/model and must match the t
 
 ### Shared Assumptions
 List of shared assumptions
-- Vaccination coverage in 65+ as outlined in the scenario axes
+- Vaccination coverage in 65+ age group as outlined in the scenario axes
 - Teams should maintain vaccination coverage in other age groups at the same levels as the 2023/2024 winter season
 - VE against laboratory confirmed ILI case of 40% few days after inoculation
 - There is sufficient vaccine supply.
@@ -64,7 +64,7 @@ In scenarios A and B, we assume vaccination coverage for the 65+ age group is 15
 
 In scenarios C and D, we assume vaccination coverage for the 65+ age group is 15% lower compared to the data reported during the last season for which data is available
 
-Teams should maintain vaccination coverage in other age groups at the same levels as the last season for which data is available. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 65+ (at-risk) population.
+Teams should maintain vaccination coverage in other age groups at the same levels as the last season for which data is available. If data on vaccination coverage in other age groups are not available, teams can make assumptions, provided the coverage remains lower than that of the 65+ age group (at-risk) population.
 
 Scenarios E and F are hypothetical scenarios where teams are asked not to include vaccinations in any age groups. These scenarios are used to estimate the effect of vaccinations against a baseline scenario in which they are completely absent.
 
