@@ -24,7 +24,7 @@ RespiCompass welcomes teams willing to contribute their projections. Detailed in
    - Follow the [submission format guidelines](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format).
    - Submit your projections by following the [instructions to open a pull request on GitHub](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submitting-using-GitHub-Website).
 
-For any questions, please email us at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu) or [join our slack channel]([https://join.slack.com](https://join.slack.com/share/enQtNzgwNDgyMDM2ODU3Ni05Y2EzZGYzODdiYzIyNTMyYmRhM2VmZTA1ZWM0MjJlZGZjZWMyNThkNGZlNWNiNTE2MmRmMTZjYWQ0MjBlNjdl)).
+For any questions, please email us at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu). You are also welcome to join our slack channel, please send us an email and we will invite you.
 
 You can choose to participate in projections for either COVID-19 or Influenza (or both), and for a single or a limited number of countries. We encourage submissions for as many EU/EEA member states as possible.
 
