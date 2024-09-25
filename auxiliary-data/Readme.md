@@ -15,3 +15,5 @@ In particular, it contains:
 ### Contact matrices 
 - [The CoMix Study data](https://socialcontactdata.org/data/)
 - Synthetic contact matrices from [Mistry et al, 2021](https://github.com/mobs-lab/mixing-patterns), [Prem et al, 2021](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009098), [Prem et al, 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005697)
+
+To load the contact matrices using the R programming language, you can use the `socialmixr` package, following the [detailed instructions for installation and usage](https://cran.r-project.org/web/packages/socialmixr/vignettes/socialmixr.html).
