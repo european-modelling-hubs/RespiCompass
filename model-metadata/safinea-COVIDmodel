@@ -1,0 +1,11 @@
+team_name: Safinea
+model_name: COVIDmodel
+team_abbr: Safinea
+model_abbr: COVIDmodel
+model_contributors:
+	- name: Helen Johnson
+	  affiliation: Safinea
+	  email: helen.johnson@safinea.eu
+team_model_designation: primary
+methods: A placeholder for an individual-based stochastic model, based on OpenCOVID
+data_inputs: ECDC ERVISS
