@@ -64,10 +64,10 @@ Additionally, for this round, teams should not factor in the additional impact o
 Waning immunity estimates from studies considered to define scenario assumptions are reported [here](https://docs.google.com/document/d/1MthtD6EWm4UWsjJttNUKYHP-O9oLqSv2vAXL-1aHXFA/edit?usp=sharing).
 
 #### COVID-19 Vaccine Effectiveness
-For all scenarios we assume a VE against infection of 50% few days after inoculation in line with recent studies. We assume a VE against hospitalisation few days after inoculation of 75%, compatible with recent studies. Importantly, this VE against hospitalisation reflects the combined effects of protection against both infection and hospitalisation in the event of a breakthrough infection. The provided VE against hospitalisations represents the overall protection, which has two contributions: one from protection against infection, and the other from protection against severe outcomes, such as hospitalisation, if infection occurs. For this round we assume the same VE for all age groups.
+For all scenarios we assume a VE against infection of 50% few days after inoculation in line with recent studies. We assume a VE against hospitalisation few days after inoculation of 75%, compatible with recent studies. Importantly, this VE against hospitalisation is defined as the reduction in hospitalisation risk of recently vaccinated individuals versus individuals without recent vaccination. This VE is not conditional on being infected. Mathematically, this VE is the combined effect of vaccine protection against infection (VE_S) and protection against hospitalisation in case of breakthrough infection (VE_H): VE = 1 - (1 - VE_S) * (1 - VE_H). In the optimistic waning scenario, no waning of severe VE means that VE_H remains the same, while VE_S (and therefore the combined VE) wanes. For this round we assume the same VE for all age groups.
 Teams may, at their discretion, include additional effects of vaccines, such as the reduced infectiousness of vaccinated individuals if they become infected.
 
-VE estimates from studies considered to define scenario assumptions are reported [here](https://docs.google.com/document/d/1XdbVyWbehuqqa2qdu7028tWh7UGCSP2V-opsp4F83fo/edit?usp=sharing). It is important to note that these VE estimates are based on individuals who received an updated vaccine in the past season, compared to those who did not. Therefore, the VE is not being assessed against a completely vaccine-naive population.
+VE estimates from studies considered to define scenario assumptions are reported [here](https://docs.google.com/document/d/1XdbVyWbehuqqa2qdu7028tWh7UGCSP2V-opsp4F83fo/edit?usp=sharing). It is important to note that these VE estimates are based on individuals who received an updated vaccine in the studied season, compared to those who did not. Therefore, the VE is not being assessed against a completely vaccine-naive group. Modelling teams should make judgment calls on modelling and informing vaccine effectiveness relative to naive individuals.
 
 #### Vaccine Coverage
 In scenarios A and B, we assume vaccination coverage for the 60+ age group is 15% higher compared to the data reported during the 2023/2024 winter season. This represents a relative increase, meaning that a past coverage of 50% would increase to 57.5%.
@@ -87,6 +87,7 @@ Doses administered (and related vaccine coverage) for the 60+ age group, already
 - We leave the implementation of the vaccination rollout to the discretion of the teams. This includes decisions on whether to use constant or time-varying administration rates and whether to administer most doses before the respiratory disease season
 - Functional shape of waning immunity against infection and against severe outcomes (following the specified decrease of immunity against infection within the specified time frame).
 - Impact of seasonality, including seasonal behavioural changes.
+- VEs against other endpoints and VEs relative to immune naive individuals.
 
 
 ### Data
