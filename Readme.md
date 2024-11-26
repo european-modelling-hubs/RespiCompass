@@ -1,7 +1,9 @@
 # RespiCompass -  ECDC's Respiratory Diseases Scenario Hub
 ![RespiCompass Logo](https://github.com/european-modelling-hubs/RespiCompass/blob/main/respicompass_logo.png)
 
-Details on current rounds can be found at: 
+Visit the RespiCompass platform for analysis of Round 1 2024/2025 [here](https://respicompass.ecdc.europa.eu/).
+
+Details on latest rounds can be found at: 
 - [Influenza Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_influenza.md)
 - [COVID-19 Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_covid.md)
 
