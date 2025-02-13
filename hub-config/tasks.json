@@ -1,5 +1,5 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.1/tasks-schema.json",
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
     "rounds": [
         {
             "round_id_from_variable": true,
@@ -39,13 +39,13 @@
                     "output_type": {
                         "sample": {
                             "output_type_id_params": {
-                               "is_required": true,
                                "type": "character",
                                "max_length": 6,
                                "min_samples_per_task": 1,
                                "max_samples_per_task": 300,
                                "compound_taskid_set": ["round_id", "scenario_id", "target", "location", "pop_group"]
                            },
+                           "is_required": true,
                            "value":{
                                "type": "double",
                                "minimum": 0
@@ -53,9 +53,9 @@
                         },
                         "quantile": {
                             "output_type_id": {
-                                "required": null,
-                                "optional": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]
+                                "required": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]                                
                             },
+                            "is_required": false,
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -111,13 +111,13 @@
                     "output_type": {
                         "sample": {
                             "output_type_id_params": {
-                               "is_required": true,
                                "type": "character",
                                "max_length": 6,
                                "min_samples_per_task": 1,
                                "max_samples_per_task": 300,
                                "compound_taskid_set": ["round_id", "scenario_id", "target", "location", "pop_group"]
                            },
+                           "is_required": true,                           
                            "value":{
                                "type": "double",
                                "minimum": 0
@@ -125,9 +125,9 @@
                         },
                         "quantile": {
                             "output_type_id": {
-                                "required": null,
-                                "optional": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]
+                                "required": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]
                             },
+                            "is_required": false,                           
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -190,13 +190,13 @@
                     "output_type": {
                         "sample": {
                             "output_type_id_params": {
-                               "is_required": true,
                                "type": "character",
                                "max_length": 6,
                                "min_samples_per_task": 1,
                                "max_samples_per_task": 300,
                                "compound_taskid_set": ["round_id", "scenario_id", "target", "location", "pop_group"]
                            },
+                           "is_required": true,                               
                            "value":{
                                "type": "double",
                                "minimum": 0
@@ -204,9 +204,9 @@
                         },
                         "quantile": {
                             "output_type_id": {
-                                "required": null,
-                                "optional": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]
+                                "required": [0.01,0.025,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,0.975,0.99]
                             },
+                            "is_required": false,                               
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -232,5 +232,6 @@
             "submissions_due": {"start":"2024-04-14","end":"2024-10-16"}
         }
     ],
-    "output_type_id_datatype": "character"
+    "output_type_id_datatype": "character",
+    "derived_task_ids": ["target_end_date", "pop_group"]
 }
