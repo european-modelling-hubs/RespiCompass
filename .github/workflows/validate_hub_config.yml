@@ -1,4 +1,4 @@
-name: Validate Hub Configuration
+name: ValidateHubConfiguration
 
 on:
   workflow_dispatch:
