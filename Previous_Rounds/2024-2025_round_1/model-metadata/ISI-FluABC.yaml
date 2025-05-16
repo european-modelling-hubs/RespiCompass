@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: FluABC
+team_abbr: ISI
+model_abbr: FluABC
+model_contributors:
+  - name: Nicolò Gozzi
+    affiliation: ISI Foundation
+    email: nicolo.gozzi@isi.it
+team_model_designation: primary
+methods: A stochastic, age structured compartmental model calibrated via Approximate Bayesian Computation.
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS

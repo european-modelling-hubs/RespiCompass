@@ -1,0 +1,19 @@
+team_name: Helmholtz Zentrum fuer Infektionsforschung
+model_name: Flu model 
+team_abbr: HZI
+model_abbr: Flumodel
+model_contributors:
+  - name: Fakhteh Ghanbarnejad
+    affiliation: Helmholtz Zentrum fuer Infektionsforschung
+    email: Fakhteh.Ghanbarnejad@helmholtz-hzi.de
+  - name: Isti Rodiah
+    affiliation: Helmholtz Zentrum fuer Infektionsforschung
+    email: Isti.Rodiah@helmholtz-hzi.de
+  - name: Berit Lange
+    affiliation: Helmholtz Zentrum fuer Infektionsforschung
+    email: Berit.Lange@helmholtz-hzi.de
+methods: SEIR type model with age stratification
+data_inputs: ECDC ERVISS
+team_model_designation: primary
+website_url: https://www.helmholtz-hzi.de/en/nc/research/research-topics/bacterial-and-viral-pathogens/epidemiology/team/
+methods_long: This model is an extended SEIR model with additional compartments for the vaccinated. It is designed as an age-structured model and is calibrated to reported cases. 

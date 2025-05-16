@@ -1,0 +1,14 @@
+team_name: Queen Mary University of London
+model_name: FluSEIR
+team_abbr: QMUL
+model_abbr: FluSEIR
+model_contributors:
+  - name: Nicola Perra
+    affiliation: Queen Mary University of London
+    email: n.perra@qmul.ac.uk
+  - name: Yuhan Li
+    affiliation: Queen Mary University of London
+    email: yuhan.li@qmul.ac.uk
+methods: Stochastic age-structured SEIR compartmental model calibrated via Approximate Bayesian Computation Sequential Monte Carlo
+data_inputs: ECDC ERVISS
+team_model_designation: primary
