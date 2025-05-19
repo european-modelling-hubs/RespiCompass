@@ -1,0 +1,590 @@
+country_name,vaccine_coverage,age_group,source,year
+Latvia,51.2,6 m-2 y,ECDC 2023,2020-21
+Malta,38,6 m-4 y,ECDC 2023,2020-21
+Ireland,30,2-12 y,ECDC 2023,2020-21
+Italy,9.4,2-17 y,ECDC 2023,2020-21
+Lithuania,4.6,6 m-8 y,ECDC 2023,2020-21
+Luxembourg,0.8,<=59 m,ECDC 2023,2020-21
+Luxembourg,2.8,5-11 y,ECDC 2023,2020-21
+Luxembourg,1.1,<=18 y,ECDC 2023,2020-21
+Slovenia,2.3,6 m-18 y,ECDC 2023,2020-21
+Slovakia,1.4,<15 y,ECDC 2023,2020-21
+Iceland,0.9,6 m-18 y,ECDC 2023,2020-21
+Norway,27,18+ y,ECDC 2023,2020-21
+Italy,26.4,18+ y,ECDC 2023,2020-21
+Denmark,23,18+ y,ECDC 2023,2020-21
+Norway,23,18+ y,ECDC 2023,2020-21
+Iceland,21.1,18+ y,ECDC 2023,2020-21
+Sweden,18,18+ y,ECDC 2023,2020-21
+Slovenia,11.7,18+ y,ECDC 2023,2020-21
+Luxembourg,11.4,18+ y,ECDC 2023,2020-21
+Lithuania,8.1,18+ y,ECDC 2023,2020-21
+Czechia,6.4,18+ y,ECDC 2023,2020-21
+Norway,,18+ y,ECDC 2023,2018-19
+Italy,16.4,18+ y,ECDC 2023,2018-19
+Denmark,15,18+ y,ECDC 2023,2018-19
+Norway,16,18+ y,ECDC 2023,2018-19
+Iceland,18.9,18+ y,ECDC 2023,2018-19
+Sweden,15,18+ y,ECDC 2023,2018-19
+Slovenia,5.4,18+ y,ECDC 2023,2018-19
+Luxembourg,8.9,18+ y,ECDC 2023,2018-19
+Czechia,5.5,18+ y,ECDC 2023,2018-19
+Denmark,75,65+ y,ECDC 2023,2020-21
+Ireland,70.5,65+ y,ECDC 2023,2020-21
+Portugal,70,65+ y,ECDC 2023,2020-21
+The Netherlands,67.9,65+ y,ECDC 2023,2020-21
+Spain,67.7,65+ y,ECDC 2023,2020-21
+Malta,65.5,55+ y,ECDC 2023,2020-21
+Italy,65.3,65+ y,ECDC 2023,2020-21
+Sweden,60,65+ y,ECDC 2023,2020-21
+France,59.9,65+ y,ECDC 2023,2020-21
+Norway,59,65+ y,ECDC 2023,2020-21
+Iceland,57,65+ y,ECDC 2023,2020-21
+Luxembourg,44.8,65+ y,ECDC 2023,2020-21
+Croatia,39,65+ y,ECDC 2023,2020-21
+Romania,35.5,65+ y,ECDC 2023,2020-21
+Hungary,30.5,65+ y,ECDC 2023,2020-21
+Slovenia,27,65+ y,ECDC 2023,2020-21
+Lithuania,26.2,65+ y,ECDC 2023,2020-21
+Slovakia,12.8,59+ y,ECDC 2023,2020-21
+Latvia,4.5,65+ y,ECDC 2023,2020-21
+Denmark,52,65+ y,ECDC 2023,2018-19
+Ireland,68.5,65+ y,ECDC 2023,2018-19
+Portugal,65,65+ y,ECDC 2023,2018-19
+The Netherlands,60.3,65+ y,ECDC 2023,2018-19
+Spain,54.3,65+ y,ECDC 2023,2018-19
+Malta,39.9,55+ y,ECDC 2023,2018-19
+Italy,53.1,65+ y,ECDC 2023,2018-19
+Sweden,52,65+ y,ECDC 2023,2018-19
+France,51,65+ y,ECDC 2023,2018-19
+Norway,40,65+ y,ECDC 2023,2018-19
+Iceland,56.6,65+ y,ECDC 2023,2018-19
+Luxembourg,38.5,65+ y,ECDC 2023,2018-19
+Croatia,29,65+ y,ECDC 2023,2018-19
+Romania,20.9,65+ y,ECDC 2023,2018-19
+Hungary,24.1,65+ y,ECDC 2023,2018-19
+Slovenia,12.8,65+ y,ECDC 2023,2018-19
+Slovakia,12.5,59+ y,ECDC 2023,2018-19
+Latvia,8.1,65+ y,ECDC 2023,2018-19
+The Netherlands,25.8,<59 y,ECDC 2023,2020-21
+Denmark,12,15-64 y,ECDC 2023,2020-21
+Luxembourg,1.8,18-49 y,ECDC 2023,2020-21
+Luxembourg,9.2,50-64 y,ECDC 2023,2020-21
+Norway,10,18-49 y,ECDC 2023,2020-21
+Norway,21,50-64 y,ECDC 2023,2020-21
+Norway,59,65-79 y,ECDC 2023,2020-21
+Iceland,9.8,18-49 y,ECDC 2023,2020-21
+Iceland,25.1,50-64 y,ECDC 2023,2020-21
+Slovakia,3.8,18-58 y,ECDC 2023,2020-21
+Slovakia,12.8,59+ y,ECDC 2023,2020-21
+Belgium,57.33,65+ y,EUROSTAT,2020-21
+Bulgaria,8.9,65+ y,EUROSTAT,2020-21
+Czechia,25.35,65+ y,EUROSTAT,2020-21
+Denmark,75,65+ y,EUROSTAT,2020-21
+Germany,47.3,65+ y,EUROSTAT,2020-21
+Estonia,21.1,65+ y,EUROSTAT,2020-21
+Ireland,75.4,65+ y,EUROSTAT,2020-21
+Greece,65.27,65+ y,EUROSTAT,2020-21
+Spain,67.7,65+ y,EUROSTAT,2020-21
+France,59.9,65+ y,EUROSTAT,2020-21
+Croatia,39,65+ y,EUROSTAT,2020-21
+Italy,65.3,65+ y,EUROSTAT,2020-21
+Cyprus,43.3,65+ y,EUROSTAT,2020-21
+Latvia,7.7,65+ y,EUROSTAT,2020-21
+Lithuania,26.25,65+ y,EUROSTAT,2020-21
+Luxembourg,44.21,65+ y,EUROSTAT,2020-21
+Hungary,30.5,65+ y,EUROSTAT,2020-21
+Malta,58.6,65+ y,EUROSTAT,2020-21
+Netherlands,72.6,65+ y,EUROSTAT,2020-21
+Poland,10,65+ y,EUROSTAT,2020-21
+Romania,34.8,65+ y,EUROSTAT,2020-21
+Slovenia,24.5,65+ y,EUROSTAT,2020-21
+Slovakia,12.9,65+ y,EUROSTAT,2020-21
+Finland,62.7,65+ y,EUROSTAT,2020-21
+Sweden,60.4,65+ y,EUROSTAT,2020-21
+Iceland,60.4,65+ y,EUROSTAT,2020-21
+Liechtenstein,20.2,65+ y,EUROSTAT,2020-21
+Norway,65.5,65+ y,EUROSTAT,2020-21
+Montenegro,13.54,65+ y,EUROSTAT,2020-21
+North Macedonia,11.3,65+ y,EUROSTAT,2020-21
+Serbia,15.2,65+ y,EUROSTAT,2020-21
+Belgium,62.06,65+ y,EUROSTAT,2019-20
+Bulgaria,5.8,65+ y,EUROSTAT,2019-20
+Czechia,23.85,65+ y,EUROSTAT,2019-20
+Denmark,52,65+ y,EUROSTAT,2019-20
+Germany,38.8,65+ y,EUROSTAT,2019-20
+Estonia,12,65+ y,EUROSTAT,2019-20
+Ireland,70.5,65+ y,EUROSTAT,2019-20
+Greece,73.51,65+ y,EUROSTAT,2019-20
+Spain,54.7,65+ y,EUROSTAT,2019-20
+France,52,65+ y,EUROSTAT,2019-20
+Croatia,34,65+ y,EUROSTAT,2019-20
+Italy,54.6,65+ y,EUROSTAT,2019-20
+Cyprus,38,65+ y,EUROSTAT,2019-20
+Latvia,9.1,65+ y,EUROSTAT,2019-20
+Lithuania,21.5,65+ y,EUROSTAT,2019-20
+Luxembourg,46.3,65+ y,EUROSTAT,2019-20
+Hungary,23.6,65+ y,EUROSTAT,2019-20
+Malta,67,65+ y,EUROSTAT,2019-20
+Netherlands,67.9,65+ y,EUROSTAT,2019-20
+Portugal,60.7,65+ y,EUROSTAT,2019-20
+Romania,22.6,65+ y,EUROSTAT,2019-20
+Slovenia,27,65+ y,EUROSTAT,2019-20
+Slovakia,12.8,65+ y,EUROSTAT,2019-20
+Finland,53.7,65+ y,EUROSTAT,2019-20
+Sweden,52.8,65+ y,EUROSTAT,2019-20
+Iceland,54.6,65+ y,EUROSTAT,2019-20
+Liechtenstein,20.2,65+ y,EUROSTAT,2019-20
+Norway,57,65+ y,EUROSTAT,2019-20
+Montenegro,18.79,65+ y,EUROSTAT,2019-20
+Serbia,16.5,65+ y,EUROSTAT,2019-20
+Belgium,55.1,65+ y,EUROSTAT,2018-19
+Bulgaria,3.5,65+ y,EUROSTAT,2018-19
+Czechia,22.85,65+ y,EUROSTAT,2018-19
+Denmark,52,65+ y,EUROSTAT,2018-19
+Germany,38,65+ y,EUROSTAT,2018-19
+Estonia,15,65+ y,EUROSTAT,2018-19
+Ireland,58.9,65+ y,EUROSTAT,2018-19
+Greece,58.92,65+ y,EUROSTAT,2018-19
+Spain,54.3,65+ y,EUROSTAT,2018-19
+France,51,65+ y,EUROSTAT,2018-19
+Croatia,29,65+ y,EUROSTAT,2018-19
+Italy,53.1,65+ y,EUROSTAT,2018-19
+Cyprus,25.9,65+ y,EUROSTAT,2018-19
+Latvia,11.65,65+ y,EUROSTAT,2018-19
+Lithuania,14.8,65+ y,EUROSTAT,2018-19
+Luxembourg,40.37,65+ y,EUROSTAT,2018-19
+Hungary,24.1,65+ y,EUROSTAT,2018-19
+Malta,52.9,65+ y,EUROSTAT,2018-19
+Netherlands,61.3,65+ y,EUROSTAT,2018-19
+Austria,18.3,65+ y,EUROSTAT,2018-19
+Poland,10.4,65+ y,EUROSTAT,2018-19
+Portugal,56,65+ y,EUROSTAT,2018-19
+Romania,20.5,65+ y,EUROSTAT,2018-19
+Slovenia,18.8,65+ y,EUROSTAT,2018-19
+Slovakia,11.5,65+ y,EUROSTAT,2018-19
+Finland,47.3,65+ y,EUROSTAT,2018-19
+Sweden,52.2,65+ y,EUROSTAT,2018-19
+Iceland,47.5,65+ y,EUROSTAT,2018-19
+Liechtenstein,20.2,65+ y,EUROSTAT,2018-19
+Norway,43,65+ y,EUROSTAT,2018-19
+Montenegro,16.65,65+ y,EUROSTAT,2018-19
+North Macedonia,9.5,65+ y,EUROSTAT,2018-19
+Serbia,13.3,65+ y,EUROSTAT,2018-19
+T�rkiye,5.9,65+ y,EUROSTAT,2018-19
+Belgium,53.19,65+ y,EUROSTAT,2017-18
+Czechia,21.45,65+ y,EUROSTAT,2017-18
+Denmark,50,65+ y,EUROSTAT,2017-18
+Germany,34.8,65+ y,EUROSTAT,2017-18
+Estonia,10.2,65+ y,EUROSTAT,2017-18
+Ireland,68.5,65+ y,EUROSTAT,2017-18
+Greece,51.03,65+ y,EUROSTAT,2017-18
+Spain,55.7,65+ y,EUROSTAT,2017-18
+France,49.7,65+ y,EUROSTAT,2017-18
+Croatia,23,65+ y,EUROSTAT,2017-18
+Italy,52.7,65+ y,EUROSTAT,2017-18
+Cyprus,:,65+ y,EUROSTAT,2017-18
+Latvia,7.73,65+ y,EUROSTAT,2017-18
+Lithuania,13.4,65+ y,EUROSTAT,2017-18
+Luxembourg,39.76,65+ y,EUROSTAT,2017-18
+Hungary,26.8,65+ y,EUROSTAT,2017-18
+Malta,51.4,65+ y,EUROSTAT,2017-18
+Netherlands,60.3,65+ y,EUROSTAT,2017-18
+Portugal,60.8,65+ y,EUROSTAT,2017-18
+Romania,15.9,65+ y,EUROSTAT,2017-18
+Slovenia,12.9,65+ y,EUROSTAT,2017-18
+Slovakia,12.5,65+ y,EUROSTAT,2017-18
+Finland,49.6,65+ y,EUROSTAT,2017-18
+Sweden,49.8,65+ y,EUROSTAT,2017-18
+Iceland,49.4,65+ y,EUROSTAT,2017-18
+Liechtenstein,20.2,65+ y,EUROSTAT,2017-18
+Norway,38.2,65+ y,EUROSTAT,2017-18
+United Kingdo m,71.97,65+ y,EUROSTAT,2017-18
+Montenegro,13.59,65+ y,EUROSTAT,2017-18
+North Macedonia,6.9,65+ y,EUROSTAT,2017-18
+Serbia,11.1,65+ y,EUROSTAT,2017-18
+Belgium,52.88,65+ y,EUROSTAT,2016-17
+Czechia,20.26,65+ y,EUROSTAT,2016-17
+Denmark,47,65+ y,EUROSTAT,2016-17
+Germany,35.3,65+ y,EUROSTAT,2016-17
+Estonia,4.8,65+ y,EUROSTAT,2016-17
+Ireland,57.6,65+ y,EUROSTAT,2016-17
+Spain,55.5,65+ y,EUROSTAT,2016-17
+France,50,65+ y,EUROSTAT,2016-17
+Croatia,21,65+ y,EUROSTAT,2016-17
+Italy,52,65+ y,EUROSTAT,2016-17
+Latvia,6.88,65+ y,EUROSTAT,2016-17
+Lithuania,11.3,65+ y,EUROSTAT,2016-17
+Luxembourg,37.61,65+ y,EUROSTAT,2016-17
+Hungary,24,65+ y,EUROSTAT,2016-17
+Malta,55.5,65+ y,EUROSTAT,2016-17
+Netherlands,60.4,65+ y,EUROSTAT,2016-17
+Portugal,57.5,65+ y,EUROSTAT,2016-17
+Romania,7.6,65+ y,EUROSTAT,2016-17
+Slovenia,11.8,65+ y,EUROSTAT,2016-17
+Slovakia,13,65+ y,EUROSTAT,2016-17
+Finland,47.7,65+ y,EUROSTAT,2016-17
+Sweden,49.4,65+ y,EUROSTAT,2016-17
+Iceland,45,65+ y,EUROSTAT,2016-17
+Liechtenstein,20.2,65+ y,EUROSTAT,2016-17
+Norway,34.4,65+ y,EUROSTAT,2016-17
+United Kingdo m,72.56,65+ y,EUROSTAT,2016-17
+Montenegro,12.5,65+ y,EUROSTAT,2016-17
+North Macedonia,6.5,65+ y,EUROSTAT,2016-17
+Serbia,11.2,65+ y,EUROSTAT,2016-17
+Belgium,54.66,65+ y,EUROSTAT,2015-16
+Czechia,20.24,65+ y,EUROSTAT,2015-16
+Denmark,44,65+ y,EUROSTAT,2015-16
+Germany,36.5,65+ y,EUROSTAT,2015-16
+Estonia,2.8,65+ y,EUROSTAT,2015-16
+Ireland,54.5,65+ y,EUROSTAT,2015-16
+Spain,56.1,65+ y,EUROSTAT,2015-16
+France,50.8,65+ y,EUROSTAT,2015-16
+Croatia,21.5,65+ y,EUROSTAT,2015-16
+Italy,49.9,65+ y,EUROSTAT,2015-16
+Latvia,4.26,65+ y,EUROSTAT,2015-16
+Lithuania,9.6,65+ y,EUROSTAT,2015-16
+Luxembourg,37.97,65+ y,EUROSTAT,2015-16
+Hungary,26,65+ y,EUROSTAT,2015-16
+Netherlands,62.9,65+ y,EUROSTAT,2015-16
+Portugal,50.1,65+ y,EUROSTAT,2015-16
+Romania,9.8,65+ y,EUROSTAT,2015-16
+Slovenia,9.78,65+ y,EUROSTAT,2015-16
+Slovakia,13.3,65+ y,EUROSTAT,2015-16
+Finland,47.4,65+ y,EUROSTAT,2015-16
+Sweden,49.1,65+ y,EUROSTAT,2015-16
+Iceland,47,65+ y,EUROSTAT,2015-16
+Liechtenstein,27.8,65+ y,EUROSTAT,2015-16
+Norway,38,65+ y,EUROSTAT,2015-16
+United Kingdo m,70.54,65+ y,EUROSTAT,2015-16
+Montenegro,13.16,65+ y,EUROSTAT,2015-16
+North Macedonia,5.8,65+ y,EUROSTAT,2015-16
+Serbia,10.7,65+ y,EUROSTAT,2015-16
+T�rkiye,7,65+ y,EUROSTAT,2015-16
+Belgium,55.79,65+ y,EUROSTAT,2014-15
+Czechia,19.34,65+ y,EUROSTAT,2014-15
+Denmark,45,65+ y,EUROSTAT,2014-15
+Germany,38.1,65+ y,EUROSTAT,2014-15
+Estonia,1.6,65+ y,EUROSTAT,2014-15
+Ireland,55.4,65+ y,EUROSTAT,2014-15
+Spain,56.2,65+ y,EUROSTAT,2014-15
+France,48.5,65+ y,EUROSTAT,2014-15
+Croatia,19,65+ y,EUROSTAT,2014-15
+Italy,48.6,65+ y,EUROSTAT,2014-15
+Latvia,2.46,65+ y,EUROSTAT,2014-15
+Lithuania,10.3,65+ y,EUROSTAT,2014-15
+Luxembourg,39.54,65+ y,EUROSTAT,2014-15
+Hungary,27.1,65+ y,EUROSTAT,2014-15
+Netherlands,66.5,65+ y,EUROSTAT,2014-15
+Portugal,50.9,65+ y,EUROSTAT,2014-15
+Romania,7.2,65+ y,EUROSTAT,2014-15
+Slovenia,10.41,65+ y,EUROSTAT,2014-15
+Slovakia,13.8,65+ y,EUROSTAT,2014-15
+Finland,43.1,65+ y,EUROSTAT,2014-15
+Sweden,49.7,65+ y,EUROSTAT,2014-15
+Iceland,43,65+ y,EUROSTAT,2014-15
+Liechtenstein,27.8,65+ y,EUROSTAT,2014-15
+Norway,27,65+ y,EUROSTAT,2014-15
+United Kingdo m,71.13,65+ y,EUROSTAT,2014-15
+Montenegro,13.21,65+ y,EUROSTAT,2014-15
+North Macedonia,6.2,65+ y,EUROSTAT,2014-15
+Serbia,10.8,65+ y,EUROSTAT,2014-15
+Belgium,56.09,65+ y,EUROSTAT,2013-14
+Bulgaria,2.4,65+ y,EUROSTAT,2013-14
+Czechia,18.82,65+ y,EUROSTAT,2013-14
+Denmark,47,65+ y,EUROSTAT,2013-14
+Germany,37.2,65+ y,EUROSTAT,2013-14
+Estonia,1.4,65+ y,EUROSTAT,2013-14
+Ireland,60.2,65+ y,EUROSTAT,2013-14
+Greece,48.91,65+ y,EUROSTAT,2013-14
+Spain,56.2,65+ y,EUROSTAT,2013-14
+France,51.9,65+ y,EUROSTAT,2013-14
+Croatia,21,65+ y,EUROSTAT,2013-14
+Italy,55.4,65+ y,EUROSTAT,2013-14
+Cyprus,32.4,65+ y,EUROSTAT,2013-14
+Latvia,2.81,65+ y,EUROSTAT,2013-14
+Lithuania,9.8,65+ y,EUROSTAT,2013-14
+Luxembourg,40.1,65+ y,EUROSTAT,2013-14
+Hungary,29,65+ y,EUROSTAT,2013-14
+Malta,53.7,65+ y,EUROSTAT,2013-14
+Netherlands,67.8,65+ y,EUROSTAT,2013-14
+Austria,20.3,65+ y,EUROSTAT,2013-14
+Poland,9.7,65+ y,EUROSTAT,2013-14
+Portugal,49.9,65+ y,EUROSTAT,2013-14
+Romania,8.6,65+ y,EUROSTAT,2013-14
+Slovenia,10.85,65+ y,EUROSTAT,2013-14
+Slovakia,14.1,65+ y,EUROSTAT,2013-14
+Finland,40,65+ y,EUROSTAT,2013-14
+Sweden,45.8,65+ y,EUROSTAT,2013-14
+Liechtenstein,27.8,65+ y,EUROSTAT,2013-14
+Norway,26.9,65+ y,EUROSTAT,2013-14
+United Kingdom,72.8,65+ y,EUROSTAT,2013-14
+Montenegro,13.65,65+ y,EUROSTAT,2013-14
+North Macedonia,5.2,65+ y,EUROSTAT,2013-14
+Serbia,10.3,65+ y,EUROSTAT,2013-14
+T�rki ye,9,65+ y,EUROSTAT,2013-14
+Belgium,56.4,65+ y,EUROSTAT,2012-13
+Czechia,19.59,65+ y,EUROSTAT,2012-13
+Denmark,45,65+ y,EUROSTAT,2012-13
+Germany,58.6,65+ y,EUROSTAT,2012-13
+Estonia,1.1,65+ y,EUROSTAT,2012-13
+Ireland,59.4,65+ y,EUROSTAT,2012-13
+Spain,57,65+ y,EUROSTAT,2012-13
+France,53.1,65+ y,EUROSTAT,2012-13
+Croatia,23,65+ y,EUROSTAT,2012-13
+Italy,54.2,65+ y,EUROSTAT,2012-13
+Latvia,3.07,65+ y,EUROSTAT,2012-13
+Lithuania,9.7,65+ y,EUROSTAT,2012-13
+Luxembourg,42.08,65+ y,EUROSTAT,2012-13
+Hungary,30.9,65+ y,EUROSTAT,2012-13
+Netherlands,72.2,65+ y,EUROSTAT,2012-13
+Portugal,44.9,65+ y,EUROSTAT,2012-13
+Romania,14.6,65+ y,EUROSTAT,2012-13
+Slovenia,12.8,65+ y,EUROSTAT,2012-13
+Slovakia,15.6,65+ y,EUROSTAT,2012-13
+Finland,41,65+ y,EUROSTAT,2012-13
+Sweden,44.3,65+ y,EUROSTAT,2012-13
+Liechtenstein,27.8,65+ y,EUROSTAT,2012-13
+Norway,30.9,65+ y,EUROSTAT,2012-13
+United Kingdom,73.32,65+ y,EUROSTAT,2012-13
+Montenegro,14.34,65+ y,EUROSTAT,2012-13
+Serbia,11,65+ y,EUROSTAT,2012-13
+France,28.7,<65 y (risk),SP France,2016-17
+France,50,65+ y,SP France,2016-17
+France,28.9,<65 y (risk),SP France,2017-18
+France,49.7,65+ y,SP France,2017-18
+France,29.2,<65 y (risk),SP France,2018-19
+France,51.0,65+ y,SP France,2018-19
+France,31,<65 y (risk),SP France,2019-20
+France,52,65+ y,SP France,2019-20
+France,38.7,<65 y (risk),SP France,2020-21
+France,59.9,65+ y,SP France,2020-21
+France,34.3,<65 y (risk),SP France,2021-22
+France,56.8,65+ y,SP France,2021-22
+France,31.6,<65 y (risk),SP France,2022-23
+France,56.8,65+ y,SP France,2022-23
+France,27.5,<65 y (risk),SP France,2023-24
+France,54,65+ y,SP France,2023-24
+Sweden,0.5,0-17 y,Public Health Agenc y of Sweden,2015-16
+Sweden,1.1,18-39 y,Public Health Agenc y of Sweden,2015-16
+Sweden,3.9,40-64 y,Public Health Agenc y of Sweden,2015-16
+Sweden,46.6,65-74 y,Public Health Agenc y of Sweden,2015-16
+Sweden,54.2,75-84 y,Public Health Agenc y of Sweden,2015-16
+Sweden,57.1,85+ y,Public Health Agenc y of Sweden,2015-16
+Sweden,0.3,0-17 y,Public Health Agenc y of Sweden,2016-17
+Sweden,1.3,18-39 y,Public Health Agenc y of Sweden,2016-17
+Sweden,4.1,40-64 y,Public Health Agenc y of Sweden,2016-17
+Sweden,42,65-74 y,Public Health Agenc y of Sweden,2016-17
+Sweden,55,75-84 y,Public Health Agenc y of Sweden,2016-17
+Sweden,55,85+ y,Public Health Agenc y of Sweden,2016-17
+Sweden,0.2,0-17 y,Public Health Agenc y of Sweden,2017-18
+Sweden,1.3,18-39 y,Public Health Agenc y of Sweden,2017-18
+Sweden,11,40-64 y,Public Health Agenc y of Sweden,2017-18
+Sweden,41.3,65-74 y,Public Health Agenc y of Sweden,2017-18
+Sweden,55.3,75-84 y,Public Health Agenc y of Sweden,2017-18
+Sweden,55.8,85+ y,Public Health Agenc y of Sweden,2017-18
+Sweden,0.4,0-17 y,Public Health Agenc y of Sweden,2018-19
+Sweden,1.8,18-39 y,Public Health Agenc y of Sweden,2018-19
+Sweden,4.8,40-64 y,Public Health Agenc y of Sweden,2018-19
+Sweden,44,65-74 y,Public Health Agenc y of Sweden,2018-19
+Sweden,58,75-84 y,Public Health Agenc y of Sweden,2018-19
+Sweden,59,85+ y,Public Health Agenc y of Sweden,2018-19
+Norway,1,0-17 y,Norwegian Institute of Public Health,2022-23
+Norway,20,18-64 y,Norwegian Institute of Public Health,2022-23
+Norway,1,0-17 y,Norwegian Institute of Public Health,2021-22
+Norway,21,18-64 y,Norwegian Institute of Public Health,2021-22
+Norway,0.3,0-17 y,Norwegian Institute of Public Health,2013-14
+Norway,2.3,18-64 y,Norwegian Institute of Public Health,2013-14
+Norway,0.4,0-17 y,Norwegian Institute of Public Health,2016-17
+Norway,3.8,18-64 y,Norwegian Institute of Public Health,2016-17
+Norway,0.4,0-17 y,Norwegian Institute of Public Health,2017-18
+Norway,5.2,18-64 y,Norwegian Institute of Public Health,2017-18
+Norway,0.6,0-17 y,Norwegian Institute of Public Health,2018-19
+Norway,11,18-64 y,Norwegian Institute of Public Health,2018-19
+Norway,1,0-17 y,Norwegian Institute of Public Health,2019-20
+Norway,12,18-64 y,Norwegian Institute of Public Health,2019-20
+Italy,7.2,6-23 m, mSAL Italia,2022-23
+Italy,9.2,2-4 y, mSAL Italia,2022-23
+Italy,22.6,5-8 y, mSAL Italia,2022-23
+Italy,4.9,9-14 y, mSAL Italia,2022-23
+Italy,2.1,15-17 y, mSAL Italia,2022-23
+Italy,4.1,18-44 y, mSAL Italia,2022-23
+Italy,13.3,45-64 y, mSAL Italia,2022-23
+Italy,56.7,65 y, mSAL Italia,2022-23
+Italy,7,6-23 m, mSAL Italia,2021-22
+Italy,17.4,2-4 y, mSAL Italia,2021-22
+Italy,12.2,5-8 y, mSAL Italia,2021-22
+Italy,4.4,9-14 y, mSAL Italia,2021-22
+Italy,2.5,15-17 y, mSAL Italia,2021-22
+Italy,4.2,18-44 y, mSAL Italia,2021-22
+Italy,13.7,45-64 y, mSAL Italia,2021-22
+Italy,58.1,65 y, mSAL Italia,2021-22
+Italy,9.2,6-23 m, mSAL Italia,2020-21
+Italy,19,2-4 y, mSAL Italia,2020-21
+Italy,13.1,5-8 y, mSAL Italia,2020-21
+Italy,6,9-14 y, mSAL Italia,2020-21
+Italy,4.5,15-17 y, mSAL Italia,2020-21
+Italy,5.9,18-44 y, mSAL Italia,2020-21
+Italy,16.8,45-64 y, mSAL Italia,2020-21
+Italy,65.3,65 y, mSAL Italia,2020-21
+Italy,2.8,6-23 m, mSAL Italia,2019-20
+Italy,4.2,2-4 y, mSAL Italia,2019-20
+Italy,3.1,5-8 y, mSAL Italia,2019-20
+Italy,1.9,9-14 y, mSAL Italia,2019-20
+Italy,1.9,15-17 y, mSAL Italia,2019-20
+Italy,3.1,18-44 y, mSAL Italia,2019-20
+Italy,9.6,45-64 y, mSAL Italia,2019-20
+Italy,54.6,65 y, mSAL Italia,2019-20
+Italy,1.4,6-23 m, mSAL Italia,2017-18
+Italy,2.4,2-4 y, mSAL Italia,2017-18
+Italy,2.2,5-8 y, mSAL Italia,2017-18
+Italy,1.8,9-14 y, mSAL Italia,2017-18
+Italy,2.5,15-17 y, mSAL Italia,2017-18
+Italy,2.2,18-44 y, mSAL Italia,2017-18
+Italy,8.7,45-64 y, mSAL Italia,2017-18
+Italy,52.7,65 y, mSAL Italia,2017-18
+Italy,1.5,6-23 m, mSAL Italia,2016-17
+Italy,2.6,2-4 y, mSAL Italia,2016-17
+Italy,2.4,5-8 y, mSAL Italia,2016-17
+Italy,1.8,9-14 y, mSAL Italia,2016-17
+Italy,1.9,15-17 y, mSAL Italia,2016-17
+Italy,2.2,18-44 y, mSAL Italia,2016-17
+Italy,8.5,45-64 y, mSAL Italia,2016-17
+Italy,52,65 y, mSAL Italia,2016-17
+Italy,1.1,6-23 m, mSAL Italia,2015-16
+Italy,1.8,2-4 y, mSAL Italia,2015-16
+Italy,1.8,5-8 y, mSAL Italia,2015-16
+Italy,1.4,9-14 y, mSAL Italia,2015-16
+Italy,1.6,15-17 y, mSAL Italia,2015-16
+Italy,1.8,18-44 y, mSAL Italia,2015-16
+Italy,7.7,45-64 y, mSAL Italia,2015-16
+Italy,49.9,65 y, mSAL Italia,2015-16
+Italy,1.1,6-23 m, mSAL Italia,2014-15
+Italy,1.8,2-4 y, mSAL Italia,2014-15
+Italy,1.9,5-8 y, mSAL Italia,2014-15
+Italy,1.5,9-14 y, mSAL Italia,2014-15
+Italy,1.5,15-17 y, mSAL Italia,2014-15
+Italy,1.9,18-44 y, mSAL Italia,2014-15
+Italy,7.5,45-64 y, mSAL Italia,2014-15
+Italy,48.6,65 y, mSAL Italia,2014-15
+Italy,1.3,6-23 m, mSAL Italia,2013-14
+Italy,2.5,2-4 y, mSAL Italia,2013-14
+Italy,2.6,5-8 y, mSAL Italia,2013-14
+Italy,2.1,9-14 y, mSAL Italia,2013-14
+Italy,2.3,15-17 y, mSAL Italia,2013-14
+Italy,2.5,18-44 y, mSAL Italia,2013-14
+Italy,9.5,45-64 y, mSAL Italia,2013-14
+Italy,55.4,65 y, mSAL Italia,2013-14
+Italy,1.5,6-23 m, mSAL Italia,2012-13
+Italy,2.6,2-4 y, mSAL Italia,2012-13
+Italy,2.6,5-8 y, mSAL Italia,2012-13
+Italy,2.0,9-14 y, mSAL Italia,2012-13
+Italy,2.1,15-17 y, mSAL Italia,2012-13
+Italy,2.1,18-44 y, mSAL Italia,2012-13
+Italy,9.0,45-64 y, mSAL Italia,2012-13
+Italy,54.2,65 y, mSAL Italia,2012-13
+Germany,26.8,60-69 y,RKI,2014-15
+Germany,35.9,70-79 y,RKI,2014-15
+Germany,38.5,80+ y ,RKI,2014-15
+Germany,27.5,60-69 y,RKI,2015-16
+Germany,36.5,70-79 y,RKI,2015-16
+Germany,39.2,80+ y ,RKI,2015-16
+Germany,28.9,60-69 y,RKI,2016-17
+Germany,38.0,70-79 y,RKI,2016-17
+Germany,41.5,80+ y ,RKI,2016-17
+Germany,30.2,60-69 y,RKI,2017-18
+Germany,40.3,70-79 y,RKI,2017-18
+Germany,43.1,80+ y ,RKI,2017-18
+Germany,31.5,60-69 y,RKI,2018-19
+Germany,42.0,70-79 y,RKI,2018-19
+Germany,45.6,80+ y ,RKI,2018-19
+Germany,28.9,60-69 y,RKI,2019-20
+Germany,38.0,70-79 y,RKI,2019-20
+Germany,41.5,80+ y ,RKI,2019-20
+Germany,34.8,60-69 y,RKI,2020-21
+Germany,48.9,70-79 y,RKI,2020-21
+Germany,51.8,80+ y ,RKI,2020-21
+Germany,34.8,60-69 y,RKI,2021-22
+Germany,48.9,70-79 y,RKI,2021-22
+Germany,51.8,80+ y ,RKI,2021-22
+Finland,12.4,6-35 m, Finnish Institute for Health and Welfare (THL) ,2012-13
+Finland,14.5,6-35 m, Finnish Institute for Health and Welfare (THL) ,2013-14
+Finland,15.7,6-35 m, Finnish Institute for Health and Welfare (THL) ,2014-15
+Finland,23,6-35 m, Finnish Institute for Health and Welfare (THL) ,2015-16
+Finland,30.3,6-35 m, Finnish Institute for Health and Welfare (THL) ,2016-17
+Finland,32.6,6-35 m, Finnish Institute for Health and Welfare (THL) ,2017-18
+Finland,40.1,6-35 m, Finnish Institute for Health and Welfare (THL) ,2018-19
+Finland,42.9,6-35 m, Finnish Institute for Health and Welfare (THL) ,2019-20
+Finland,41.9,6-35 m, Finnish Institute for Health and Welfare (THL) ,2020-21
+Finland,40.3,6-35 m, Finnish Institute for Health and Welfare (THL) ,2021-22
+Finland,37.3,6-35 m, Finnish Institute for Health and Welfare (THL) ,2022-23
+Finland,38.1,6-35 m, Finnish Institute for Health and Welfare (THL) ,2023-24
+Finland,27.5,3-6 y, Finnish Institute for Health and Welfare (THL) ,2018-19
+Finland,30.6,3-6 y, Finnish Institute for Health and Welfare (THL) ,2019-20
+Finland,33.9,3-6 y, Finnish Institute for Health and Welfare (THL) ,2020-21
+Finland,30.9,3-6 y, Finnish Institute for Health and Welfare (THL) ,2021-22
+Finland,27.3,3-6 y, Finnish Institute for Health and Welfare (THL) ,2022-23
+Finland,28,3-6 y, Finnish Institute for Health and Welfare (THL) ,2023-24
+Finland,10,2 y, Finnish Institute for Health and Welfare (THL) ,2012-13
+Finland,12.5,2 y, Finnish Institute for Health and Welfare (THL) ,2013-14
+Finland,13.1,2 y, Finnish Institute for Health and Welfare (THL) ,2014-15
+Finland,20.9,2 y, Finnish Institute for Health and Welfare (THL) ,2015-16
+Finland,27.2,2 y, Finnish Institute for Health and Welfare (THL) ,2016-17
+Finland,28.9,2 y, Finnish Institute for Health and Welfare (THL) ,2017-18
+Finland,36.2,2 y, Finnish Institute for Health and Welfare (THL) ,2018-19
+Finland,38.5,2 y, Finnish Institute for Health and Welfare (THL) ,2019-20
+Finland,39.6,2 y, Finnish Institute for Health and Welfare (THL) ,2020-21
+Finland,36.2,2 y, Finnish Institute for Health and Welfare (THL) ,2021-22
+Finland,33,2 y, Finnish Institute for Health and Welfare (THL) ,2022-23
+Finland,34.6,2 y, Finnish Institute for Health and Welfare (THL) ,2023-24
+Finland,36.7,65+ y, Finnish Institute for Health and Welfare (THL) ,2012-13
+Finland,41.3,65+ y, Finnish Institute for Health and Welfare (THL) ,2013-14
+Finland,40,65+ y, Finnish Institute for Health and Welfare (THL) ,2014-15
+Finland,43.2,65+ y, Finnish Institute for Health and Welfare (THL) ,2015-16
+Finland,47.4,65+ y, Finnish Institute for Health and Welfare (THL) ,2016-17
+Finland,47.3,65+ y, Finnish Institute for Health and Welfare (THL) ,2017-18
+Finland,49.6,65+ y, Finnish Institute for Health and Welfare (THL) ,2018-19
+Finland,47.7,65+ y, Finnish Institute for Health and Welfare (THL) ,2019-20
+Finland,53.9,65+ y, Finnish Institute for Health and Welfare (THL) ,2020-21
+Finland,62.7,65+ y, Finnish Institute for Health and Welfare (THL) ,2021-22
+Finland,60.8,65+ y, Finnish Institute for Health and Welfare (THL) ,2022-23
+Finland,61.1,65+ y, Finnish Institute for Health and Welfare (THL) ,2023-24
+UK,79.9,65+ y,UK gov,2022-23
+UK,49.1,6 m ,UK gov,2022-23
+UK,43.7,2-3 y,UK gov,2022-23
+UK,40.6,50-64 y ,UK gov,2022-23
+UK,82.3,65+ y,UK gov,2021-22
+UK,52.9,6 m ,UK gov,2021-22
+UK,50.1,2-3 y,UK gov,2021-22
+Denmark,78.0,65+ y,EUROSTAT,2021-22
+Portugal,75.8,65+ y,EUROSTAT,2021-22
+Ireland,75.4,65+ y,EUROSTAT,2021-22
+Sweden,70.0,65+ y,EUROSTAT,2021-22
+Spain,69.0,65+ y,EUROSTAT,2021-22
+Netherlands,68.4,65+ y,EUROSTAT,2021-22
+Greece,66.0,65+ y,EUROSTAT,2021-22
+Norway,63.3,65+ y,EUROSTAT,2021-22
+Finland,59.5,65+ y,EUROSTAT,2021-22
+Italy,58.1,65+ y,EUROSTAT,2021-22
+France,56.8,65+ y,EUROSTAT,2021-22
+Belgium,56.0,65+ y,EUROSTAT,2021-22
+Luxembourg,43.35,65+ y,EUROSTAT,2021-22
+Germany,43.3,65+ y,EUROSTAT,2021-22
+Malta,42.4,65+ y,EUROSTAT,2021-22
+Cyprus,42.2,65+ y,EUROSTAT,2021-22
+Switzerland,37.5,65+ y,EUROSTAT,2021-22
+Estonia,31.5,65+ y,EUROSTAT,2021-22
+Croatia,29,65+ y,EUROSTAT,2021-22
+Czechia,24.63,65+ y,EUROSTAT,2021-22
+Hungary,22.3,65+ y,EUROSTAT,2021-22
+Romania,22.1,65+ y,EUROSTAT,2021-22
+Lithuania,21.47,65+ y,EUROSTAT,2021-22
+Liechtenstein,20.2,65+ y,EUROSTAT,2021-22
+Slovenia,19.1,65+ y,EUROSTAT,2021-22
+Latvia,16.9,65+ y,EUROSTAT,2021-22
+Serbia,14,65+ y,EUROSTAT,2021-22
+Turkiye,10.8,65+ y,EUROSTAT,2021-22
+Bulgaria,10.4,65+ y,EUROSTAT,2021-22
+Poland,8.6,65+ y,EUROSTAT,2021-22
+North Macedonia,6.5,65+ y,EUROSTAT,2021-22
+Slovakia,5.6,65+ y,EUROSTAT,2021-22
