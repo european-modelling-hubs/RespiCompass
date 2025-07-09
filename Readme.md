@@ -1,4 +1,3 @@
-# RespiCompass -  ECDC's Respiratory Diseases Scenario Hub
 ![RespiCompass Logo](./respicompass_logo_img.png)
 
 ### ⚠️⚠️⚠️ Warning
