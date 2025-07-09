@@ -1,5 +1,5 @@
 # RespiCompass -  ECDC's Respiratory Diseases Scenario Hub
-![RespiCompass Logo](https://github.com/european-modelling-hubs/RespiCompass/blob/main/respicompass_logo.png)
+![RespiCompass Logo](./respicompass_logo_img.png)
 
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. Stay tuned for updates!
