@@ -1,14 +1,12 @@
 # RespiCompass -  ECDC's Respiratory Diseases Scenario Hub
 ![RespiCompass Logo](https://github.com/european-modelling-hubs/RespiCompass/blob/main/respicompass_logo.png)
 
-Visit the RespiCompass platform for analysis of Round 1 2024/2025 [here](https://respicompass.ecdc.europa.eu/).
-
-Details on latest rounds can be found at: 
-- [Influenza Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_influenza.md)
-- [COVID-19 Round 1 2024/2025](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2425_covid.md)
+<div style="border: 1px solidrgb(255, 255, 255); background-color:rgb(225, 83, 83); padding: 10px; border-radius: 5px;">
+  <strong>Info:</strong> The repository is currently under construction for the 2025/2026 scenario round.
+</div>
 
 
-## Rationale 
+## RespiCompass Rationale 
 With many uncertain factors at play, it is challenging to predict respiratory virus burden in forthcoming winter seasons. However, by combining data from national surveillance systems with published scientific evidence, expert knowledge, and leveraging expertise from global modelling groups, this respiratory disease scenario modelling hub provides public health advisors and policy decision-makers at European, national, or subnational level with robust insights into plausible winter season scenarios. This hub provides guidance—a "compass"—to support public health stakeholders in their long-term planning and anticipatory action. Secondly, such a hub builds a synergistic community of policy advisors, policy makers and modellers and brings modelling closer to decision making.
 
 ## How to Join RespiCompass
@@ -27,8 +25,3 @@ RespiCompass welcomes modelling teams willing to contribute their projections. D
    - Submit your projections by following the [instructions to open a pull request on GitHub](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submitting-using-GitHub-Website).
 
 For any questions, please email us at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu). You are also welcome to join our slack channel, please send us an email and we will invite you.
-
-You can choose to participate in projections for either COVID-19 or Influenza (or both), and for a single or a limited number of countries. We encourage submissions for as many EU/EEA member states as possible.
-
-
-
