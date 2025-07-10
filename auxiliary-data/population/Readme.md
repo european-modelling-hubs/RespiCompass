@@ -14,7 +14,7 @@ To load the data in Python, you can use the following code:
 ```python
 import pandas as pd
 url = 'https://raw.githubusercontent.com/european-modelling-hubs/RespiCompass/refs/heads/main/auxiliary-data/population/population.csv'
-data = pd.read_csv(url)
+population = pd.read_csv(url)
 ```
 
 In R, you can use the following code:
@@ -24,11 +24,11 @@ url = 'https://raw.githubusercontent.com/european-modelling-hubs/RespiCompass/re
 population <- read_csv(url)
 ```
 
-# Source and additional information
+## Source and additional information
 
 The number of individuals in different age groups is taken from [Eurostat](https://doi.org/10.2908/DEMO_PJAN). Eurostat provides yearly estimates of usually resident population on January 1st in different European countries at a single year of age resolution (for more details on the definition of usually resident, see [here](https://ec.europa.eu/eurostat/cache/metadata/en/demo_pop_esms.htm#shortdata_descrDisseminated)). We consider the most recent year available in the dataset, which is XXXX. 
 
-The following age groups are considered to match the requested granularity for this scenario round: 0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total. Given that there are three groups below 1 year of age, we apply a correction in order to obtain the correct distribution of infants in these subgroups at the beginning of the scenario period. Indeed, due to non-constant birth rates across the months, the distribution of children in these subgroups may deviate from the homogeneous case (see [here](LINK) for more details on births data). More in detail, we proceed as follows:
+The following age groups are considered to match the requested granularity for this scenario round: 0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total. Given that there are three groups below 1 year of age, we apply a correction in order to obtain the correct distribution of infants in these subgroups at the beginning of the scenario period. Indeed, due to non-constant birth rates across the months, the distribution of children in these subgroups may deviate from the homogeneous case (see [here](https://github.com/european-modelling-hubs/RespiCompass/blob/main/auxiliary-data/births/Readme.md) for more details on births data). More in detail, we proceed as follows:
 
 - The total population below 1 year old is set considering the Eurostat data (i.e., 2024 population data)
 - The population in each group below 1 year old at the beginning of the scenario (i.e., 2024/09/01) is computed considering the births data from Eurostat:

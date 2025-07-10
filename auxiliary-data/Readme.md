@@ -23,9 +23,16 @@ See dedicated [README](https://github.com/european-modelling-hubs/RespiCompass/t
 ## Additional information 
 We provide below additional information and links that may be useful for models development, calibration and projection.
 
+
+### Effectiveness and efficacy of la-mAbs and MV
+
+
+
+
+
 ### Age of mothers at birth in EU/EEA countries
 
-ff
+
  
 ### Age-specific contact patterns 
 
