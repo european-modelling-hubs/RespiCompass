@@ -1,6 +1,6 @@
 # Births data 
 
-The file `births.csv` contains the number of individuals born in different months for the EU/EEA countries during the scenario period. It has the following columns: 
+The file `births_by_month.csv` contains the number of individuals born in different months for the EU/EEA countries during the scenario period. It has the following columns: 
 
 | Column Name | Description |
 |  :-: |  :-: |

@@ -1,841 +1,181 @@
-group_name,population,country,year
-0-2 mo,21692,Austria,2022
-3-5 mo,20371,Austria,2022
-6-11 mo,42487,Austria,2022
-12-35 mo,170138,Austria,2022
-36-59 mo,177096,Austria,2022
-5-17 y,1119905,Austria,2022
-18-64 y,5681549,Austria,2022
-65-74 y,896018,Austria,2022
-75-84 y,626344,Austria,2022
-≥85 y,223328,Austria,2022
-0-2 mo,20859,Austria,2023
-3-5 mo,19589,Austria,2023
-6-11 mo,40855,Austria,2023
-12-35 mo,173540,Austria,2023
-36-59 mo,176629,Austria,2023
-5-17 y,1146859,Austria,2023
-18-64 y,5745737,Austria,2023
-65-74 y,913691,Austria,2023
-75-84 y,644578,Austria,2023
-≥85 y,222434,Austria,2023
-0-2 mo,19513,Austria,2024
-3-5 mo,18325,Austria,2024
-6-11 mo,38219,Austria,2024
-12-35 mo,172382,Austria,2024
-36-59 mo,175484,Austria,2024
-5-17 y,1156303,Austria,2024
-18-64 y,5761375,Austria,2024
-65-74 y,932389,Austria,2024
-75-84 y,656754,Austria,2024
-≥85 y,228005,Austria,2024
-0-2 mo,30710,Belgium,2022
-3-5 mo,29627,Belgium,2022
-6-11 mo,58144,Belgium,2022
-12-35 mo,234914,Belgium,2022
-36-59 mo,244071,Belgium,2022
-5-17 y,1730509,Belgium,2022
-18-64 y,7020164,Belgium,2022
-65-74 y,1204423,Belgium,2022
-75-84 y,726184,Belgium,2022
-≥85 y,338875,Belgium,2022
-0-2 mo,29686,Belgium,2023
-3-5 mo,28639,Belgium,2023
-6-11 mo,56205,Belgium,2023
-12-35 mo,237964,Belgium,2023
-36-59 mo,244316,Belgium,2023
-5-17 y,1749721,Belgium,2023
-18-64 y,7085376,Belgium,2023
-65-74 y,1220234,Belgium,2023
-75-84 y,748057,Belgium,2023
-≥85 y,342597,Belgium,2023
-0-2 mo,28783,Belgium,2024
-3-5 mo,27767,Belgium,2024
-6-11 mo,54495,Belgium,2024
-12-35 mo,237612,Belgium,2024
-36-59 mo,241088,Belgium,2024
-5-17 y,1752170,Belgium,2024
-18-64 y,7118147,Belgium,2024
-65-74 y,1237288,Belgium,2024
-75-84 y,769458,Belgium,2024
-≥85 y,350287,Belgium,2024
-0-2 mo,14799,Bulgaria,2022
-3-5 mo,13734,Bulgaria,2022
-6-11 mo,27237,Bulgaria,2022
-12-35 mo,113936,Bulgaria,2022
-36-59 mo,117715,Bulgaria,2022
-5-17 y,809204,Bulgaria,2022
-18-64 y,3867208,Bulgaria,2022
-65-74 y,886480,Bulgaria,2022
-75-84 y,489180,Bulgaria,2022
-≥85 y,142989,Bulgaria,2022
-0-2 mo,14999,Bulgaria,2023
-3-5 mo,13920,Bulgaria,2023
-6-11 mo,27605,Bulgaria,2023
-12-35 mo,113717,Bulgaria,2023
-36-59 mo,115817,Bulgaria,2023
-5-17 y,813636,Bulgaria,2023
-18-64 y,3832631,Bulgaria,2023
-65-74 y,877345,Bulgaria,2023
-75-84 y,497652,Bulgaria,2023
-≥85 y,140386,Bulgaria,2023
-0-2 mo,15168,Bulgaria,2024
-3-5 mo,14077,Bulgaria,2024
-6-11 mo,27916,Bulgaria,2024
-12-35 mo,114160,Bulgaria,2024
-36-59 mo,115949,Bulgaria,2024
-5-17 y,816927,Bulgaria,2024
-18-64 y,3810374,Bulgaria,2024
-65-74 y,871101,Bulgaria,2024
-75-84 y,516967,Bulgaria,2024
-≥85 y,142841,Bulgaria,2024
-0-2 mo,9298,Croatia,2022
-3-5 mo,8419,Croatia,2022
-6-11 mo,17998,Croatia,2022
-12-35 mo,69724,Croatia,2022
-36-59 mo,70324,Croatia,2022
-5-17 y,490850,Croatia,2022
-18-64 y,2327144,Croatia,2022
-65-74 y,508029,Croatia,2022
-75-84 y,269427,Croatia,2022
-≥85 y,91090,Croatia,2022
-0-2 mo,8834,Croatia,2023
-3-5 mo,7999,Croatia,2023
-6-11 mo,17101,Croatia,2023
-12-35 mo,70758,Croatia,2023
-36-59 mo,70644,Croatia,2023
-5-17 y,488719,Croatia,2023
-18-64 y,2311134,Croatia,2023
-65-74 y,512129,Croatia,2023
-75-84 y,272187,Croatia,2023
-≥85 y,91387,Croatia,2023
-0-2 mo,8384,Croatia,2024
-3-5 mo,7592,Croatia,2024
-6-11 mo,16230,Croatia,2024
-12-35 mo,70122,Croatia,2024
-36-59 mo,69908,Croatia,2024
-5-17 y,486273,Croatia,2024
-18-64 y,2314457,Croatia,2024
-65-74 y,516997,Croatia,2024
-75-84 y,278109,Croatia,2024
-≥85 y,93894,Croatia,2024
-0-2 mo,2575,Cyprus,2022
-3-5 mo,2447,Cyprus,2022
-6-11 mo,5314,Cyprus,2022
-12-35 mo,19399,Cyprus,2022
-36-59 mo,18590,Cyprus,2022
-5-17 y,123624,Cyprus,2022
-18-64 y,598801,Cyprus,2022
-65-74 y,89835,Cyprus,2022
-75-84 y,52752,Cyprus,2022
-≥85 y,16426,Cyprus,2022
-0-2 mo,2579,Cyprus,2023
-3-5 mo,2450,Cyprus,2023
-6-11 mo,5322,Cyprus,2023
-12-35 mo,20521,Cyprus,2023
-36-59 mo,19230,Cyprus,2023
-5-17 y,124310,Cyprus,2023
-18-64 y,610202,Cyprus,2023
-65-74 y,91650,Cyprus,2023
-75-84 y,55770,Cyprus,2023
-≥85 y,17048,Cyprus,2023
-0-2 mo,2570,Cyprus,2024
-3-5 mo,2442,Cyprus,2024
-6-11 mo,5303,Cyprus,2024
-12-35 mo,20992,Cyprus,2024
-36-59 mo,19733,Cyprus,2024
-5-17 y,124390,Cyprus,2024
-18-64 y,619427,Cyprus,2024
-65-74 y,94349,Cyprus,2024
-75-84 y,59299,Cyprus,2024
-≥85 y,17858,Cyprus,2024
-0-2 mo,28740,Czechia,2022
-3-5 mo,27487,Czechia,2022
-6-11 mo,55430,Czechia,2022
-12-35 mo,218920,Czechia,2022
-36-59 mo,227519,Czechia,2022
-5-17 y,1444883,Czechia,2022
-18-64 y,6344617,Czechia,2022
-65-74 y,1274873,Czechia,2022
-75-84 y,695761,Czechia,2022
-≥85 y,198475,Czechia,2022
-0-2 mo,26233,Czechia,2023
-3-5 mo,25090,Czechia,2023
-6-11 mo,50595,Czechia,2023
-12-35 mo,227913,Czechia,2023
-36-59 mo,232713,Czechia,2023
-5-17 y,1532944,Czechia,2023
-18-64 y,6524191,Czechia,2023
-65-74 y,1265918,Czechia,2023
-75-84 y,743054,Czechia,2023
-≥85 y,198877,Czechia,2023
-0-2 mo,23553,Czechia,2024
-3-5 mo,22527,Czechia,2024
-6-11 mo,45427,Czechia,2024
-12-35 mo,219515,Czechia,2024
-36-59 mo,228749,Czechia,2024
-5-17 y,1554305,Czechia,2024
-18-64 y,6569156,Czechia,2024
-65-74 y,1249605,Czechia,2024
-75-84 y,783380,Czechia,2024
-≥85 y,204337,Czechia,2024
-0-2 mo,16917,Denmark,2022
-3-5 mo,15686,Denmark,2022
-6-11 mo,30997,Denmark,2022
-12-35 mo,123378,Denmark,2022
-36-59 mo,124432,Denmark,2022
-5-17 y,840317,Denmark,2022
-18-64 y,3526475,Denmark,2022
-65-74 y,629218,Denmark,2022
-75-84 y,435349,Denmark,2022
-≥85 y,130649,Denmark,2022
-0-2 mo,15624,Denmark,2023
-3-5 mo,14487,Denmark,2023
-6-11 mo,28627,Denmark,2023
-12-35 mo,126550,Denmark,2023
-36-59 mo,125386,Denmark,2023
-5-17 y,845162,Denmark,2023
-18-64 y,3563487,Denmark,2023
-65-74 y,624146,Denmark,2023
-75-84 y,454419,Denmark,2023
-≥85 y,134764,Denmark,2023
-0-2 mo,15355,Denmark,2024
-3-5 mo,14237,Denmark,2024
-6-11 mo,28134,Denmark,2024
-12-35 mo,123769,Denmark,2024
-36-59 mo,125142,Denmark,2024
-5-17 y,841877,Denmark,2024
-18-64 y,3581280,Denmark,2024
-65-74 y,622952,Denmark,2024
-75-84 y,468230,Denmark,2024
-≥85 y,140272,Denmark,2024
-0-2 mo,3551,Estonia,2022
-3-5 mo,3346,Estonia,2022
-6-11 mo,6414,Estonia,2022
-12-35 mo,27598,Estonia,2022
-36-59 mo,28624,Estonia,2022
-5-17 y,189804,Estonia,2022
-18-64 y,800312,Estonia,2022
-65-74 y,147182,Estonia,2022
-75-84 y,88592,Estonia,2022
-≥85 y,36372,Estonia,2022
-0-2 mo,3152,Estonia,2023
-3-5 mo,2970,Estonia,2023
-6-11 mo,5694,Estonia,2023
-12-35 mo,27710,Estonia,2023
-36-59 mo,30116,Estonia,2023
-5-17 y,199468,Estonia,2023
-18-64 y,820320,Estonia,2023
-65-74 y,149898,Estonia,2023
-75-84 y,88757,Estonia,2023
-≥85 y,37798,Estonia,2023
-0-2 mo,2931,Estonia,2024
-3-5 mo,2761,Estonia,2024
-6-11 mo,5294,Estonia,2024
-12-35 mo,25973,Estonia,2024
-36-59 mo,29064,Estonia,2024
-5-17 y,201854,Estonia,2024
-18-64 y,825347,Estonia,2024
-65-74 y,152096,Estonia,2024
-75-84 y,89970,Estonia,2024
-≥85 y,39395,Estonia,2024
-0-2 mo,13087,Finland,2022
-3-5 mo,12211,Finland,2022
-6-11 mo,24293,Finland,2022
-12-35 mo,93233,Finland,2022
-36-59 mo,100465,Finland,2022
-5-17 y,792227,Finland,2022
-18-64 y,3233688,Finland,2022
-65-74 y,702981,Finland,2022
-75-84 y,418422,Finland,2022
-≥85 y,157633,Finland,2022
-0-2 mo,11868,Finland,2023
-3-5 mo,11074,Finland,2023
-6-11 mo,22030,Finland,2023
-12-35 mo,97377,Finland,2023
-36-59 mo,95931,Finland,2023
-5-17 y,787910,Finland,2023
-18-64 y,3243267,Finland,2023
-65-74 y,693661,Finland,2023
-75-84 y,441736,Finland,2023
-≥85 y,159114,Finland,2023
-0-2 mo,11470,Finland,2024
-3-5 mo,10702,Finland,2024
-6-11 mo,21291,Finland,2024
-12-35 mo,96439,Finland,2024
-36-59 mo,95702,Finland,2024
-5-17 y,786599,Finland,2024
-18-64 y,3272270,Finland,2024
-65-74 y,682733,Finland,2024
-75-84 y,463667,Finland,2024
-≥85 y,162976,Finland,2024
-0-2 mo,176233,France,2022
-3-5 mo,168379,France,2022
-6-11 mo,350192,France,2022
-12-35 mo,1411389,France,2022
-36-59 mo,1469023,France,2022
-5-17 y,10855700,France,2022
-18-64 y,39450438,France,2022
-65-74 y,7624759,France,2022
-75-84 y,4312824,France,2022
-≥85 y,2272764,France,2022
-0-2 mo,171670,France,2023
-3-5 mo,164019,France,2023
-6-11 mo,341125,France,2023
-12-35 mo,1393765,France,2023
-36-59 mo,1451876,France,2023
-5-17 y,10814400,France,2023
-18-64 y,39513583,France,2023
-65-74 y,7619870,France,2023
-75-84 y,4537283,France,2023
-≥85 y,2269618,France,2023
-0-2 mo,160669,France,2024
-3-5 mo,153508,France,2024
-6-11 mo,319264,France,2024
-12-35 mo,1381524,France,2024
-36-59 mo,1431670,France,2024
-5-17 y,10771599,France,2024
-18-64 y,39574833,France,2024
-65-74 y,7613063,France,2024
-75-84 y,4772831,France,2024
-≥85 y,2288400,France,2024
-0-2 mo,205409,Germany,2022
-3-5 mo,190279,Germany,2022
-6-11 mo,395565,Germany,2022
-12-35 mo,1569940,Germany,2022
-36-59 mo,1614139,Germany,2022
-5-17 y,9887926,Germany,2022
-18-64 y,50937366,Germany,2022
-65-74 y,9141222,Germany,2022
-75-84 y,6669833,Germany,2022
-≥85 y,2625444,Germany,2022
-0-2 mo,188134,Germany,2023
-3-5 mo,174277,Germany,2023
-6-11 mo,362298,Germany,2023
-12-35 mo,1559850,Germany,2023
-36-59 mo,1580187,Germany,2023
-5-17 y,10051201,Germany,2023
-18-64 y,50712348,Germany,2023
-65-74 y,9366114,Germany,2023
-75-84 y,6424654,Germany,2023
-≥85 y,2699436,Germany,2023
-0-2 mo,179080,Germany,2024
-3-5 mo,165890,Germany,2024
-6-11 mo,344863,Germany,2024
-12-35 mo,1532506,Germany,2024
-36-59 mo,1569019,Germany,2024
-5-17 y,10182811,Germany,2024
-18-64 y,50773278,Germany,2024
-65-74 y,9569640,Germany,2024
-75-84 y,6294744,Germany,2024
-≥85 y,2844213,Germany,2024
-0-2 mo,21707,Greece,2022
-3-5 mo,19360,Greece,2022
-6-11 mo,43550,Greece,2022
-12-35 mo,168381,Greece,2022
-36-59 mo,173189,Greece,2022
-5-17 y,1322532,Greece,2022
-18-64 y,6337909,Greece,2022
-65-74 y,1176570,Greece,2022
-75-84 y,807505,Greece,2022
-≥85 y,389078,Greece,2022
-0-2 mo,19558,Greece,2023
-3-5 mo,17443,Greece,2023
-6-11 mo,39239,Greece,2023
-12-35 mo,162032,Greece,2023
-36-59 mo,165583,Greece,2023
-5-17 y,1308452,Greece,2023
-18-64 y,6304583,Greece,2023
-65-74 y,1184457,Greece,2023
-75-84 y,820173,Greece,2023
-≥85 y,392461,Greece,2023
-0-2 mo,18474,Greece,2024
-3-5 mo,16477,Greece,2024
-6-11 mo,37065,Greece,2024
-12-35 mo,158828,Greece,2024
-36-59 mo,165353,Greece,2024
-5-17 y,1295803,Greece,2024
-18-64 y,6282629,Greece,2024
-65-74 y,1202610,Greece,2024
-75-84 y,822535,Greece,2024
-≥85 y,400944,Greece,2024
-0-2 mo,22710,Hungary,2022
-3-5 mo,20583,Hungary,2022
-6-11 mo,43755,Hungary,2022
-12-35 mo,186150,Hungary,2022
-36-59 mo,185981,Hungary,2022
-5-17 y,1230011,Hungary,2022
-18-64 y,5957375,Hungary,2022
-65-74 y,1168495,Hungary,2022
-75-84 y,607264,Hungary,2022
-≥85 y,188078,Hungary,2022
-0-2 mo,23341,Hungary,2023
-3-5 mo,21155,Hungary,2023
-6-11 mo,44973,Hungary,2023
-12-35 mo,189244,Hungary,2023
-36-59 mo,184488,Hungary,2023
-5-17 y,1222675,Hungary,2023
-18-64 y,5942334,Hungary,2023
-65-74 y,1167234,Hungary,2023
-75-84 y,622007,Hungary,2023
-≥85 y,182291,Hungary,2023
-0-2 mo,22732,Hungary,2024
-3-5 mo,20603,Hungary,2024
-6-11 mo,43799,Hungary,2024
-12-35 mo,184805,Hungary,2024
-36-59 mo,186668,Hungary,2024
-5-17 y,1222173,Hungary,2024
-18-64 y,5920401,Hungary,2024
-65-74 y,1157782,Hungary,2024
-75-84 y,639207,Hungary,2024
-≥85 y,186455,Hungary,2024
-0-2 mo,15319,Ireland,2022
-3-5 mo,14478,Ireland,2022
-6-11 mo,29353,Ireland,2022
-12-35 mo,114583,Ireland,2022
-36-59 mo,122959,Ireland,2022
-5-17 y,918544,Ireland,2022
-18-64 y,3165811,Ireland,2022
-65-74 y,441168,Ireland,2022
-75-84 y,248716,Ireland,2022
-≥85 y,83344,Ireland,2022
-0-2 mo,14435,Ireland,2023
-3-5 mo,13643,Ireland,2023
-6-11 mo,27659,Ireland,2023
-12-35 mo,118029,Ireland,2023
-36-59 mo,124239,Ireland,2023
-5-17 y,933407,Ireland,2023
-18-64 y,3239466,Ireland,2023
-65-74 y,452814,Ireland,2023
-75-84 y,260667,Ireland,2023
-≥85 y,87034,Ireland,2023
-0-2 mo,14469,Ireland,2024
-3-5 mo,13675,Ireland,2024
-6-11 mo,27725,Ireland,2024
-12-35 mo,117982,Ireland,2024
-36-59 mo,119778,Ireland,2024
-5-17 y,939244,Ireland,2024
-18-64 y,3291497,Ireland,2024
-65-74 y,464017,Ireland,2024
-75-84 y,272763,Ireland,2024
-≥85 y,90529,Ireland,2024
-0-2 mo,102689,Italy,2022
-3-5 mo,90184,Italy,2022
-6-11 mo,207752,Italy,2022
-12-35 mo,832817,Italy,2022
-36-59 mo,909391,Italy,2022
-5-17 y,7076080,Italy,2022
-18-64 y,35759815,Italy,2022
-65-74 y,6896361,Italy,2022
-75-84 y,4933440,Italy,2022
-≥85 y,2221603,Italy,2022
-0-2 mo,100970,Italy,2023
-3-5 mo,88674,Italy,2023
-6-11 mo,204274,Italy,2023
-12-35 mo,815499,Italy,2023
-36-59 mo,875825,Italy,2023
-5-17 y,6990469,Italy,2023
-18-64 y,35740191,Italy,2023
-65-74 y,6913692,Italy,2023
-75-84 y,5024159,Italy,2023
-≥85 y,2243446,Italy,2023
-0-2 mo,97564,Italy,2024
-3-5 mo,85682,Italy,2024
-6-11 mo,197382,Italy,2024
-12-35 mo,804765,Italy,2024
-36-59 mo,846081,Italy,2024
-5-17 y,6899002,Italy,2024
-18-64 y,35684016,Italy,2024
-65-74 y,6926221,Italy,2024
-75-84 y,5110728,Italy,2024
-≥85 y,2319787,Italy,2024
-0-2 mo,4646,Latvia,2022
-3-5 mo,4344,Latvia,2022
-6-11 mo,8282,Latvia,2022
-12-35 mo,36282,Latvia,2022
-36-59 mo,40235,Latvia,2022
-5-17 y,263074,Latvia,2022
-18-64 y,1127270,Latvia,2022
-65-74 y,208266,Latvia,2022
-75-84 y,135456,Latvia,2022
-≥85 y,47901,Latvia,2022
-0-2 mo,4246,Latvia,2023
-3-5 mo,3971,Latvia,2023
-6-11 mo,7570,Latvia,2023
-12-35 mo,35496,Latvia,2023
-36-59 mo,38961,Latvia,2023
-5-17 y,271139,Latvia,2023
-18-64 y,1126706,Latvia,2023
-65-74 y,212515,Latvia,2023
-75-84 y,133137,Latvia,2023
-≥85 y,49266,Latvia,2023
-0-2 mo,3858,Latvia,2024
-3-5 mo,3608,Latvia,2024
-6-11 mo,6878,Latvia,2024
-12-35 mo,33695,Latvia,2024
-36-59 mo,37126,Latvia,2024
-5-17 y,271114,Latvia,2024
-18-64 y,1116150,Latvia,2024
-65-74 y,215147,Latvia,2024
-75-84 y,132632,Latvia,2024
-≥85 y,51672,Latvia,2024
-0-2 mo,6126,Lithuania,2022
-3-5 mo,5772,Lithuania,2022
-6-11 mo,11496,Lithuania,2022
-12-35 mo,49180,Lithuania,2022
-36-59 mo,55473,Lithuania,2022
-5-17 y,367570,Lithuania,2022
-18-64 y,1749752,Lithuania,2022
-65-74 y,297629,Lithuania,2022
-75-84 y,190435,Lithuania,2022
-≥85 y,72564,Lithuania,2022
-0-2 mo,5884,Lithuania,2023
-3-5 mo,5544,Lithuania,2023
-6-11 mo,11042,Lithuania,2023
-12-35 mo,49840,Lithuania,2023
-36-59 mo,55204,Lithuania,2023
-5-17 y,381150,Lithuania,2023
-18-64 y,1776947,Lithuania,2023
-65-74 y,309302,Lithuania,2023
-75-84 y,188631,Lithuania,2023
-≥85 y,73733,Lithuania,2023
-0-2 mo,5382,Lithuania,2024
-3-5 mo,5071,Lithuania,2024
-6-11 mo,10100,Lithuania,2024
-12-35 mo,47432,Lithuania,2024
-36-59 mo,51458,Lithuania,2024
-5-17 y,384066,Lithuania,2024
-18-64 y,1795397,Lithuania,2024
-65-74 y,321086,Lithuania,2024
-75-84 y,189673,Lithuania,2024
-≥85 y,76225,Lithuania,2024
-0-2 mo,1598,Luxembourg,2022
-3-5 mo,1687,Luxembourg,2022
-6-11 mo,3385,Luxembourg,2022
-12-35 mo,13394,Luxembourg,2022
-36-59 mo,13660,Luxembourg,2022
-5-17 y,88918,Luxembourg,2022
-18-64 y,427555,Luxembourg,2022
-65-74 y,52658,Luxembourg,2022
-75-84 y,29943,Luxembourg,2022
-≥85 y,12598,Luxembourg,2022
-0-2 mo,1551,Luxembourg,2023
-3-5 mo,1638,Luxembourg,2023
-6-11 mo,3286,Luxembourg,2023
-12-35 mo,13794,Luxembourg,2023
-36-59 mo,13801,Luxembourg,2023
-5-17 y,91308,Luxembourg,2023
-18-64 y,437210,Luxembourg,2023
-65-74 y,54370,Luxembourg,2023
-75-84 y,30931,Luxembourg,2023
-≥85 y,12919,Luxembourg,2023
-0-2 mo,1512,Luxembourg,2024
-3-5 mo,1596,Luxembourg,2024
-6-11 mo,3201,Luxembourg,2024
-12-35 mo,13734,Luxembourg,2024
-36-59 mo,13879,Luxembourg,2024
-5-17 y,92910,Luxembourg,2024
-18-64 y,444187,Luxembourg,2024
-65-74 y,55859,Luxembourg,2024
-75-84 y,31859,Luxembourg,2024
-≥85 y,13312,Luxembourg,2024
-0-2 mo,1050,Malta,2022
-3-5 mo,1054,Malta,2022
-6-11 mo,2328,Malta,2022
-12-35 mo,8676,Malta,2022
-36-59 mo,9132,Malta,2022
-5-17 y,58532,Malta,2022
-18-64 y,341542,Malta,2022
-65-74 y,56199,Malta,2022
-75-84 y,31443,Malta,2022
-≥85 y,10217,Malta,2022
-0-2 mo,1024,Malta,2023
-3-5 mo,1028,Malta,2023
-6-11 mo,2272,Malta,2023
-12-35 mo,9041,Malta,2023
-36-59 mo,9147,Malta,2023
-5-17 y,59449,Malta,2023
-18-64 y,359338,Malta,2023
-65-74 y,56377,Malta,2023
-75-84 y,33735,Malta,2023
-≥85 y,10638,Malta,2023
-0-2 mo,1058,Malta,2024
-3-5 mo,1062,Malta,2024
-6-11 mo,2346,Malta,2024
-12-35 mo,8956,Malta,2024
-36-59 mo,9001,Malta,2024
-5-17 y,60474,Malta,2024
-18-64 y,377140,Malta,2024
-65-74 y,56314,Malta,2024
-75-84 y,35991,Malta,2024
-≥85 y,11101,Malta,2024
-0-2 mo,47133,Netherlands,2022
-3-5 mo,44157,Netherlands,2022
-6-11 mo,87841,Netherlands,2022
-12-35 mo,340549,Netherlands,2022
-36-59 mo,344971,Netherlands,2022
-5-17 y,2436191,Netherlands,2022
-18-64 y,10764375,Netherlands,2022
-65-74 y,1958741,Netherlands,2022
-75-84 y,1171145,Netherlands,2022
-≥85 y,395567,Netherlands,2022
-0-2 mo,44106,Netherlands,2023
-3-5 mo,41321,Netherlands,2023
-6-11 mo,82200,Netherlands,2023
-12-35 mo,353058,Netherlands,2023
-36-59 mo,347468,Netherlands,2023
-5-17 y,2444947,Netherlands,2023
-18-64 y,10897022,Netherlands,2023
-65-74 y,1957840,Netherlands,2023
-75-84 y,1241524,Netherlands,2023
-≥85 y,401803,Netherlands,2023
-0-2 mo,43276,Netherlands,2024
-3-5 mo,40543,Netherlands,2024
-6-11 mo,80652,Netherlands,2024
-12-35 mo,351810,Netherlands,2024
-36-59 mo,347579,Netherlands,2024
-5-17 y,2439483,Netherlands,2024
-18-64 y,10962369,Netherlands,2024
-65-74 y,1968917,Netherlands,2024
-75-84 y,1294353,Netherlands,2024
-≥85 y,413958,Netherlands,2024
-0-2 mo,15727,Norway,2022
-3-5 mo,14577,Norway,2022
-6-11 mo,26152,Norway,2022
-12-35 mo,109224,Norway,2022
-36-59 mo,114358,Norway,2022
-5-17 y,828483,Norway,2022
-18-64 y,3327273,Norway,2022
-65-74 y,540819,Norway,2022
-75-84 y,330335,Norway,2022
-≥85 y,118320,Norway,2022
-0-2 mo,14483,Norway,2023
-3-5 mo,13424,Norway,2023
-6-11 mo,24083,Norway,2023
-12-35 mo,112193,Norway,2023
-36-59 mo,113601,Norway,2023
-5-17 y,834406,Norway,2023
-18-64 y,3365332,Norway,2023
-65-74 y,544258,Norway,2023
-75-84 y,348871,Norway,2023
-≥85 y,118332,Norway,2023
-0-2 mo,14599,Norway,2024
-3-5 mo,13531,Norway,2024
-6-11 mo,24276,Norway,2024
-12-35 mo,111130,Norway,2024
-36-59 mo,112544,Norway,2024
-5-17 y,836785,Norway,2024
-18-64 y,3401182,Norway,2024
-65-74 y,550096,Norway,2024
-75-84 y,365079,Norway,2024
-≥85 y,120993,Norway,2024
-0-2 mo,82728,Poland,2022
-3-5 mo,79156,Poland,2022
-6-11 mo,165566,Poland,2022
-12-35 mo,723111,Poland,2022
-36-59 mo,793647,Poland,2022
-5-17 y,4931936,Poland,2022
-18-64 y,22974549,Poland,2022
-65-74 y,4452221,Poland,2022
-75-84 y,1896085,Poland,2022
-≥85 y,790761,Poland,2022
-0-2 mo,75676,Poland,2023
-3-5 mo,72408,Poland,2023
-6-11 mo,151452,Poland,2023
-12-35 mo,684370,Poland,2023
-36-59 mo,761596,Poland,2023
-5-17 y,5007400,Poland,2023
-18-64 y,22689946,Poland,2023
-65-74 y,4533283,Poland,2023
-75-84 y,1981539,Poland,2023
-≥85 y,796064,Poland,2023
-0-2 mo,67488,Poland,2024
-3-5 mo,64574,Poland,2024
-6-11 mo,135066,Poland,2024
-12-35 mo,638180,Poland,2024
-36-59 mo,725078,Poland,2024
-5-17 y,5051677,Poland,2024
-18-64 y,22439237,Poland,2024
-65-74 y,4589107,Poland,2024
-75-84 y,2097027,Poland,2024
-≥85 y,813535,Poland,2024
-0-2 mo,20108,Portugal,2022
-3-5 mo,19489,Portugal,2022
-6-11 mo,39956,Portugal,2022
-12-35 mo,172351,Portugal,2022
-36-59 mo,175087,Portugal,2022
-5-17 y,1243671,Portugal,2022
-18-64 y,6288810,Portugal,2022
-65-74 y,1261670,Portugal,2022
-75-84 y,837647,Portugal,2022
-≥85 y,362327,Portugal,2022
-0-2 mo,21189,Portugal,2023
-3-5 mo,20537,Portugal,2023
-6-11 mo,42105,Portugal,2023
-12-35 mo,166734,Portugal,2023
-36-59 mo,177934,Portugal,2023
-5-17 y,1244437,Portugal,2023
-18-64 y,6332779,Portugal,2023
-65-74 y,1288505,Portugal,2023
-75-84 y,853892,Portugal,2023
-≥85 y,368507,Portugal,2023
-0-2 mo,21756,Portugal,2024
-3-5 mo,21087,Portugal,2024
-6-11 mo,43232,Portugal,2024
-12-35 mo,166266,Portugal,2024
-36-59 mo,177430,Portugal,2024
-5-17 y,1245838,Portugal,2024
-18-64 y,6399541,Portugal,2024
-65-74 y,1304440,Portugal,2024
-75-84 y,880769,Portugal,2024
-≥85 y,379366,Portugal,2024
-0-2 mo,44145,Romania,2022
-3-5 mo,41547,Romania,2022
-6-11 mo,88089,Romania,2022
-12-35 mo,385786,Romania,2022
-36-59 mo,412453,Romania,2022
-5-17 y,2765938,Romania,2022
-18-64 y,11598174,Romania,2022
-65-74 y,2247127,Romania,2022
-75-84 y,1098381,Romania,2022
-≥85 y,360813,Romania,2022
-0-2 mo,44987,Romania,2023
-3-5 mo,42339,Romania,2023
-6-11 mo,89769,Romania,2023
-12-35 mo,373604,Romania,2023
-36-59 mo,404491,Romania,2023
-5-17 y,2772525,Romania,2023
-18-64 y,11572496,Romania,2023
-65-74 y,2291188,Romania,2023
-75-84 y,1092763,Romania,2023
-≥85 y,370384,Romania,2023
-0-2 mo,40393,Romania,2024
-3-5 mo,38015,Romania,2024
-6-11 mo,80601,Romania,2024
-12-35 mo,365919,Romania,2024
-36-59 mo,394876,Romania,2024
-5-17 y,2776456,Romania,2024
-18-64 y,11554283,Romania,2024
-65-74 y,2318501,Romania,2024
-75-84 y,1108704,Romania,2024
-≥85 y,389826,Romania,2024
-0-2 mo,14875,Slovakia,2022
-3-5 mo,13918,Slovakia,2022
-6-11 mo,28238,Slovakia,2022
-12-35 mo,116466,Slovakia,2022
-36-59 mo,120899,Slovakia,2022
-5-17 y,738077,Slovakia,2022
-18-64 y,3457280,Slovakia,2022
-65-74 y,601133,Slovakia,2022
-75-84 y,264840,Slovakia,2022
-≥85 y,78985,Slovakia,2022
-0-2 mo,13861,Slovakia,2023
-3-5 mo,12968,Slovakia,2023
-6-11 mo,26312,Slovakia,2023
-12-35 mo,115320,Slovakia,2023
-36-59 mo,119455,Slovakia,2023
-5-17 y,746069,Slovakia,2023
-18-64 y,3425737,Slovakia,2023
-65-74 y,612571,Slovakia,2023
-75-84 y,277242,Slovakia,2023
-≥85 y,79255,Slovakia,2023
-0-2 mo,12846,Slovakia,2024
-3-5 mo,12019,Slovakia,2024
-6-11 mo,24386,Slovakia,2024
-12-35 mo,111566,Slovakia,2024
-36-59 mo,117201,Slovakia,2024
-5-17 y,752791,Slovakia,2024
-18-64 y,3398445,Slovakia,2024
-65-74 y,621306,Slovakia,2024
-75-84 y,291971,Slovakia,2024
-≥85 y,82154,Slovakia,2024
-0-2 mo,5062,Slovenia,2022
-3-5 mo,4500,Slovenia,2022
-6-11 mo,9405,Slovenia,2022
-12-35 mo,38448,Slovenia,2022
-36-59 mo,40617,Slovenia,2022
-5-17 y,278357,Slovenia,2022
-18-64 y,1286047,Slovenia,2022
-65-74 y,250937,Slovenia,2022
-75-84 y,137802,Slovenia,2022
-≥85 y,56004,Slovenia,2022
-0-2 mo,4692,Slovenia,2023
-3-5 mo,4171,Slovenia,2023
-6-11 mo,8719,Slovenia,2023
-12-35 mo,38238,Slovenia,2023
-36-59 mo,39981,Slovenia,2023
-5-17 y,282771,Slovenia,2023
-18-64 y,1284690,Slovenia,2023
-65-74 y,255386,Slovenia,2023
-75-84 y,141186,Slovenia,2023
-≥85 y,57136,Slovenia,2023
-0-2 mo,4526,Slovenia,2024
-3-5 mo,4023,Slovenia,2024
-6-11 mo,8410,Slovenia,2024
-12-35 mo,36977,Slovenia,2024
-36-59 mo,39016,Slovenia,2024
-5-17 y,284851,Slovenia,2024
-18-64 y,1283633,Slovenia,2024
-65-74 y,258467,Slovenia,2024
-75-84 y,145179,Slovenia,2024
-≥85 y,58866,Slovenia,2024
-0-2 mo,85230,Spain,2022
-3-5 mo,80746,Spain,2022
-6-11 mo,170805,Spain,2022
-12-35 mo,706767,Spain,2022
-36-59 mo,788477,Spain,2022
-5-17 y,6256595,Spain,2022
-18-64 y,29916413,Spain,2022
-65-74 y,4779074,Spain,2022
-75-84 y,3102148,Spain,2022
-≥85 y,1600586,Spain,2022
-0-2 mo,83506,Spain,2023
-3-5 mo,79112,Spain,2023
-6-11 mo,167349,Spain,2023
-12-35 mo,695019,Spain,2023
-36-59 mo,761419,Spain,2023
-5-17 y,6291778,Spain,2023
-18-64 y,30319401,Spain,2023
-65-74 y,4902910,Spain,2023
-75-84 y,3181789,Spain,2023
-≥85 y,1603077,Spain,2023
-0-2 mo,81308,Spain,2024
-3-5 mo,77029,Spain,2024
-6-11 mo,162944,Spain,2024
-12-35 mo,689515,Spain,2024
-36-59 mo,734737,Spain,2024
-5-17 y,6279652,Spain,2024
-18-64 y,30666141,Spain,2024
-65-74 y,5005711,Spain,2024
-75-84 y,3325394,Spain,2024
-≥85 y,1597263,Spain,2024
-0-2 mo,30205,Sweden,2022
-3-5 mo,30090,Sweden,2022
-6-11 mo,54366,Sweden,2022
-12-35 mo,232662,Sweden,2022
-36-59 mo,241109,Sweden,2022
-5-17 y,1609806,Sweden,2022
-18-64 y,6135320,Sweden,2022
-65-74 y,1076336,Sweden,2022
-75-84 y,773807,Sweden,2022
-≥85 y,268623,Sweden,2022
-0-2 mo,27709,Sweden,2023
-3-5 mo,27603,Sweden,2023
-6-11 mo,49873,Sweden,2023
-12-35 mo,232150,Sweden,2023
-36-59 mo,239031,Sweden,2023
-5-17 y,1618418,Sweden,2023
-18-64 y,6179634,Sweden,2023
-65-74 y,1067123,Sweden,2023
-75-84 y,805998,Sweden,2023
-≥85 y,274016,Sweden,2023
-0-2 mo,26515,Sweden,2024
-3-5 mo,26414,Sweden,2024
-6-11 mo,47725,Sweden,2024
-12-35 mo,222761,Sweden,2024
-36-59 mo,234256,Sweden,2024
-5-17 y,1618551,Sweden,2024
-18-64 y,6200731,Sweden,2024
-65-74 y,1058356,Sweden,2024
-75-84 y,834087,Sweden,2024
-≥85 y,282309,Sweden,2024
+country,age_group,population
+Austria,0-2mo,20859
+Austria,3-5mo,19589
+Austria,6-11mo,40855
+Austria,1-4y,350169
+Austria,5-64y,6892596
+Austria,65+y,1780703
+Belgium,0-2mo,29686
+Belgium,3-5mo,28639
+Belgium,6-11mo,56205
+Belgium,1-4y,482280
+Belgium,5-64y,8835097
+Belgium,65+y,2310888
+Bulgaria,0-2mo,14999
+Bulgaria,3-5mo,13920
+Bulgaria,6-11mo,27605
+Bulgaria,1-4y,229534
+Bulgaria,5-64y,4646267
+Bulgaria,65+y,1515383
+Croatia,0-2mo,8834
+Croatia,3-5mo,7999
+Croatia,6-11mo,17101
+Croatia,1-4y,141402
+Croatia,5-64y,2799853
+Croatia,65+y,875703
+Cyprus,0-2mo,2579
+Cyprus,3-5mo,2450
+Cyprus,6-11mo,5322
+Cyprus,1-4y,39751
+Cyprus,5-64y,734512
+Cyprus,65+y,164468
+Czechia,0-2mo,26233
+Czechia,3-5mo,25090
+Czechia,6-11mo,50595
+Czechia,1-4y,460626
+Czechia,5-64y,8057135
+Czechia,65+y,2207849
+Denmark,0-2mo,15624
+Denmark,3-5mo,14487
+Denmark,6-11mo,28627
+Denmark,1-4y,251936
+Denmark,5-64y,4408649
+Denmark,65+y,1213329
+Estonia,0-2mo,3152
+Estonia,3-5mo,2970
+Estonia,6-11mo,5694
+Estonia,1-4y,57826
+Estonia,5-64y,1019788
+Estonia,65+y,276453
+Finland,0-2mo,11868
+Finland,3-5mo,11074
+Finland,6-11mo,22030
+Finland,1-4y,193308
+Finland,5-64y,4031177
+Finland,65+y,1294511
+France,0-2mo,171670
+France,3-5mo,164019
+France,6-11mo,341125
+France,1-4y,2845641
+France,5-64y,50327983
+France,65+y,14426771
+Germany,0-2mo,188134
+Germany,3-5mo,174277
+Germany,6-11mo,362298
+Germany,1-4y,3140037
+Germany,5-64y,60763549
+Germany,65+y,18490204
+Greece,0-2mo,19558
+Greece,3-5mo,17443
+Greece,6-11mo,39239
+Greece,1-4y,327615
+Greece,5-64y,7613035
+Greece,65+y,2397091
+Hungary,0-2mo,23341
+Hungary,3-5mo,21155
+Hungary,6-11mo,44973
+Hungary,1-4y,373732
+Hungary,5-64y,7165009
+Hungary,65+y,1971532
+Iceland,0-2mo,1179
+Iceland,3-5mo,1097
+Iceland,6-11mo,2143
+Iceland,1-4y,18618
+Iceland,5-64y,306427
+Iceland,65+y,58292
+Ireland,0-2mo,14435
+Ireland,3-5mo,13643
+Ireland,6-11mo,27659
+Ireland,1-4y,242268
+Ireland,5-64y,4172873
+Ireland,65+y,800515
+Italy,0-2mo,100970
+Italy,3-5mo,88674
+Italy,6-11mo,204274
+Italy,1-4y,1691324
+Italy,5-64y,42730660
+Italy,65+y,14181297
+Latvia,0-2mo,4246
+Latvia,3-5mo,3971
+Latvia,6-11mo,7570
+Latvia,1-4y,74457
+Latvia,5-64y,1397845
+Latvia,65+y,394918
+Liechtenstein,0-2mo,101
+Liechtenstein,3-5mo,87
+Liechtenstein,6-11mo,181
+Liechtenstein,1-4y,1536
+Liechtenstein,5-64y,29976
+Liechtenstein,65+y,7795
+Lithuania,0-2mo,5884
+Lithuania,3-5mo,5544
+Lithuania,6-11mo,11042
+Lithuania,1-4y,105044
+Lithuania,5-64y,2158097
+Lithuania,65+y,571666
+Luxembourg,0-2mo,1551
+Luxembourg,3-5mo,1638
+Luxembourg,6-11mo,3286
+Luxembourg,1-4y,27595
+Luxembourg,5-64y,528518
+Luxembourg,65+y,98220
+Malta,0-2mo,1024
+Malta,3-5mo,1028
+Malta,6-11mo,2272
+Malta,1-4y,18188
+Malta,5-64y,418787
+Malta,65+y,100750
+Netherlands,0-2mo,44106
+Netherlands,3-5mo,41321
+Netherlands,6-11mo,82200
+Netherlands,1-4y,700526
+Netherlands,5-64y,13341969
+Netherlands,65+y,3601167
+Norway,0-2mo,14483
+Norway,3-5mo,13424
+Norway,6-11mo,24083
+Norway,1-4y,225794
+Norway,5-64y,4199738
+Norway,65+y,1011461
+Poland,0-2mo,75676
+Poland,3-5mo,72408
+Poland,6-11mo,151452
+Poland,1-4y,1445966
+Poland,5-64y,27697346
+Poland,65+y,7310886
+Portugal,0-2mo,21189
+Portugal,3-5mo,20537
+Portugal,6-11mo,42105
+Portugal,1-4y,344668
+Portugal,5-64y,7577216
+Portugal,65+y,2510904
+Romania,0-2mo,44987
+Romania,3-5mo,42339
+Romania,6-11mo,89769
+Romania,1-4y,778095
+Romania,5-64y,14345021
+Romania,65+y,3754335
+Slovakia,0-2mo,13861
+Slovakia,3-5mo,12968
+Slovakia,6-11mo,26312
+Slovakia,1-4y,234775
+Slovakia,5-64y,4171806
+Slovakia,65+y,969068
+Slovenia,0-2mo,4692
+Slovenia,3-5mo,4171
+Slovenia,6-11mo,8719
+Slovenia,1-4y,78219
+Slovenia,5-64y,1567461
+Slovenia,65+y,453708
+Spain,0-2mo,83506
+Spain,3-5mo,79112
+Spain,6-11mo,167349
+Spain,1-4y,1456438
+Spain,5-64y,36611179
+Spain,65+y,9687776
+Sweden,0-2mo,27709
+Sweden,3-5mo,27603
+Sweden,6-11mo,49873
+Sweden,1-4y,471181
+Sweden,5-64y,7798052
+Sweden,65+y,2147137
