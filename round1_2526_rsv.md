@@ -28,7 +28,7 @@ The overall goal of this scenario modelling round is to generate evidence suppor
 - Estimate of the number of infant hospitalisations averted per 100 infants immunised for the EU/EEA and at country-level, which can be converted into country-specific costs.
 
 ### Table of Proposed Scenarios
-To achieve this goal, this project round will model the following five scenarios. This structure allows for a clear comparison between the two primary interventions at different coverage levels and a baseline counterfactual. At the same time, the scenario selection accounts for the resource constraints of this project that strongly limits the possible number of modelling scenarios.
+To achieve this goal, this project round will model the following five scenarios. This structure allows for a clear comparison between the two primary interventions at different coverage levels and a baseline counterfactual. At the same time, the scenario selection accounts for the resource constraints of this project that strongly limits the possible number of modelling scenarios. In the following, we will use "la-mAbs" to refer to the new extended half-life monoclonal antibody and "MV" to refer to the new maternal RSV vaccine.
 
 | | **High Coverage**. Coverage of the intervention assumed to be at 80% of the target population | **Low Coverage**. Coverage of the intervention assumed to be at 20% of the target population |
 |  :-:|  :-: | :-: |
@@ -50,12 +50,64 @@ Additionally, this focused scenario round is designed not only to answer immedia
 
 
 ## Targets
+Teams should use the target data provided in the [target-data](https://github.com/european-modelling-hubs/RespiCompass/tree/main/target-data) folder to estimate typical hospitalisation patterns in absence of interventions in different countries. Requested targets for the different scenarios are: 
+- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4yo, 5-64yo, 65+, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is mandatory for all teams.
+- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4yo, 5-64yo, 65+, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is optional for all teams.
+
+While teams may choose to submit targets for only a subset of countries, we strongly encourage them to cover as many countries as possible.
 
 
 ## Shared Assumptions
+We will consider the following assumptions to be shared by all teams:
+- VE of la-mAbs is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
+- We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the modelling period.
+- Vaccination coverage as outlined in the scenario axes. GIVE INFO ON THE ROLLOUT OF THE INTERVENTIONS.
+- We assume a common births cohort, specific for each country, for the modelling period. The data is provided in the [XXX](LINK) folder.
+- We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the modelling period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
+- Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not included in this scenario round, as its impact is assumed to be already reflected in the target data and negligible at the population level.
 
 
-## Assumptions left to the modellers judgement
+## Assumptions Left to the Modellers Judgement
+- We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence in the [XXX](LINK) folder.
+- Additional effects of the interventions, such as the reduced infectiousness of vaccinated individuals if they become infected, protection against infection, are allowed and encouraged but left to the modellers judgement. We refer the teams to the [XXX](LINK) folder for additional information on available evidence on the effects of the modelled interventions.
 
 
-## Data
+## Auxiliary Data
+We provide the following data to support models development and calibration: 
+- Weekly RSV hospitalisations (i.e., new admissions) are provided for each country over the modelling period in the absence of interventions. This data must be used to calibrate models to the baseline scenario (Scenario E). Weekly hospitalisation counts are given for the total population, with additional aggregated estimates by age group. Models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens. Available [here](LINK). 
+- Population data by age group and country. This information has to be intended as the resident population of the country in different age groups at the start of the modelling period. Available [here](LINK).
+- Monthly births data by country. This information has to be intended as the number of births in the country in each month of the modelling period. Available [here](LINK).
+- List of countries, available [here](LINK).
+- List of weeks in the modelling period, available [here](LINK).
+
+## Submission Format
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific Influenza round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
+
+```2025_2026_1_RSV-<team>-<model>.parquet```
+
+Where `<team>-<model>` will be specific for each team/model and must match the `team_abbr` and `model_abbr` parameters in the metadata file. Additionally, you should set: 
+-  ```round_id = '2025_2026_1_RSV'```
+-  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E'``` related to different scenarios
+-  ```target = 'rsv_hospitalisations'``` or ```'rsv_infections'```
+-  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4yo_immYes', '1-4yo_immNo', '1-4yo_immTotal', '5-64yo_immYes', '5-64yo_immNo', '5-64yo_immTotal', '65+_immYes', '65+_immNo', '65+_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that received immunisation (i.e., la-mAbs or MV) during the modelling period.
+- ```horizon```: weeks ahead in the projection period, see this [XXX](LINK) for a horizon/week correspondence
+- ```target_end_date``` end date of target week, see this [XXX](LINK) for a date/week correspondence
+- ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
+- ```output_type_id```: '1' to '300' for samples. ADD INFO ON MATCHED TRAJECTORIES.
+
+
+# References
+1. Del Riccio M, Spreeuwenberg P, Osei-Yeboah R, Johannesen CK, Fernandez LV, Teirlinck AC, et al. Burden of Respiratory Syncytial Virus in the European Union: estimation of RSV-associated hospitalizations in children under 5 years. J Infect Dis. 2023 2023/11/28;228(11):1528-38. Available at: https://www.ncbi.nlm.nih.gov/pubmed/37246724
+2. Osei-Yeboah R, Spreeuwenberg P, Del Riccio M, Fischer TK, Egeskov-Cavling AM, Bøås H, et al. Estimation of the number of respiratory syncytial virus-associated hospitalizations in adults in the European Union. J Infect Dis. 2023 2023/11/28;228(11):1539-48. Available at: https://www.ncbi.nlm.nih.gov/pubmed/37246742
+3. Savic M, Penders Y, Shi T, Branche A, Pirçon J-Y. Respiratory syncytial virus disease burden in adults aged 60 years and older in high-income countries: A systematic literature review and meta-analysis. Influenza Other Respi Viruses. 2023 2023/1;17(1):e13031. Available at: https://www.ncbi.nlm.nih.gov/pubmed/36369772
+4. Nguyen-Van-Tam JS, O&#39;Leary M, Martin ET, Heijnen E, Callendret B, Fleischhackl R, et al. Burden of respiratory syncytial virus infection in older and high-risk adults: a systematic review and meta-analysis of the evidence from developed countries. Eur Respir Rev. 2022 2022/12/31;31(166):220105. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9724807
+5. European Medicines Agency (EMA). Beyfortus - nirsevimab. 2022. Available at: https://www.ema.europa.eu/en/medicines/human/EPAR/beyfortus
+
+6. Sumsuzzman D, Wang Z, Langley JM, Moghadas SM. Real-world effectiveness of nirsevimab against respiratory syncytial virus disease in infants: A systematic review and meta-analysis. Social Science Research Network. 2025 2025/1/15 Available at: https://dx.doi.org/10.2139/ssrn.5096762 
+7. European Medicines Agency (EMA). Abrysvo. 2023. Available at: https://www.ema.europa.eu/en/medicines/human/EPAR/abrysvo
+8. Mapindra MP, Mahindra MP, McNamara P, Semple MG, Clark H, Madsen J. Respiratory syncytial virus maternal vaccination in infants below 6 months of age: Meta-analysis of safety, immunogenicity, and efficacy. Neonatology. 2024 2024/1/29;121(3):271-82. Available at: https://dx.doi.org/10.1159/000536031
+9. Pérez Marc G, Vizzotti C, Fell DB, Di Nunzio L, Olszevicki S, Mankiewicz SW, et al. Real-world effectiveness of RSVpreF vaccination during pregnancy against RSV-associated lower respiratory tract disease leading to hospitalisation in infants during the 2024 RSV season in Argentina (BERNI study): a multicentre, retrospective, test-negative, case-control study. Lancet Infect Dis. 2025 2025/5/5;0(0) Available at: http://dx.doi.org/10.1016/S1473-3099(25)00156-2
+10. Nohynek H, Wichmann O, D Ancona F, Gatekeepers VN. National Advisory Groups and their role in immunization policy-making processes in European countries. Clin Microbiol Infect. 2013 2013/12;19(12):1096-105. Available at: http://dx.doi.org/10.1111/1469-0691.12315
+11. European Centre for Disease Prevention and Control (ECDC). Current practices in immunisation policymaking in European countries. 2015 2015/3/5 Available at: https://www.ecdc.europa.eu/en/publications-data/current-practices-immunisation-policymaking-european-countries
+12. Runge MC, Shea K, Howerton E, Yan K, Hochheiser H, Rosenstrom E, et al. Scenario design for infectious disease projections: Integrating concepts from decision analysis and experimental design. Epidemics. 2024 2024/6;47(100775):100775. Available at: https://www.ncbi.nlm.nih.gov/pubmed/38838462
+13. Shea K, Borchering RK, Probert WJM, Howerton E, Bogich TL, Li S-L, et al. Multiple models for outbreak decision support in the face of uncertainty. Proc Natl Acad Sci U S A. 2023 2023/5/2;120(18):e2207537120. Available at: https://pnas.org/doi/10.1073/pnas.2207537120
