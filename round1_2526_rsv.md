@@ -51,8 +51,8 @@ Additionally, this focused scenario round is designed not only to answer immedia
 
 ## Targets
 Teams should use the target data provided in the [target-data](https://github.com/european-modelling-hubs/RespiCompass/tree/main/target-data) folder to estimate typical hospitalisation patterns in absence of interventions in different countries. Requested targets for the different scenarios are: 
-- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4yo, 5-64yo, 65+, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is mandatory for all teams.
-- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4yo, 5-64yo, 65+, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is optional for all teams.
+- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is mandatory for all teams.
+- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is optional for all teams.
 
 While teams may choose to submit targets for only a subset of countries, we strongly encourage them to cover as many countries as possible.
 
@@ -89,7 +89,7 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 -  ```round_id = '2025_2026_1_RSV'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E'``` related to different scenarios
 -  ```target = 'rsv_hospitalisations'``` or ```'rsv_infections'```
--  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4yo_immYes', '1-4yo_immNo', '1-4yo_immTotal', '5-64yo_immYes', '5-64yo_immNo', '5-64yo_immTotal', '65+_immYes', '65+_immNo', '65+_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that received immunisation (i.e., la-mAbs or MV) during the modelling period.
+-  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4y_immYes', '1-4y_immNo', '1-4y_immTotal', '5-64y_immYes', '5-64y_immNo', '5-64y_immTotal', '65+y_immYes', '65+y_immNo', '65+y_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that received immunisation (i.e., la-mAbs or MV) during the modelling period.
 - ```horizon```: weeks ahead in the projection period, see this [XXX](LINK) for a horizon/week correspondence
 - ```target_end_date``` end date of target week, see this [XXX](LINK) for a date/week correspondence
 - ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
