@@ -59,7 +59,7 @@ While teams may choose to submit targets for only a subset of countries, we stro
 
 ## Shared Assumptions
 We will consider the following assumptions to be shared by all teams:
-- VE of la-mAbs is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
+- VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
 - We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the modelling period.
 - Vaccination coverage as outlined in the scenario axes. GIVE INFO ON THE ROLLOUT OF THE INTERVENTIONS.
 - We assume a common births cohort, specific for each country, for the modelling period. The data is provided in the [XXX](LINK) folder.
@@ -89,7 +89,7 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 -  ```round_id = '2025_2026_1_RSV'```
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E'``` related to different scenarios
 -  ```target = 'rsv_hospitalisations'``` or ```'rsv_infections'```
--  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4y_immYes', '1-4y_immNo', '1-4y_immTotal', '5-64y_immYes', '5-64y_immNo', '5-64y_immTotal', '65+y_immYes', '65+y_immNo', '65+y_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```,, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that received immunisation (i.e., la-mAbs or MV) during the modelling period.
+-  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4y_immYes', '1-4y_immNo', '1-4y_immTotal', '5-64y_immYes', '5-64y_immNo', '5-64y_immTotal', '65+y_immYes', '65+y_immNo', '65+y_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that were immunised prior to the hospitalisation or infection (i.e., la-mAbs or MV) during the scenario period. In the case of scenarios considering la-mAbs, the ```immYes``` groups will be made up of the newborns that received la-mAbs at birth. In the case of scenarios considering MV, the ```immYes``` groups will be made up of the mothers that received MV during the scenario period and their newborns.
 - ```horizon```: weeks ahead in the projection period, see this [XXX](LINK) for a horizon/week correspondence
 - ```target_end_date``` end date of target week, see this [XXX](LINK) for a date/week correspondence
 - ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
