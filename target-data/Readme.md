@@ -12,17 +12,22 @@ We provide **two files**:
 
     | Column Name | Description |
     |  :-:|  :-: |
-    | `country` | Country code (ISO 3166-1 alpha-2) |
-    | `date` | Date (ISO week) |
+    | `country` | Country name |
+    | `age_group` | Age group (in this case, always `total`) |
+    | `date` | Date (ISO week, Monday of the week) |
+    | `year_week` | Year and week number (e.g. 2025-W36, this matches the `week` and `year` columns, provided for convenience) |
+    | `week` | Week number |
+    | `year` | Year |
     | `weekly_rsv_hospitalisations` | Total (across age groups) weekly RSV-associated hospitalisations |
 
 - `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September 2025 to March 2026 in absence of interventions. This file has the following columns: 
     | Column Name | Description |
     |  :-:|  :-: |
-    | `country` | Country code (ISO 3166-1 alpha-2) |
-    | `age_group` | Age group (one of: 0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) |
+    | `country` | Country name |
+    | `age_group` | Age group (one of: 0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y) |
+    | `start_date` | Start date of the period to which the data refers to ($1^{st}$ September 2025) |
+    | `end_date` | End date of the period to which the data refers to ($27^{th}$ April 2026) |
     | `total_rsv_hospitalisations` | Total (across age groups) RSV-associated hospitalisations |
-    | `period` | Period to which the data refers to (September 2025 to March 2026) |
 
 The rationale for producing two separate files is to provide a clear overall seasonal pattern of hospitalisations while allowing flexibility in the age-specific profiles, with total age-specific burdens still available and shared across models. Different age groups may exhibit distinct seasonal trends due to variations in susceptibility to RSV and assumptions about inter-age-group contact patterns. In the absence of detailed age-specific seasonal data, it is challenging to generate plausible age-specific hospitalisation curves that align with the overall seasonal pattern and are compatible with most modelling frameworks. Therefore, we opted to provide the total burden by age group and the overall seasonal trend as separate inputs.
 
