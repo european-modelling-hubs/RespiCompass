@@ -61,8 +61,8 @@ While teams may choose to submit targets for only a subset of countries, we stro
 We will consider the following assumptions to be shared by all teams:
 - VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
 - We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the scenario period.
-- Vaccination coverage as outlined in the scenario axes. GIVE INFO ON THE ROLLOUT OF THE INTERVENTIONS.
-- We assume a common births cohort, specific for each country, for the scenario period. The data is provided in [here](./auxiliary-data/births/).
+- Vaccination coverage as outlined in the scenario axes. We assume that immunisation campaigns are implemented in a way that the first immunised infants are born on September $1^{st}$ and the last immunised infants are born on March $31^{st}$ of the next year. We leave to the teams to decide on the time-varying coverage of the interventions, in the simplest case, this can be done by assuming a constant coverage over the scenario period. Different implementation strategies are allowed as long as the overall coverage is consistent with the scenario axes.
+- We assume a common births cohort, specific for each country, for the scenario period. The data is provided [here](./auxiliary-data/births/).
 - We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
 - Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not included in this scenario round, as its impact is assumed to be already reflected in the target data and negligible at the population level.
 
@@ -102,7 +102,6 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 3. Savic M, Penders Y, Shi T, Branche A, Pirçon J-Y. Respiratory syncytial virus disease burden in adults aged 60 years and older in high-income countries: A systematic literature review and meta-analysis. Influenza Other Respi Viruses. 2023 2023/1;17(1):e13031. Available at: https://www.ncbi.nlm.nih.gov/pubmed/36369772
 4. Nguyen-Van-Tam JS, O&#39;Leary M, Martin ET, Heijnen E, Callendret B, Fleischhackl R, et al. Burden of respiratory syncytial virus infection in older and high-risk adults: a systematic review and meta-analysis of the evidence from developed countries. Eur Respir Rev. 2022 2022/12/31;31(166):220105. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9724807
 5. European Medicines Agency (EMA). Beyfortus - nirsevimab. 2022. Available at: https://www.ema.europa.eu/en/medicines/human/EPAR/beyfortus
-
 6. Sumsuzzman D, Wang Z, Langley JM, Moghadas SM. Real-world effectiveness of nirsevimab against respiratory syncytial virus disease in infants: A systematic review and meta-analysis. Social Science Research Network. 2025 2025/1/15 Available at: https://dx.doi.org/10.2139/ssrn.5096762 
 7. European Medicines Agency (EMA). Abrysvo. 2023. Available at: https://www.ema.europa.eu/en/medicines/human/EPAR/abrysvo
 8. Mapindra MP, Mahindra MP, McNamara P, Semple MG, Clark H, Madsen J. Respiratory syncytial virus maternal vaccination in infants below 6 months of age: Meta-analysis of safety, immunogenicity, and efficacy. Neonatology. 2024 2024/1/29;121(3):271-82. Available at: https://dx.doi.org/10.1159/000536031
