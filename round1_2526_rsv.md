@@ -36,7 +36,7 @@ To achieve this goal, this project round will model the following five scenarios
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September and the last immunized infants are born on $31^{st}$ of March of the next year | Scenario C | Scenario D |
 | **No Immunisation**. No intervention is implemented, all infants remain at risk of RSV infection and hospitalization based on historical transmission patterns $^*$.| Scenario E  (Baseline scenario) |  |
 
-$^*$ Teams should use target data provided in the [target-data](https://github.com/european-modelling-hubs/RespiCompass/tree/main/target-data) folder to estimate typical hospitalisation patterns in absence of interventions. In other words, the target data is the baseline scenario and models should be calibrated to match the target data as closely as possible in Scenario E.
+$^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of interventions. In other words, the target data is the baseline scenario and models should be calibrated to match the target data as closely as possible in Scenario E.
 
 The selection of these scenarios is guided by the need to prioritise the most pressing policy questions within the project's resource constraints. The rationale for the proposed design is as follows:
 
@@ -50,9 +50,9 @@ Additionally, this focused scenario round is designed not only to answer immedia
 
 
 ## Targets
-Teams should use the target data provided in the [target-data](https://github.com/european-modelling-hubs/RespiCompass/tree/main/target-data) folder to estimate typical hospitalisation patterns in absence of interventions in different countries. Requested targets for the different scenarios are: 
-- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is mandatory for all teams.
-- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $XXX$ and XXX $XXX$ of the next year. This target is optional for all teams.
+Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of interventions in different countries. Requested targets for the different scenarios are: 
+- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $30^{th}$, 2026. This target is mandatory for all teams.
+- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $30^{th}$, 2026. This target is optional for all teams.
 
 While teams may choose to submit targets for only a subset of countries, we strongly encourage them to cover as many countries as possible.
 
@@ -60,10 +60,10 @@ While teams may choose to submit targets for only a subset of countries, we stro
 ## Shared Assumptions
 We will consider the following assumptions to be shared by all teams:
 - VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
-- We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the modelling period.
+- We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the scenario period.
 - Vaccination coverage as outlined in the scenario axes. GIVE INFO ON THE ROLLOUT OF THE INTERVENTIONS.
-- We assume a common births cohort, specific for each country, for the modelling period. The data is provided in the [XXX](LINK) folder.
-- We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the modelling period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
+- We assume a common births cohort, specific for each country, for the scenario period. The data is provided in [here](./auxiliary-data/births/).
+- We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
 - Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not included in this scenario round, as its impact is assumed to be already reflected in the target data and negligible at the population level.
 
 
@@ -74,11 +74,11 @@ We will consider the following assumptions to be shared by all teams:
 
 ## Auxiliary Data
 We provide the following data to support models development and calibration: 
-- Weekly RSV hospitalisations (i.e., new admissions) are provided for each country over the modelling period in the absence of interventions. This data must be used to calibrate models to the baseline scenario (Scenario E). Weekly hospitalisation counts are given for the total population, with additional aggregated estimates by age group. Models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens. Available [here](LINK). 
-- Population data by age group and country. This information has to be intended as the resident population of the country in different age groups at the start of the modelling period. Available [here](LINK).
-- Monthly births data by country. This information has to be intended as the number of births in the country in each month of the modelling period. Available [here](LINK).
-- List of countries, available [here](LINK).
-- List of weeks in the modelling period, available [here](LINK).
+- Weekly RSV hospitalisations (i.e., new admissions) are provided for each country over the modelling period in the absence of interventions. This data must be used to calibrate models to the baseline scenario (Scenario E). Weekly hospitalisation counts are given for the total population, with additional aggregated estimates by age group. Models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens. Available [here](./target-data/). 
+- Population data by age group and country. This information has to be intended as the resident population of the country in different age groups at the start of the modelling period. Available [here](./auxiliary-data/population/).
+- Monthly births data by country. This information has to be intended as the number of births in the country in each month of the modelling period. Available [here](./auxiliary-data/births/).
+- List of countries, available [here](./supporting-files/countries.csv).
+- List of weeks in the modelling period, available [here](./supporting-files/weeks.csv).
 
 ## Submission Format
 General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
@@ -90,8 +90,8 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 -  ```scenario_id```: allowed values are ```'A', 'B', 'C', 'D', 'E'``` related to different scenarios
 -  ```target = 'rsv_hospitalisations'``` or ```'rsv_infections'```
 -  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4y_immYes', '1-4y_immNo', '1-4y_immTotal', '5-64y_immYes', '5-64y_immNo', '5-64y_immTotal', '65+y_immYes', '65+y_immNo', '65+y_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```, covering all combinations of considered age groups and vaccination status. Note that groups ```immYes``` are individuals that were immunised prior to the hospitalisation or infection (i.e., la-mAbs or MV) during the scenario period. In the case of scenarios considering la-mAbs, the ```immYes``` groups will be made up of the newborns that received la-mAbs at birth. In the case of scenarios considering MV, the ```immYes``` groups will be made up of the mothers that received MV during the scenario period and their newborns.
-- ```horizon```: weeks ahead in the projection period, see this [XXX](LINK) for a horizon/week correspondence
-- ```target_end_date``` end date of target week, see this [XXX](LINK) for a date/week correspondence
+- ```horizon```: weeks ahead in the projection period, see [here](./supporting-files/isoweeks.csv) for a horizon/week correspondence
+- ```target_end_date``` end date of target week, see [here](./supporting-files/isoweeks.csv) for a date/week correspondence
 - ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
 - ```output_type_id```: '1' to '300' for samples. ADD INFO ON MATCHED TRAJECTORIES.
 
