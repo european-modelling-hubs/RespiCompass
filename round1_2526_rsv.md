@@ -81,7 +81,7 @@ We provide the following data to support models development and calibration:
 - List of weeks in the modelling period, available [here](LINK).
 
 ## Submission Format
-General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific Influenza round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
+General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
 
 ```2025_2026_1_RSV-<team>-<model>.parquet```
 
