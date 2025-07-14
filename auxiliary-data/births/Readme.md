@@ -28,4 +28,4 @@ births <- read_csv(url)
 
 ## Source and additional information
 
-Monthly live births in each European country are taken from [Eurostat](https://doi.org/10.2908/DEMO_FMONTH). Eurostat provides historical birth rates in different countries. More in detail, we will provide modeling teams with monthly births in different countries over the whole scenario period by considering the most recent Eurostat data, which is the period Septmber 2023-April 2024. In this way, different models will consider a common cohort of newborns over the 2025/2026 winter season. 
+Monthly live births in each European country are taken from [Eurostat](https://doi.org/10.2908/DEMO_FMONTH). Eurostat provides historical birth rates in different countries. More in detail, provided monthly births in different countries over the scenario period matches the most recent Eurostat data, which is the period Septmber 2023-April 2024. In this way, different models will consider a common cohort of newborns over the 2025/2026 winter season using most recent data. 

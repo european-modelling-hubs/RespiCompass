@@ -3,12 +3,12 @@
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
 
-This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September 2025 to March 2026 in absence of interventions. This data must be used to calibrate models to the baseline scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens.
+This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of interventions. This data must be used to calibrate models to the baseline scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens.
 
-Due to the scarcity of RSV surveillance data in the EU/EEA, we use a combination of cumulative yearly hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisations accounting for under-reporting. In other words, we synthetically generate weekly hospitalisation data for each country and age-specific burden using robust estimates from the literature. In this sense, the target data is a synthetic proxy of the true hospitalisation burden in absence of intervention and should not be considered as a direct observation nor a prediction for the 2025/2026 RSV season.
+Due to the scarcity of RSV surveillance data in the EU/EEA, we use a combination of cumulative yearly hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisations accounting for under-reporting. In other words, we synthetically generate weekly hospitalisation data for each country and age-specific burden using robust estimates from the literature. In this sense, the target data is a synthetic proxy of the true hospitalisation burden in absence of intervention and should not be considered as a direct observation nor a prediction for the 2025/2026 RSV season (more details below).
 
 We provide **two files**: 
-- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September 2025 to March 2026 in absence of interventions. This file has the following columns: 
+- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
 
     | Column Name | Description |
     |  :-:|  :-: |
@@ -20,7 +20,7 @@ We provide **two files**:
     | `year` | Year |
     | `weekly_rsv_hospitalisations` | Total (across age groups) weekly RSV-associated hospitalisations |
 
-- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September 2025 to March 2026 in absence of interventions. This file has the following columns: 
+- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
     | Column Name | Description |
     |  :-:|  :-: |
     | `country` | Country name |
@@ -33,7 +33,7 @@ The rationale for producing two separate files is to provide a clear overall sea
 
 
 ## EU/EEA RSV Synthetic Data Generation
-Calibration of dynamic RSV models for assessing national immunisation intervention strategies requires age- and country-specific incidence data over time. However, the sensitivity and specificity of national RSV surveillance systems in the EU/EEA is highly heterogeneous, with underreporting known to be a major limitation ([Presser et al. 2023](https://doi.org/10.1093/infdis/jiad341), [Egeskov-Cavling et al. 2023](https://doi.org/10.1093/infdis/jiad382)). Estimates of cumulative yearly RSV hospitalisation burden in Europe based on large-scale hospital and virological data are available through studies like [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189), and [Li et al. 2022](https://pubmed.ncbi.nlm.nih.gov/36442831/) which provide comprehensive estimates of cumulative yearly RSV hospitalization burden. In turn, [Johannesen et al. 2022](https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433?login=true) published average RSV reported hospitalisation time series for Europe. Here, we use a method to combine cumulative hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisation incidence accounting for under-reporting. 
+Calibration of RSV transmission models for assessing national immunisation intervention strategies requires age- and country-specific incidence data over time. However, the sensitivity and specificity of national RSV surveillance systems in the EU/EEA is highly heterogeneous, with underreporting known to be a major limitation ([Presser et al. 2023](https://doi.org/10.1093/infdis/jiad341), [Egeskov-Cavling et al. 2023](https://doi.org/10.1093/infdis/jiad382)). Estimates of cumulative yearly RSV hospitalisation burden in Europe based on large-scale hospital and virological data are available through studies like [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189), and [Li et al. 2022](https://pubmed.ncbi.nlm.nih.gov/36442831/) which provide comprehensive estimates of cumulative yearly RSV hospitalization burden. In turn, [Johannesen et al. 2022](https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433?login=true) published average RSV reported hospitalisation time series for Europe. Here, we use a method to combine cumulative hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisation incidence accounting for under-reporting. 
 
 Our proposed data generation approach works as follows.
 
