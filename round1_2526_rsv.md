@@ -37,15 +37,15 @@ To achieve this goal, this project round will model five scenarios. The proposed
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September, 2025 and the last immunized infants are born on $31^{st}$ of March, 2026 | Scenario C | Scenario D |
 | **No Universal Immunisation**. No intervention is implemented, all infants remain at risk of RSV infection and hospitalization based on historical transmission patterns $^*$.| Scenario E  (Baseline scenario) |  |
 
-$^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of interventions. In other words, the target data represents the baseline scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
+$^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of universal interventions for newborns. In other words, the target data represents the baseline or status-quo scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
 
 The rationale for the proposed design is as follows:
 
-- **Focus on single interventions (MV and mAbs)**: The scenario design focuses on comparing the two main options for immunising infants against severe RSV (la-mAbs and MV) to a no-intervention baseline. This reflects the current decision-making landscape in the EU/EEA, where many countries are weighing whether to introduce any RSV intervention and which strategy to prioritise for newborn protection.
+- **Focus on single interventions (MV and mAbs)**: The scenario design focuses on comparing the two main options for immunising newborns against severe RSV (la-mAbs and MV) to a baseline scenario without universal interventions. This reflects the current decision-making landscape in the EU/EEA, where many countries are weighing whether to introduce any RSV intervention and which strategy to prioritise for newborn protection. It also maintains a symmetrical approach between the two immunisation options, allowing a fair comparison. 
 
 - **Two coverage levels**: Expected immunisation coverage is a key uncertainty in any new immunisation programme. Modelling two distinct levels (low and high) for each intervention increases the country-relevance of the results. It also allows for an assessment of the linearity of impact with respect to coverage.
 
-- **Inclusion of a baseline scenario**: The proposal includes a baseline scenario in which neither MV nor mAbs are implemented. This is needed to establish a counterfactual reference point for estimating the public health impact and added value of the novel interventions.
+- **Inclusion of a baseline scenario**: The proposal includes a baseline or status-quo scenario in which neither MV nor la-mAbs are universally given. This is needed to establish a counterfactual reference point for estimating the public health impact and added value of the novel interventions.
 
 More broadly, this scenario round is designed not only to answer immediate policy questions but also to build RSV modelling capacity within the EU/EEA. In this sense, it aims to create a strong foundation for potential follow-up projects that could address more complex or country-specific questions in the future.
 
