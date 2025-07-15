@@ -24,7 +24,7 @@ Thus, this scenario round does not explicitely cover other uses for these produc
 
 ### Goal and Objectives
 The overall goal of this scenario modelling round is to generate evidence supporting country-level decisions on the introduction of novel infant RSV immunisation strategies for protecting newborns. This will be achieved by comparing scenarios with maternal vaccination or scenarios with monoclonal antibodies against status-quo (no universal intervention) baselines with respect to the following key outputs:
-- Estimate of the seasonal RSV hospitalisations averted in the entire EU/EEA, and in individual EU/EEA countries. This reduction in the hospitalisation burden will be reported as a proportion and as a total number.
+- Estimate of the seasonal infant RSV hospitalisations averted in the entire EU/EEA, and in individual EU/EEA countries. This reduction in the hospitalisation burden will be reported as a proportion and as a total number.
 
 - Estimate of the number of infant hospitalisations averted per 100 infants immunised for the EU/EEA and at country-level, which can be converted into country-specific costs.
 
