@@ -64,12 +64,14 @@ We will consider the following assumptions to be shared by all teams:
 - la-mAbs are administered at birth and MV is administered during antenatal care visits between 24 and 36 weeks of gestation.
 - We assume a common births cohort, specific for each country, for the scenario period. The data is provided in [here](./auxiliary-data/births/).
 - We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
-- Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not included in this scenario round, as its impact is assumed to be already reflected in the target data and negligible at the population level.
+- Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not explicitly included in this scenario round. Its impact is assumed to be already reflected in the target data and comparatively small at the population level.
+- We acknowledge that fetal, perinatal, and neonatal mortality may have a minor effect on immunisation coverage and impact. However, these rates are very low (less than 1%; see Eurostat data on [fetal, peri- and neonatal mortality rates by country of occurrence](https://ec.europa.eu/eurostat/databrowser/view/hlth_cd_aperrto/default/table?lang=en), dataset DOI: https://doi.org/10.2908/HLTH_CD_APERRTO) and can therefore be reasonably considered negligible by teams for the purposes of this scenario round.
 
 
 ## Assumptions Left to the Modellers Judgement
 - We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence in the [here](./auxiliary-data/waning/).
 - Additional effects of the interventions, such as the reduced infectiousness of vaccinated individuals if they become infected, protection against infection, are allowed and encouraged but left to the modellers judgement. We refer the teams to the [auxiliary-data](./auxiliary-data/Readme.md) readme for additional information on available evidence on the effects of the modelled interventions.
+- Teams can include demographic effects, including age-specific mortality (e.g., non-RSV related), in their models. To support this, we provide additional information and evidence [here](./auxiliary-data/).
 
 
 ## Auxiliary Data

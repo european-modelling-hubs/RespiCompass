@@ -70,10 +70,8 @@ To support this, we provide the following list of references that may be useful 
 |  |  More severe outcomes    | ~90% | Modeled values immediately after vaccination, see Figure 2 |
 
 
-
-
-
-
+### Demographic effects
+Eurostat provides data on [mortality rates](https://ec.europa.eu/eurostat/databrowser/view/demo_magec__custom_17436898/default/table?lang=en) (dataset DOI: https://doi.org/10.2908/DEMO_MAGEC) by single year of age and sex by country of occurrence.
 
 
 
