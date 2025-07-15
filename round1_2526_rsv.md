@@ -16,14 +16,14 @@ In October 2022, a new extended half-life monoclonal antibody, nirsevimab (Beyfo
 With the recent EU authorisation of these immunisation products, several EU/EEA countries have started or will soon begin the decision-making process on whether and how to introduce them into national programmes. Decisions on changing national immunisation programmes require consideration of multiple factors, including disease burden and epidemiology, the efficacy, effectiveness, and safety of new interventions, ease of implementation, population acceptance, and national health priorities. Mathematical and health economic modelling can support decision-making by estimating the potential impact of interventions on health outcomes and healthcare systems, projecting cost-effectiveness, exploring uncertainty, and supporting comparisons across policy options [10-13]. RespiCompass is designed to produce modelling evidence targeted at public health questions and to support ECDC guidance and assessments through ECDC-coordinated collaborative modelling.
 
 ### Scope of the RespiCompass 2025/26 RSV Scenario Round
-The RespiCompass 2025/26 RSV Scenario round aims to support country-level health economic evaluations and decision-making around the introduction of new RSV immunisation interventions for protecting newborns. The modelling scenarios focus on comparing the two newly-licensed options for immunising newborns against severe RSV - maternal vaccination or long-acting monoclonal antibodies - to a status-quo baseline without universal immunisation of newborns. For many EU/EEA countries this reflects the relevant decision-making questions of whether to introduce any RSV intervention, and which strategy to prioritise for newborn protection. 
+The RespiCompass 2025/26 RSV Scenario round aims to support country-level health economic evaluations and decision-making around the introduction of universal RSV immunisation interventions for protecting newborns. The modelling scenarios focus on comparing the two newly-licensed options for immunising newborns against severe RSV - maternal vaccination or long-acting monoclonal antibodies - to a status-quo baseline without universal immunisation of newborns. For many EU/EEA countries this reflects the relevant decision-making questions of whether to introduce any RSV intervention, and which strategy to prioritise for newborn protection. 
 
 Thus, this scenario round does not explicitely cover other uses for these products, including protections of older infants, or considerations around uptakes for combined maternal vaccination and monoclonal antibody strategies. It will also not cover the impact of novel immunisation products targeting the RSV burden in older adults or of immunisation of at-risk newborns (while we are considering these immunisations as part of the status-quo strategy across scenarios). 
 
 ## RSV Modelling Scenarios
 
 ### Goal and Objectives
-The overall goal of this scenario modelling round is to generate evidence supporting country-level decisions on the introduction of novel infant RSV immunisation strategies for protecting newborns. This will be achieved by comparing scenarios with maternal vaccination or scenarios with monoclonal antibodies against status-quo (no universal intervention) baselines with respect to the following key outputs:
+The overall goal of this scenario modelling round is to generate evidence supporting country-level decisions on the introduction of novel infant RSV immunisation strategies for protecting newborns. This will be achieved by comparing scenarios with universally offered maternal vaccination or scenarios with universally offered monoclonal antibodies for newborns against a status-quo (no universal intervention) baseline with respect to the following key outputs:
 - Estimate of the seasonal infant RSV hospitalisations averted in the entire EU/EEA, and in individual EU/EEA countries. This reduction in the hospitalisation burden will be reported as a proportion and as a total number.
 
 - Estimate of the number of infant hospitalisations averted per 100 infants immunised for the EU/EEA and at country-level, which can be converted into country-specific costs.
@@ -37,7 +37,7 @@ To achieve this goal, this project round will model five scenarios. This design 
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September, 2025 and the last immunized infants are born on $31^{st}$ of March, 2026 | Scenario C | Scenario D |
 | **No Universal Immunisation**. No universal RSV immunisation is implemented $^*$.| Scenario E  (Baseline scenario) |  |
 
-$^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of universal interventions for newborns. In other words, the target data represents the baseline or status-quo scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
+$^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions for newborns. In other words, the target data represents the baseline or status-quo scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
 
 The rationale for the proposed design is as follows:
 
@@ -45,22 +45,22 @@ The rationale for the proposed design is as follows:
 
 - **Two coverage levels**: Expected immunisation coverage is a key uncertainty in any new immunisation programme. Modelling two distinct levels (low and high) for each intervention increases the country-relevance of the results. It also allows for an assessment of the linearity of impact with respect to coverage.
 
-- **Inclusion of a baseline scenario**: The proposal includes a baseline or status-quo scenario in which neither MV nor la-mAbs are universally given. This is needed to establish a counterfactual reference point for estimating the public health impact and added value of the novel interventions.
+- **Inclusion of a baseline scenario**: The proposal includes a baseline or status-quo scenario in which neither MV nor la-mAbs are universally given. However, we assume immunisation of at-risk newborns across all five scenarios if this is current country practice. This is needed to establish a counterfactual reference point for estimating the public health impact and added value of universal protection offered to newborns.
 
 More broadly, this scenario round is designed not only to answer immediate policy questions but also to build RSV modelling capacity within the EU/EEA. In this sense, it aims to create a strong foundation for potential follow-up projects that could address more complex or country-specific questions in the future.
 
 
 ## Targets
-Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of interventions in different countries. Requested targets for the different scenarios are: 
-- weekly RSV hospitalisations (i.e., new admissions) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is mandatory for all teams.
-- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is optional for all teams.
+Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions. Requested modelling outputs or "targets" for all scenarios are: 
+- weekly RSV hospitalisations (i.e., new admissions) for each modelled country by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is mandatory.
+- weekly RSV infections in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is optional.
 
-While teams may choose to submit targets for only a subset of countries, we strongly encourage them to cover as many countries as possible.
+While teams may choose to submit targets for a subset of EU/EEA countries, we strongly encourage them to cover as many countries as possible.
 
 
-## Shared Assumptions
-We will consider the following assumptions to be shared by all teams:
-- VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
+## Shared Modelling Assumptions
+We will consider the following assumptions to be shared by all contributing modelling teams:
+- VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We strongly encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
 - We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the scenario period.
 - Vaccination coverage as outlined in the scenario axes. We assume that immunisation campaigns are implemented in a way that the first immunised infants are born on September $1^{st}$ and the last immunised infants are born on March $31^{st}$ of the next year. We leave to the teams to decide on the time-varying coverage of the interventions, in the simplest case, this can be done by assuming a constant coverage over the scenario period. Different implementation strategies are allowed as long as the overall coverage is consistent with the scenario axes.
 - la-mAbs are administered at birth and MV is administered during antenatal care visits between 24 and 36 weeks of gestation.
@@ -70,7 +70,7 @@ We will consider the following assumptions to be shared by all teams:
 - We acknowledge that fetal, perinatal, and neonatal mortality may have a minor effect on immunisation coverage and impact. However, these rates are very low (less than 1%; see Eurostat data on [fetal, peri- and neonatal mortality rates by country of occurrence](https://ec.europa.eu/eurostat/databrowser/view/hlth_cd_aperrto/default/table?lang=en), dataset DOI: https://doi.org/10.2908/HLTH_CD_APERRTO) and can therefore be reasonably considered negligible by teams for the purposes of this scenario round.
 
 
-## Assumptions Left to the Modellers Judgement
+## Modelling Assumptions Left to the Modellers Judgement
 - We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence in the [here](./auxiliary-data/waning/).
 - Additional effects of the interventions, such as the reduced infectiousness of vaccinated individuals if they become infected, protection against infection, are allowed and encouraged but left to the modellers judgement. We refer the teams to the [auxiliary-data](./auxiliary-data/Readme.md) readme for additional information on available evidence on the effects of the modelled interventions.
 - Teams can include demographic effects, including age-specific mortality (e.g., non-RSV related), in their models. To support this, we provide additional information and evidence [here](./auxiliary-data/).
