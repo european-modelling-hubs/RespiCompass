@@ -40,7 +40,7 @@ Our proposed data generation approach works as follows.
 **Inputs:** 
 | Input | Description | Source |
 |  :-:|  :-: | :-: |
-| $h^{c,a}$ | Annual estimated (median) RSV-hospitalizations per 1,000 in age group $a$ and country $c$ | [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188) (infants), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189) (adults)$^{*}$ |
+| $h^{c,a}$ | Annual estimated (median) RSV-hospitalizations per 1,000 in age group $a$ and country $c$ | [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188) (infants), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189) (adults)* |
 | $h_{ref}(t)$ | RSV-hospitalizations observed in week $t$ of a reference season | [Johannesen et al. 2022](https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433?login=true) |
 | $P^{c,a}$ | Recent population data for country $c$ and age group $a$ | [Eurostat](https://doi.org/10.2908/DEMO_PJAN) |
 
