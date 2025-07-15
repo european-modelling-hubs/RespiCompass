@@ -35,7 +35,7 @@ To achieve this goal, this project round will model five scenarios. The proposed
 |  :-:|  :-: | :-: |
 | **mAb only**. La-mAbs administered to newborns at birth starting on September $1^{st}$, 2025 and ending on March $31^{st}$, 2026 | Scenario A | Scenario B |
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September, 2025 and the last immunized infants are born on $31^{st}$ of March, 2026 | Scenario C | Scenario D |
-| **No Immunisation**. No intervention is implemented, all infants remain at risk of RSV infection and hospitalization based on historical transmission patterns $^*$.| Scenario E  (Baseline scenario) |  |
+| **No Universal Immunisation**. No intervention is implemented, all infants remain at risk of RSV infection and hospitalization based on historical transmission patterns $^*$.| Scenario E  (Baseline scenario) |  |
 
 $^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of interventions. In other words, the target data represents the baseline scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
 
