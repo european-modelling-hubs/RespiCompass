@@ -3,7 +3,7 @@
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
 
-This folder provides auxiliary data to support models development and calibration for RespiCompass Round-1 of 2025/2026 RSV season.
+This folder provides auxiliary data to support model development and calibration for RespiCompass Round-1 of 2025/2026 RSV season.
 
 ## Population data 
 
@@ -21,7 +21,7 @@ See dedicated [README](https://github.com/european-modelling-hubs/RespiCompass/t
 
 
 ## Additional information 
-We provide below additional information and links that may be useful for models development, calibration and projection.
+We provide below additional information and links that may be useful for model development, calibration and projection.
 
 
 ### Effectiveness and efficacy of la-mAbs and MV
