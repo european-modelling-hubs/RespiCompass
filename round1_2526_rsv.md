@@ -59,11 +59,10 @@ While teams may choose to submit targets for a subset of EU/EEA countries, we st
 
 
 ## Shared Modelling Assumptions
-We will consider the following assumptions to be shared by all contributing modelling teams:
+The following assumptions bust be shared by all contributing models:
 - VE of la-mAbs is 87% (95% CI: 81-91%) against RSV-associated hospitalisations in infants. VE of MV is XX% (95% CI: XX-XX) against RSV-associated hospitalisations in infants. We strongly encourage teams to include the uncertainty in the VE estimates in their modelling. For example, teams may sample VE from the provided VE estimates and their uncertainty to generate scenario projections. 
 - We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the scenario period.
-- Vaccination coverage as outlined in the scenario axes. We assume that immunisation campaigns are implemented in a way that the first immunised infants are born on September $1^{st}$ and the last immunised infants are born on March $31^{st}$ of the next year. We leave to the teams to decide on the time-varying coverage of the interventions, in the simplest case, this can be done by assuming a constant coverage over the scenario period. Different implementation strategies are allowed as long as the overall coverage is consistent with the scenario axes.
-- la-mAbs are administered at birth and MV is administered during antenatal care visits between 24 and 36 weeks of gestation.
+- Immunisation coverage during intervention period should be as stated in the scenario table. We assume that immunisation campaigns are implemented in a way that the first immunised infants are born on September $1^{st}$ and the last immunised infants are born on March $31^{st}$ of the next year. We leave it to the teams to decide on the time-varying coverage of the interventions, in the simplest case, this can be done by assuming a constant coverage over the intervention period. Different implementation strategies are allowed as long as the average coverage is consistent with the scenario axes.
 - We assume a common births cohort, specific for each country, for the scenario period. The data is provided in [here](./auxiliary-data/births/).
 - We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
 - Although another preventive option (palivizumab, a monoclonal antibody for high-risk infants) is available in the EU/EEA, it is not explicitly included in this scenario round. Its impact is assumed to be already reflected in the target data and comparatively small at the population level.
@@ -73,6 +72,7 @@ We will consider the following assumptions to be shared by all contributing mode
 ## Modelling Assumptions Left to the Modellers Judgement
 - We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence in the [here](./auxiliary-data/waning/).
 - Additional effects of the interventions, such as the reduced infectiousness of vaccinated individuals if they become infected, protection against infection, are allowed and encouraged but left to the modellers judgement. We refer the teams to the [auxiliary-data](./auxiliary-data/Readme.md) readme for additional information on available evidence on the effects of the modelled interventions.
+- While la-mAbs are administered at birth, MVs are administered during antenatal care visits between 24 and 36 weeks of gestation. We leave the implementation details of immunisation of pregnant individuals (including precise timing and immunisation effect in those individuals) to the discretion of the modelling teams.   
 - Teams can include demographic effects, including age-specific mortality (e.g., non-RSV related), in their models. To support this, we provide additional information and evidence [here](./auxiliary-data/).
 
 
