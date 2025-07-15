@@ -29,13 +29,13 @@ The overall goal of this scenario modelling round is to generate evidence suppor
 - Estimate of the number of infant hospitalisations averted per 100 infants immunised for the EU/EEA and at country-level, which can be converted into country-specific costs.
 
 ### Table of Proposed Scenarios
-To achieve this goal, this project round will model five scenarios. The proposed structure allows for a clear comparison between the two primary interventions at different coverage levels and a baseline counterfactual. In the following, we will use "la-mAbs" to refer to the new extended half-life monoclonal antibody and "MV" to refer to the new maternal RSV vaccine.
+To achieve this goal, this project round will model five scenarios. This design allows for a clear comparison between the two primary interventions at different coverage levels and a baseline or status-quo counterfactual. In the following, we will use "la-mAbs" to refer to the new extended half-life monoclonal antibody and "MV" to refer to the new maternal RSV vaccine.
 
 | | **High Coverage**. Coverage of the intervention assumed to be at 80% of the target population | **Low Coverage**. Coverage of the intervention assumed to be at 20% of the target population |
 |  :-:|  :-: | :-: |
 | **mAb only**. La-mAbs administered to newborns at birth starting on September $1^{st}$, 2025 and ending on March $31^{st}$, 2026 | Scenario A | Scenario B |
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September, 2025 and the last immunized infants are born on $31^{st}$ of March, 2026 | Scenario C | Scenario D |
-| **No Universal Immunisation**. No intervention is implemented, all infants remain at risk of RSV infection and hospitalization based on historical transmission patterns $^*$.| Scenario E  (Baseline scenario) |  |
+| **No Universal Immunisation**. No universal RSV immunisation is implemented $^*$.| Scenario E  (Baseline scenario) |  |
 
 $^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical hospitalisation patterns in absence of universal interventions for newborns. In other words, the target data represents the baseline or status-quo scenario burden and models should be calibrated to match the target data as closely as possible in Scenario E.
 
