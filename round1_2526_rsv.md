@@ -70,10 +70,10 @@ The following assumptions must be shared by all contributing models:
 
 
 ## Modelling Assumptions Left to the Modellers Judgement
-- We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence in the [here](./auxiliary-data/waning/).
+- We encourage teams to account for waning of immunisation-induced protection at their discretion. To support this, we provide additional information and evidence [here](./auxiliary-data/waning/).
 - Additional effects of the interventions, such as the reduced infectiousness of vaccinated individuals if they become infected, protection against infection, are allowed and encouraged but left to the modellers judgement. We refer the teams to the [auxiliary-data](./auxiliary-data/Readme.md) readme for additional information on available evidence on the effects of the modelled interventions.
 - While la-mAbs are administered at birth, MVs are administered during antenatal care visits between 24 and 36 weeks of gestation. We leave the model details concerning immunisation of pregnant individuals (including precise timing and immunisation effect in those individuals) to the discretion of the modelling teams.   
-- Teams can include demographic effects, including age-specific mortality (e.g., non-RSV related), in their models. To support this, we provide additional information and evidence [here](./auxiliary-data/).
+- Teams can include demographic effects, including age-specific mortality (e.g., non-RSV related), in their models. To support this, we provide additional information and evidence [here](./auxiliary-data#demographic-effects).
 
 
 ## Auxiliary Data
