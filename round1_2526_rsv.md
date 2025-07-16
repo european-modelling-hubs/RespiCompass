@@ -28,7 +28,7 @@ The overall goal of this scenario modelling round is to generate evidence suppor
 
 - Estimate of the number of infant hospitalisations averted per 100 infants immunised for the EU/EEA and at country-level, which can be converted into country-specific costs.
 
-### Table of Proposed Scenarios
+### Table of Scenarios
 To achieve this goal, this project round will model five scenarios. This design allows for a clear comparison between the two primary interventions at different coverage levels and a baseline or status-quo counterfactual. In the following, we will use "la-mAbs" to refer to the new extended half-life monoclonal antibody and "MV" to refer to the new maternal RSV vaccine.
 
 | | **High Coverage**. Coverage of the intervention assumed to be at 80% of the target population | **Low Coverage**. Coverage of the intervention assumed to be at 20% of the target population |
@@ -64,7 +64,7 @@ The following assumptions must be shared by all contributing models:
 - We assume no shortage of la-mAbs or MV in the EU/EEA at any time during the scenario period.
 - The focus group for the universal intervention should be the newborns, and we aim to hamonise across the two immunisation options. Thus, immunisation coverage during intervention period should be as stated in the scenario table. We assume that immunisation campaigns are implemented in such a way that the first immunised infants are born on September $1^{st}$ and the last immunised infants are born on March $31^{st}$ of the next year. We leave it to the teams to decide on the time-varying coverage of the interventions, in the simplest case, this can be done by assuming a constant coverage over the intervention period. Different implementation strategies are allowed as long as the average coverage is consistent with the scenario axes, and as long as the time varying coverage is identical between the two immunisation options.
 - We assume a common births cohort, specific for each country, for the scenario period. The data is provided in [here](./auxiliary-data/births/).
-- We assume no senior interventions (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
+- We assume no universal RSV intervention in the senior population (e.g., RSV senior vaccine) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
 - Although a RSV immunisation option for at-risk newborns (palivizumab, a monoclonal antibody) is available in the EU/EEA, it is not explicitly included in this scenario round. Its impact is assumed to be already reflected in the target data and comparatively small at the population level.
 - We acknowledge that fetal, perinatal, and neonatal mortality may have a minor effect on immunisation coverage and impact. However, these rates are very low (less than 1%; see Eurostat data on [fetal, peri- and neonatal mortality rates by country of occurrence](https://ec.europa.eu/eurostat/databrowser/view/hlth_cd_aperrto/default/table?lang=en), dataset DOI: https://doi.org/10.2908/HLTH_CD_APERRTO) and can therefore reasonably be considered negligible by teams for the purposes of this scenario round.
 
