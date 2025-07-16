@@ -14,3 +14,7 @@ This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_
     - `year`: Year.
     - `year_week`: Year and ISO week in the format YYYY-Www.
     - `horizon`: Weeks ahead in the projection period.
+  
+
+# Contacts
+If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
