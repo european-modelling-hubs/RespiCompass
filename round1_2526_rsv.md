@@ -82,7 +82,7 @@ We provide the following data to support model development and calibration:
 - Population data by age group and country. This information has to be intended as the resident population of the country in different age groups at the start of the modelling period. Available [here](./auxiliary-data/population/).
 - Monthly births data by country. This information has to be intended as the number of births in the country in each month of the modelling period. Available [here](./auxiliary-data/births/).
 - List of countries, available [here](./supporting-files/countries.csv).
-- List of weeks in the modelling period, available [here](./supporting-files/weeks.csv).
+- List of weeks in the modelling period, available [here](./supporting-files/isoweeks.csv).
 
 ## Submission Format
 General guidance for the submission format is provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki/Submission-format). For this specific round, submission file must be saved in [parquet format](https://parquet.apache.org/) and named
