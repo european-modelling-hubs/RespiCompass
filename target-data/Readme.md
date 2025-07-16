@@ -67,6 +67,10 @@ This algorithm outputs:
 - $H^{c,a}$, which consists of aggregated RSV-associated hospitalizations per each age group for a given country $c$. This information is provided in the `hospitalburden_agegroups.csv` file.
 
 
+# Contacts
+If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
+
+
 
 
 
