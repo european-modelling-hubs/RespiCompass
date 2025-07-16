@@ -99,6 +99,9 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 - ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
 - ```output_type_id```: '1' to '300' for samples. In cases where “matched” trajectories are used (i.e., trajectories that share the same parameter set across different scenarios), the same ```output_type_id``` should be assigned across those scenarios to maintain consistency.
 
+# Contacts
+If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
+
 
 # References
 1. Del Riccio M, Spreeuwenberg P, Osei-Yeboah R, Johannesen CK, Fernandez LV, Teirlinck AC, et al. Burden of Respiratory Syncytial Virus in the European Union: estimation of RSV-associated hospitalizations in children under 5 years. J Infect Dis. 2023 2023/11/28;228(11):1528-38. Available at: https://www.ncbi.nlm.nih.gov/pubmed/37246724
