@@ -1,5 +1,5 @@
 # RSV - Round 1 2025/2026 Scenarios
-- Submission deadline: 2025/XX/XX
+- Submission deadline: 2025/12/01
 
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
