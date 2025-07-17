@@ -33,16 +33,16 @@ The rationale for producing two separate files is to provide a clear overall sea
 
 
 ## EU/EEA RSV Synthetic Data Generation
-Calibration of RSV transmission models for assessing national immunisation intervention strategies requires age- and country-specific incidence data over time. However, the sensitivity and specificity of national RSV surveillance systems in the EU/EEA is highly heterogeneous, with underreporting known to be a major limitation ([Presser et al. 2023](https://doi.org/10.1093/infdis/jiad341), [Egeskov-Cavling et al. 2023](https://doi.org/10.1093/infdis/jiad382)). Estimates of cumulative yearly RSV hospitalisation burden in Europe based on large-scale hospital and virological data are available through studies like [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189), and [Li et al. 2022](https://pubmed.ncbi.nlm.nih.gov/36442831/) which provide comprehensive estimates of cumulative yearly RSV hospitalization burden. In turn, [Johannesen et al. 2022](https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433?login=true) published average RSV reported hospitalisation time series for Europe. Here, we use a method to combine cumulative hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisation incidence accounting for under-reporting. 
+Calibration of RSV transmission models for assessing national immunisation intervention strategies requires age- and country-specific incidence data over time. However, the sensitivity and specificity of national RSV surveillance systems in the EU/EEA is highly heterogeneous, with underreporting known to be a major limitation [1,2]. Estimates of cumulative yearly RSV hospitalisation burden in Europe based on large-scale hospital and virological data are available through studies like [3-5] which provide comprehensive estimates of cumulative yearly RSV hospitalization burden. In turn [6] published average RSV reported hospitalisation time series for Europe. Here, we use a method to combine cumulative hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisation incidence accounting for under-reporting. 
 
 Our proposed data generation approach works as follows.
 
 **Inputs:** 
 | Input | Description | Source |
 |  :-:|  :-: | :-: |
-| $h^{c,a}$ | Annual estimated (median) RSV-hospitalizations per 1,000 in age group $a$ and country $c$ | [Del Riccio et al. 2023](https://doi.org/10.1093/infdis/jiad188) (infants), [Osei-Yeboah et al. 2023](https://doi.org/10.1093/infdis/jiad189) (adults)* |
-| $h_{ref}(t)$ | RSV-hospitalizations observed in week $t$ of a reference season | [Johannesen et al. 2022](https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433?login=true) |
-| $P^{c,a}$ | Recent population data for country $c$ and age group $a$ | [Eurostat](https://doi.org/10.2908/DEMO_PJAN) |
+| $h^{c,a}$ | Annual estimated (median) RSV-hospitalizations per 1,000 in age group $a$ and country $c$ | [3] (infants), [4] (adults)* |
+| $h_{ref}(t)$ | RSV-hospitalizations observed in week $t$ of a reference season | [6] |
+| $P^{c,a}$ | Recent population data for country $c$ and age group $a$ | [7] |
 
 $^{*}$ **Note**: these two studies provide country-specific estimates of RSV-hospitalizations per 1,000 population for the following age groups: 0-2mo, 3-5mo, 6-11mo, 1-2y, 3-4y, 18-64y, 65-74y, 75-84y, 85+y. We apply the algorithm described below to obtain overall annual burden for these age groups and then we aggregate them to the age groups requested for this scenario round. Additionally, for the missing 5-17y group, we use the 18-64yo age group hospitalisation rate estimates.
 
@@ -71,6 +71,11 @@ This algorithm outputs:
 If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
 
 
-
-
-
+# References
+1. Presser LD, van den Akker WM, Meijer A. Respiratory syncytial virus European laboratory network 2022 survey: need for harmonization and enhanced molecular surveillance. The Journal of Infectious Diseases. 2024 Mar 15;229(Supplement_1):S34-9. Available at: https://academic.oup.com/jid/article/229/Supplement_1/S34/7242218
+2. Egeskov-Cavling, Amanda Marie, et al. Underreporting and misclassification of respiratory syncytial virus–coded hospitalization among adults in Denmark between 2015–2016 and 2017–2018. The Journal of infectious diseases 229.Supplement_1 (2024): S78-S83. Available at:https://academic.oup.com/jid/article/229/Supplement_1/S78/7281854
+3. Del Riccio M, Spreeuwenberg P, Osei-Yeboah R, Johannesen CK, Fernandez LV, Teirlinck AC, et al. Burden of Respiratory Syncytial Virus in the European Union: estimation of RSV-associated hospitalizations in children under 5 years. J Infect Dis. 2023 2023/11/28;228(11):1528-38. Available at: https://www.ncbi.nlm.nih.gov/pubmed/37246724
+4. Osei-Yeboah R, Spreeuwenberg P, Del Riccio M, Fischer TK, Egeskov-Cavling AM, Bøås H, et al. Estimation of the number of respiratory syncytial virus-associated hospitalizations in adults in the European Union. J Infect Dis. 2023 2023/11/28;228(11):1539-48. Available at: https://www.ncbi.nlm.nih.gov/pubmed/37246742
+5. Li X, Hodgson D, Flaig J, Kieffer A, Herring WL, Beyhaghi H, Willem L, Jit M, Bilcke J, Beutels P, REspiratory Syncytial virus Consortium in EUrope (RESCEU) Investigators. Cost-effectiveness of respiratory syncytial virus preventive interventions in children: a model comparison study. Value in health. 2023 Apr 1;26(4):508-18. Available at: https://www.sciencedirect.com/science/article/pii/S1098301522047465
+6. Johannesen CK, van Wijhe M, Tong S, Fernández LV, Heikkinen T, van Boven M, Wang X, Bøås H, Li Y, Campbell H, Paget J. Age-specific estimates of respiratory syncytial virus-associated hospitalizations in 6 European countries: a time series analysis. The Journal of infectious diseases. 2022 Aug 1;226(Supplement_1):S29-37. Available at: https://academic.oup.com/jid/article/226/Supplement_1/S29/6617433
+7. Eurostat. Population by age and sex. 2025. Available at: https://ec.europa.eu/eurostat/databrowser/product/page/DEMO_PJAN. DOI: https://doi.org/10.2908/DEMO_PJAN
