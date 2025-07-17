@@ -12,7 +12,7 @@ This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_
     - `end_date`: End day of the week (Sunday).
     - `week`: Week number.
     - `year`: Year.
-    - `year_week`: Year and ISO week in the format YYYY-Www.
+    - `year_week`: Year and ISO week in the format ```YYYY-Www```.
     - `horizon`: Weeks ahead in the projection period.
   
 
