@@ -31,7 +31,7 @@ The overall goal of this scenario modelling round is to generate evidence suppor
 ### Table of Scenarios
 To achieve this goal, this project round will model five scenarios. This design allows for a clear comparison between the two primary interventions at different coverage levels and a baseline or status-quo counterfactual. In the following, we will use "la-mAbs" to refer to the new extended half-life monoclonal antibody and "MV" to refer to the new maternal RSV vaccine.
 
-| | **High Coverage**. Coverage of the intervention assumed to be at 80% of the target population | **Low Coverage**. Coverage of the intervention assumed to be at 20% of the target population |
+| | **High Coverage**. Coverage of the intervention assumed to be at 90% of the target population | **Low Coverage**. Coverage of the intervention assumed to be at 20% of the target population |
 |  :-:|  :-: | :-: |
 | **mAb only**. La-mAbs administered to newborns at birth starting on September $1^{st}$, 2025 and ending on March $31^{st}$, 2026 | Scenario A | Scenario B |
 | **MV only**. MV administered during antenatal care visits, with immunization campaigns such that first immunized infants are born on $1^{st}$ of September, 2025 and the last immunized infants are born on $31^{st}$ of March, 2026 | Scenario C | Scenario D |
