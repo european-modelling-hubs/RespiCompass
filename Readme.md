@@ -1,7 +1,8 @@
 ![RespiCompass Logo](./respicompass_logo_img.png)
 
-# RespiCompass Latest Scenario Round: [RSV 2025/26](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2526_rsv.md)
-For information regarding the call for the latest RespiCompass scenario round on RSV see the [dedicated Readme file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2526_rsv.md). Deadline for submissions is 2025/12/01.
+# ❗️ RespiCompass Latest Scenario Round: [RSV 2025/26](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2526_rsv.md)
+For information regarding the call for the latest RespiCompass scenario round on RSV see the [dedicated Readme file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2526_rsv.md). 
+Deadline for submissions is 2025/12/01.
 
 
 
