@@ -78,7 +78,8 @@ The following assumptions must be shared by all contributing models:
 
 
 ## Auxiliary Data
-We provide the following data to support model development and calibration: 
+Through this github repository we provide and point toward all data that is essential for the modelling. No ECDC data requests are required for this project. We provide the following to support model development and calibration: 
+
 - Weekly RSV hospitalisations (i.e., new admissions) are provided for each country over the modelling period in the absence of universal RSV interventions. This data must be used to calibrate models to the baseline scenario (Scenario E). Weekly hospitalisation counts are given for the total population, with additional aggregated estimates by age group. Models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific burdens. Available [here](./target-data/). 
 - Population data by age group and country. This information has to be intended as the resident population of the country in different age groups at the start of the modelling period. Available [here](./auxiliary-data/population/).
 - Monthly births data by country. This information has to be intended as the number of births in the country in each month of the modelling period. Available [here](./auxiliary-data/births/).
