@@ -1,7 +1,9 @@
 ![RespiCompass Logo](./respicompass_logo_img.png)
 
-### ⚠️⚠️⚠️ Warning
-The repository is currently under construction for the 2025/2026 scenario round. Stay tuned for updates!
+# RespiCompass Latest Scenario Round: RSV 2025/26
+For information regarding the call for the latest RespiCompass scenario round on RSV see the [dedicated Readme file](https://github.com/european-modelling-hubs/RespiCompass/blob/main/round1_2526_rsv.md). Deadline for submissions is 2025/12/01.
+
+
 
 
 ## RespiCompass Rationale 
