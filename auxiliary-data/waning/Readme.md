@@ -1,7 +1,7 @@
 # Waning of immunity 
 
 Teams are encouraged to incorporate the waning of immunity conferred by both la-mAbs and MV into their models. Note that the IE values listed in the shared assumptions of this round (see [scenario round specifications](../../round1_2526_rsv.md)) refer to 
-a meta-analysis considering 8 studies with an observation period >120days in the case of la-mAbs [1], while the IE of MV is estimated considering newborns from birth to age 3 month [2].
+a meta-analysis considering 8 studies with an observation period between 4 and 8 months in the case of la-mAbs [1], while the IE of MV is estimated considering newborns from birth to age 3 month [2].
 
 To facilitate the inclusion of waning of immunity in the models, we provide the file [waning_curves.csv](./waning_curves.csv), which contains immunity waning data derived from Ref. [3]. Specifically, the file includes the following columns:
 
