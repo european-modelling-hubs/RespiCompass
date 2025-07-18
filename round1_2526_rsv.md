@@ -54,7 +54,7 @@ More broadly, this scenario round is designed not only to answer immediate polic
 Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions. Requested modelling outputs or "targets" for all scenarios are: 
 - **weekly RSV hospitalisations** (i.e., new admissions) for each modelled country by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is **mandatory**.
 - **weekly administered doses** for each modelled country betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. In the case of la-mAbs, this target should be reported as the number of doses administered to newborns, on a given week and country. In the case of MV, this target should be reported as the number of doses administered to pregnant individuals, on a given week and country. This target is **mandatory**.
-- **weekly RSV infections** in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is **optional**.
+- **weekly RSV infections** (i.e., new infections) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y, total) and immunisation status (yes, no, total) betweeen September $1^{st}$, 2025 and April $27^{th}$, 2026. This target is **optional**.
 
 While teams may choose to submit targets for a subset of EU/EEA countries, we strongly encourage them to cover as many countries as possible.
 
