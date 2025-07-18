@@ -8,8 +8,8 @@ This repository contains the following additional supporting files:
 
 2. `isoweeks.csv`: 
 This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date) related to the scenario period of RSV scenario round 2025/2026. **Columns:**
-    - `start_date`: Start day of the week (Monday).
-    - `end_date`: End day of the week (Sunday).
+    - `target_start_date`: Start day of the week (Monday).
+    - `target_end_date`: End day of the week (Sunday).
     - `week`: Week number.
     - `year`: Year.
     - `year_week`: Year and ISO week in the format ```YYYY-Www```.

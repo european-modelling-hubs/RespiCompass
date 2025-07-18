@@ -3,24 +3,24 @@
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
 
-This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of universal RSV immunisation interventions. This data must be used to calibrate models to the baseline ('status-quo') scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific contribution to overall burden.
+This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of universal RSV immunisation interventions. This data must be used to calibrate models to the baseline ('status-quo') scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific contribution to overall burden.
 
 Due to the scarcity of RSV surveillance data in the EU/EEA, we use a combination of cumulative yearly hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisations accounting for under-reporting. In other words, we synthetically generate weekly RSV hospitalisation data for each country and age-specific burden using robust estimates from the literature. In this sense, the target data is a synthetic proxy of the true hospitalisation burden in absence of intervention and should not be considered as a direct observation nor a prediction for the 2025/2026 RSV season (more details below).
 
 We provide **two files**: 
-- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
+- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
 
     | Column Name | Description |
     |  :-:|  :-: |
     | `country` | Country name |
     | `age_group` | Age group (in this case, always `total`) |
-    | `date` | Date (ISO week, Monday of the week) |
+    | `target_end_date` | Date (ISO week, Sunday of the week) |
     | `year_week` | Year and week number (e.g. 2025-W36, this matches the `week` and `year` columns, provided for convenience) |
     | `week` | Week number |
     | `year` | Year |
     | `weekly_rsv_hospitalisations` | Total (across age groups) weekly RSV-associated hospitalisations |
 
-- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to April $27^{th}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
+- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
     | Column Name | Description |
     |  :-:|  :-: |
     | `country` | Country name |
