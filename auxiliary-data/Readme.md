@@ -1,8 +1,5 @@
 # Auxiliary Data
 
-### ⚠️⚠️⚠️ Warning
-The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
-
 This folder provides auxiliary data to support model development and calibration for RespiCompass Round-1 of 2025/2026 RSV season.
 
 ## Population data 
