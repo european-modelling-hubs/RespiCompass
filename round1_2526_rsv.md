@@ -1,10 +1,6 @@
 # RSV - Round 1 2025/2026 Scenarios
 - Submission deadline: 2025/12/01
 
-### ⚠️⚠️⚠️ Warning
-The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
-
-
 ## Background
 ### Infant RSV Burden in the EU/EEA
 Respiratory Syncytial Virus (RSV) is a major cause of respiratory infections across the EU/EEA. The burden of disease is particularly high in older adults, individuals with underlying comorbidities, and young children [1-4]. Depending on the country, RSV-related hospitalisations have been estimated to account for 7% to 52% of all paediatric respiratory hospitalisations, representing approximately 250,000 annual hospital admissions in the entire EU/EEA [1]. Newborn babies have the highest per-capita rate of RSV-related hospitalisations [1].
