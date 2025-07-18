@@ -3,12 +3,12 @@
 ### ⚠️⚠️⚠️ Warning
 The repository is currently under construction for the 2025/2026 scenario round. All information is not final and subject to change until this message is removed.
 
-This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of universal RSV immunisation interventions. This data must be used to calibrate models to the baseline ('status-quo') scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific contribution to overall burden.
+This folder contains target data for Round 1 2025/2026 for RSV. In particular, we provide weekly new RSV-associated hospitalisations for each country and age-specific aggregated burden for the period September $1^{st}$ 2025 (2025-W36) to May $31^{st}$ 2026 (2026-W22) in absence of universal RSV immunisation interventions. This data must be used to calibrate models to the baseline ('status-quo') scenario. In other words, in Scenario E, models should aim to reproduce the target data as closely as possible, capturing both the overall seasonal patterns and age-specific contribution to overall burden.
 
 Due to the scarcity of RSV surveillance data in the EU/EEA, we use a combination of cumulative yearly hospitalisation estimates and standardised hospitalisation time-series to obtain age and country-specific weekly hospitalisations accounting for under-reporting. In other words, we synthetically generate weekly RSV hospitalisation data for each country and age-specific burden using robust estimates from the literature. In this sense, the target data is a synthetic proxy of the true hospitalisation burden in absence of intervention and should not be considered as a direct observation nor a prediction for the 2025/2026 RSV season (more details below).
 
 We provide **two files**: 
-- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
+- `hospitaladmissions.csv`: Total (across age groups) weekly RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $31^{st}$ 2026 (2026-W22) in absence of interventions. This file has the following columns: 
 
     | Column Name | Description |
     |  :-:|  :-: |
@@ -20,13 +20,13 @@ We provide **two files**:
     | `year` | Year |
     | `weekly_rsv_hospitalisations` | Total (across age groups) weekly RSV-associated hospitalisations |
 
-- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $3^{rd}$ 2026 (2026-W18) in absence of interventions. This file has the following columns: 
+- `hospitalburden_agegroups.csv`: Age-specific aggregated burden of RSV-associated hospitalisations in each country for the period September $1^{st}$ 2025 (2025-W36) to May $31^{st}$ 2026 (2026-W22) in absence of interventions. This file has the following columns: 
     | Column Name | Description |
     |  :-:|  :-: |
     | `country` | Country name |
     | `age_group` | Age group (one of: 0-2mo, 3-5mo, 6-11mo, 1-4y, 5-64y, 65+y) |
     | `start_date` | Start date of the period to which the data refers to ($1^{st}$ September 2025) |
-    | `end_date` | End date of the period to which the data refers to ($27^{th}$ April 2026) |
+    | `end_date` | End date of the period to which the data refers to ($31^{st}$ May 2026) |
     | `total_rsv_hospitalisations` | Total (across age groups) RSV-associated hospitalisations |
 
 The rationale for producing two separate files is to provide a clear overall seasonal pattern of hospitalisations while allowing flexibility in the age-specific profiles, with total age-specific burdens still available and shared across models. Different age groups may exhibit distinct seasonal trends due to variations in susceptibility to RSV and assumptions about inter-age-group contact patterns. In the absence of detailed age-specific seasonal data, it is challenging to generate plausible age-specific hospitalisation curves that align with the overall seasonal pattern and are compatible with most modelling frameworks. Therefore, we opted to provide the total burden by age group and the overall seasonal trend as separate inputs.
@@ -48,23 +48,21 @@ $^{*}$ **Note**: these two studies provide country-specific estimates of RSV-hos
 
 **Algorithm:** 
 
-For each country $c$ and age group $a$: 
-1. Compute total annual RSV-hospitalizations by country $c$ and age group $a$: 
-    $$H^{c,a} = h^{c,a} /1,000\times P^{c,a}$$
+For each country $c$: 
+1. Compute total annual RSV-hospitalizations by country $c$ and age group $a$ (rounded to the nearest integer): 
+    $$H^{c,a} = \lfloor (h^{c,a} /1,000\times P^{c,a}) \rfloor$$
 2. Total annual RSV-hospitalizations are the sum of RSV-hospitalizations in all age groups for a given country $c$: 
     $$H^{c}=\sum_{a}H^{c,a}$$
-3. For each week $t$: 
-    - Compute the share of RSV-hospitalizations observed in week $t$ of the reference season: 
-        $$\psi(t)=h_{ref}(t) / \sum_{t'}h_{ref}(t')$$
-    - Compute total RSV-hospitalizations in week $t$ for country $c$: 
-        $$H^{c}(t)=\psi(t) H^{c}$$
+3. For each week $t$, compute the share of RSV-hospitalizations observed in week $t$ of the reference season: 
+        $$\psi(t)=\frac{h_{ref}(t)}{\sum_{t'}h_{ref}(t')}$$
+4. Compute weekly RSV-hospitalizations for each week $t$ for country $c$ considering a multinomial distribution: 
+    $$(H^c(t_1), H^c(t_2) \ldots, H^c(t_T)) \sim \text{Multinomial}(H^c, (\psi(t_1), \psi(t_2), \ldots, \psi(t_T)))$$
 
-**Output:** 
 
 This algorithm outputs: 
-- $H^{c}(t)$, which consists of total weekly RSV-associated hospitalizations for a given country $c$ for all weeks $t$. This information is provided in the `hospitaladmissions.csv` file.
+- $\mathbf{H}^c_t = (H^c(t_1), H^c(t_2) \ldots, H^c(t_n))$, which consists of total weekly RSV-associated hospitalizations for a given country $c$ for all weeks $t$. This information is provided in the `hospitaladmissions.csv` file.
 
-- $H^{c,a}$, which consists of aggregated RSV-associated hospitalizations per each age group for a given country $c$. This information is provided in the `hospitalburden_agegroups.csv` file.
+- $\mathbf{H}^{c,a} = (H^{c,a_1}, H^{c,a_2}, \ldots, H^{c,a_n})$, which consists of aggregated RSV-associated hospitalizations per each age group for a given country $c$. This information is provided in the `hospitalburden_agegroups.csv` file.
 
 
 # Contacts
