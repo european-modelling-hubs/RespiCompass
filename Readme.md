@@ -5,11 +5,8 @@ For information regarding the call for the latest RespiCompass scenario round on
 
 Deadline for submissions is 2025/12/01.
 
-
-
-
-## RespiCompass Rationale 
-With many uncertain factors at play, it is challenging to predict respiratory virus burden in forthcoming winter seasons. However, by combining data from national surveillance systems with published scientific evidence, expert knowledge, and leveraging expertise from global modelling groups, this respiratory disease scenario modelling hub provides public health advisors and policy decision-makers at European, national, or subnational level with robust insights into plausible winter season scenarios. This hub provides guidance—a "compass"—to support public health stakeholders in their long-term planning and anticipatory action. Secondly, such a hub builds a synergistic community of policy advisors, policy makers and modellers and brings modelling closer to decision making.
+## RespiCompass Background 
+RespiCompass is ECDC’s hub dedicated to scenario modelling of viral respiratory diseases. Scenario modelling explores mid- to long-term projections that incorporate specific scenario assumptions to manage uncertainty. The scenarios are designed to support policymakers by providing insights into the potential impact of public health interventions and different epidemiological contexts. RespiCompass brings together multiple modelling groups working collaboratively with experts in respiratory virus surveillance, as well as other ECDC stakeholders, including public health agencies at both national and supranational levels.
 
 ## How to Join RespiCompass
 RespiCompass welcomes modelling teams willing to contribute their projections. Detailed information on how to join are provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki). Here’s a concise guide on how to participate:
