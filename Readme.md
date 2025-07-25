@@ -5,6 +5,8 @@ For information regarding the call for the latest RespiCompass scenario round on
 
 Deadline for submissions is 2025/12/01.
 
+Teams interested in participating in the upcoming RSV scenario round are encouraged to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
+
 ## RespiCompass Background 
 RespiCompass is ECDC’s hub dedicated to scenario modelling of viral respiratory diseases. Scenario modelling explores mid- to long-term projections that incorporate specific scenario assumptions to manage uncertainty. The scenarios are designed to support policymakers by providing insights into the potential impact of public health interventions and different epidemiological contexts. RespiCompass brings together multiple modelling groups working collaboratively with experts in respiratory virus surveillance, as well as other ECDC stakeholders, including public health agencies at both national and supranational levels.
 
