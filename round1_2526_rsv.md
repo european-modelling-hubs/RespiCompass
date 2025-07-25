@@ -99,6 +99,8 @@ Where `<team>-<model>` will be specific for each team/model and must match the `
 - ```output_type```: we request teams to submit 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
 - ```output_type_id```: '1' to '300' for samples. In cases where “matched” trajectories are used (i.e., trajectories that share the same parameter set across different scenarios), the same ```output_type_id``` should be assigned across those scenarios to maintain consistency.
 
+**Note on age groups**: the age groups are defined such that ```'0-2mo'``` includes infants that have between 0 and approximately 89 days of age, ```'3-5mo'``` includes infants that have between 90 and 179 days of age, ```'6-11mo'``` includes infants that have between 180 and 364 days of age.
+
 # Contacts
 If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
 
