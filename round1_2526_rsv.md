@@ -1,5 +1,6 @@
 # RSV - Round 1 2025/2026 Scenarios
 - Submission deadline: 2025/12/01
+- Teams interested in participating in the upcoming RSV scenario round are encouraged to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
 
 ## Background
 ### Infant RSV Burden in the EU/EEA
