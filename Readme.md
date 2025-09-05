@@ -13,7 +13,7 @@ RespiCompass is ECDC’s hub dedicated to scenario modelling of viral respirator
 ## How to Join RespiCompass
 RespiCompass welcomes modelling teams willing to contribute their projections. 
 
-To join the project, teams shall pre-register by sending an email to European.Modelling.Hub@ecdc.europa.eu, describing the projections model they are going to use. 
+To join the project, teams shall pre-register by sending an email to rsv-respicompass@isi.it, describing the projections model they are going to use. 
 Registration is not binding, teams are encouraged to register even if they are unsure if they'll be able to participate. **Please register as soon as possible if you're interested!**
 
 Detailed information on how to join are provided in the [Wiki](https://github.com/european-modelling-hubs/RespiCompass/wiki). Here’s a concise guide on how to participate:
