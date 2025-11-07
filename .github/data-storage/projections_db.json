@@ -1,1 +1,10 @@
-{}
+{
+    "TestTeam": [
+        {
+            "model": "TestModel",
+            "changes": [
+                "model-output/TestTeam-TestModel/2025_2026_1_RSV-TestTeam-TestModel.parquet"
+            ]
+        }
+    ]
+}
