@@ -107,7 +107,7 @@ jobs:
               files: ${{ steps.get_changed_files.outputs.all_changed_files }}
               PR_NUMBER: ${{ github.event.number }}
             run: |
-              Rscript ./tools/RCode/validate_pr_custom.R \
+              Rscript ./tools/RCode/SH_validate_pr_custom.R \
                 --hub_path . \
                 --all_changed_files "${{ steps.get_changed_files.outputs.all_changed_files }}" \
                 --check_submit_window TRUE
