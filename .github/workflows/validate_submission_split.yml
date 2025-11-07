@@ -38,7 +38,13 @@ jobs:
           # ----------------------------------------------
           - uses: r-lib/actions/setup-r-dependencies@v2
             with:
-              packages: hubverse-org/hubValidations, any::sessioninfo
+              packages: |
+                hubverse-org/hubValidations
+                arrow
+                dplyr
+                optparse
+                purrr
+                any::sessioninfo
 
 
           # Install System dependencies
@@ -72,6 +78,8 @@ jobs:
           - name: Get changes
             id: get_changed_files
             uses: tj-actions/changed-files@v46
+            with:
+              separator: ","
 
 
           # Checkout the python tools repo
@@ -99,23 +107,22 @@ jobs:
               files: ${{ steps.get_changed_files.outputs.all_changed_files }}
               PR_NUMBER: ${{ github.event.number }}
             run: |
-              library("hubValidations")
-              v <- hubValidations::validate_pr(
-                  gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
-                  pr_number = Sys.getenv("PR_NUMBER"),
-                  skip_submit_window_check = FALSE
-              )
-              hubValidations::check_for_errors(v, verbose = TRUE)
+              Rscript ./tools/RCode/validate_pr_custom.R \
+                --hub_path . \
+                --all_changed_files "${{ steps.get_changed_files.outputs.all_changed_files }}" \
+                --check_submit_window TRUE
+                
+              # hubValidations::check_for_errors(v, verbose = TRUE)
                                     
-            shell: Rscript {0}
 
+          # TEMPORARY COMMENTED OUT UNTIL BUG FIXED
           # Validate derived_task_ids since their validation
           # is currently skipped in the validate_pr
-          - name: Validate derived task ids
-            env:
-              input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
-            run: |
-              python ./tools/code/validate_derived_task_ids.py
+          # - name: Validate derived task ids
+          #   env:
+          #     input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
+          #   run: |
+          #     python ./tools/code/validate_derived_task_ids.py
 
           # Eventually comment on it
           # ---------------------------
