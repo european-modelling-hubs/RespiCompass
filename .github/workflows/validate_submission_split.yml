@@ -123,7 +123,7 @@ jobs:
               input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
             run: |
               # python ./tools/code/validate_derived_task_ids.py
-              python validate_task_ids_with_optional_rules.py -c hub-config/tasks.json -t "target_end_date pop_group"
+              python ./tools/code/validate_task_ids_with_optional_rules.py -c hub-config/tasks.json -t "target_end_date pop_group"
 
           # Eventually comment on it
           # ---------------------------
