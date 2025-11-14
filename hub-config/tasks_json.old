@@ -14,12 +14,21 @@
                             "optional": null
                         },
                         "target": {
-                            "required": ["rsv_hospitalisations"],
-                            "optional":["rsv_infections"]
+                            "required": ["rsv_hospitalisations","rsv_infections"],
+                            "optional": null
                         },
                         "target_end_date": {
                             "required": null,
                             "optional": [
+                                "2025-07-06",
+                                "2025-07-13",
+                                "2025-07-20",
+                                "2025-07-27",
+                                "2025-08-03",
+                                "2025-08-10",
+                                "2025-08-17",
+                                "2025-08-24",
+                                "2025-08-31",
                                 "2025-09-07",
                                 "2025-09-14",
                                 "2025-09-21",
@@ -62,8 +71,8 @@
                             ]
                         },
                         "horizon": {
-                            "optional": null,
-                            "required": [
+                            "required": null,
+                            "optional": [
                                 0,
                                 1,
                                 2,
@@ -151,8 +160,8 @@
                             ]
                         },
                         "pop_group": {
-                            "optional": null,
-                            "required": [
+                            "required": null,
+                            "optional": [
                                 "0-2mo_immYes",
                                 "0-2mo_immNo",
                                 "0-2mo_immTotal",
@@ -318,7 +327,43 @@
                             ]
                         },
                         "horizon": {
-                            "required": [
+                            "required": null,
+                            "optional": [
+                                -35,
+                                -34,
+                                -33,
+                                -32,
+                                -31,
+                                -30,
+                                -29,
+                                -28,
+                                -27,
+                                -26,
+                                -25,
+                                -24,
+                                -23,
+                                -22,
+                                -21,
+                                -20,
+                                -19,
+                                -18,
+                                -17,
+                                -16,
+                                -15,
+                                -14,
+                                -13,
+                                -12,
+                                -11,
+                                -10,
+                                -9,
+                                -8,
+                                -7,
+                                -6,
+                                -5,
+                                -4,
+                                -3,
+                                -2,
+                                -1,
                                 0,
                                 1,
                                 2,
@@ -358,43 +403,6 @@
                                 36,
                                 37,
                                 38
-                            ],
-                            "optional": [
-                                -35,
-                                -34,
-                                -33,
-                                -32,
-                                -31,
-                                -30,
-                                -29,
-                                -28,
-                                -27,
-                                -26,
-                                -25,
-                                -24,
-                                -23,
-                                -22,
-                                -21,
-                                -20,
-                                -19,
-                                -18,
-                                -17,
-                                -16,
-                                -15,
-                                -14,
-                                -13,
-                                -12,
-                                -11,
-                                -10,
-                                -9,
-                                -8,
-                                -7,
-                                -6,
-                                -5,
-                                -4,
-                                -3,
-                                -2,
-                                -1
                             ]
                         },
                         "location": {
@@ -443,8 +451,8 @@
                             ]
                         },
                         "pop_group": {
-                            "optional": null,
-                            "required": ["undefined"]
+                            "required": null,
+                            "optional": ["undefined"]
                         }
                     },
                     "output_type": {
@@ -493,6 +501,7 @@
     ],
     "output_type_id_datatype": "character",
     "derived_task_ids": [
-        "target_end_date"
+        "target_end_date",
+        "pop_group"
     ]
 }
