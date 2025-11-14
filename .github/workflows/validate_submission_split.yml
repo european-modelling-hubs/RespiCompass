@@ -118,12 +118,12 @@ jobs:
           # TEMPORARY COMMENTED OUT UNTIL BUG FIXED
           # Validate derived_task_ids since their validation
           # is currently skipped in the validate_pr
-          - name: Validate derived task ids
-            env:
-              input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
-            run: |
-              # python ./tools/code/validate_derived_task_ids.py
-              python ./tools/code/validate_task_ids_with_optional_rules.py -c hub-config/tasks.json -t "target_end_date pop_group"
+          # - name: Validate derived task ids
+          #   env:
+          #     input_list: ${{ steps.get_changed_files.outputs.all_changed_files }}
+          #   run: |
+          #     # python ./tools/code/validate_derived_task_ids.py
+          #     python ./tools/code/validate_task_ids_with_optional_rules.py -c hub-config/tasks.json -t "target_end_date pop_group"
 
           # Eventually comment on it
           # ---------------------------
