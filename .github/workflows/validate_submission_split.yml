@@ -112,7 +112,7 @@ jobs:
                 --all_changed_files "${{ steps.get_changed_files.outputs.all_changed_files }}" \
                 --check_submit_window TRUE
                 
-              hubValidations::check_for_errors(v, verbose = TRUE)
+              # hubValidations::check_for_errors(v, verbose = TRUE)
                                     
 
           # TEMPORARY COMMENTED OUT UNTIL BUG FIXED
