@@ -182,7 +182,7 @@
                             "output_type_id_params": {
                                 "type": "character",
                                 "max_length": 6,
-                                "min_samples_per_task": 1,
+                                "min_samples_per_task": 100,
                                 "max_samples_per_task": 300,
                                 "compound_taskid_set": [
                                     "round_id",
@@ -452,7 +452,7 @@
                             "output_type_id_params": {
                                 "type": "character",
                                 "max_length": 6,
-                                "min_samples_per_task": 1,
+                                "min_samples_per_task": 100,
                                 "max_samples_per_task": 300,
                                 "compound_taskid_set": [
                                     "round_id",
