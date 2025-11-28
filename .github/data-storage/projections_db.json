@@ -1,1 +1,10 @@
-{}
+{
+    "charite_cgh": [
+        {
+            "model": "CCGH_RSV",
+            "changes": [
+                "model-output/charite_cgh-CCGH_RSV/2025_2026_1_RSV-charite_cgh-CCGH_RSV.parquet"
+            ]
+        }
+    ]
+}
