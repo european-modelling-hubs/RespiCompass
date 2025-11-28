@@ -1,0 +1,15 @@
+team_name: Charité Centre for Global Health
+model_name: CCGH-RSV
+team_abbr: charite_cgh
+model_abbr: CCGH_RSV
+model_contributors:
+- name: Julia Mayer
+  affiliation: Charité Universitätsmedizin Berlin
+  email: julia-stephanie.mayer@charite.de
+- name: Stefan Flasche
+  affiliation: Charité Universitätsmedizin Berlin
+  email: stefan.flasche@charite.de
+team_model_designation: primary
+methods: A static, age-structured catalytic compartmental model calibrated via Markov-Chain-Monte
+  Carlo.
+
