@@ -15,7 +15,7 @@ on:
 
 jobs:
     validate-submission_job:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-22.04
         
         outputs:
           changed_files: ${{ steps.get_changed_files.outputs.all_changed_files }}
@@ -71,7 +71,7 @@ jobs:
           # --------------------------------------------      
           - name: Get changes
             id: get_changed_files
-            uses: tj-actions/changed-files@v41
+            uses: tj-actions/changed-files@v46
 
 
           # Checkout the python tools repo
@@ -103,8 +103,7 @@ jobs:
               v <- hubValidations::validate_pr(
                   gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
                   pr_number = Sys.getenv("PR_NUMBER"),
-                  skip_submit_window_check = FALSE,
-                  derived_task_ids = c("target_end_date", "pop_group")
+                  skip_submit_window_check = FALSE
               )
               hubValidations::check_for_errors(v, verbose = TRUE)
                                     

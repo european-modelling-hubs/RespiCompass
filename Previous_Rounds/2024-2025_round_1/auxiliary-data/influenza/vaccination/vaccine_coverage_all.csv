@@ -1,0 +1,545 @@
+season,location_name,iso2_code,target_group,vaccine_coverage,source
+2020-2021,Belgium,BE,65+y,57.33,EUROSTAT
+2019-2020,Belgium,BE,65+y,62.06,EUROSTAT
+2018-2019,Belgium,BE,65+y,55.1,EUROSTAT
+2017-2018,Belgium,BE,65+y,53.19,EUROSTAT
+2016-2017,Belgium,BE,65+y,52.88,EUROSTAT
+2015-2016,Belgium,BE,65+y,54.66,EUROSTAT
+2014-2015,Belgium,BE,65+y,55.79,EUROSTAT
+2013-2014,Belgium,BE,65+y,56.09,EUROSTAT
+2012-2013,Belgium,BE,65+y,56.4,EUROSTAT
+2021-2022,Belgium,BE,65+y,56.0,EUROSTAT
+2020-2021,Bulgaria,BG,65+y,8.9,EUROSTAT
+2019-2020,Bulgaria,BG,65+y,5.8,EUROSTAT
+2018-2019,Bulgaria,BG,65+y,3.5,EUROSTAT
+2013-2014,Bulgaria,BG,65+y,2.4,EUROSTAT
+2021-2022,Bulgaria,BG,65+y,10.4,EUROSTAT
+2020-2021,Czechia,CZ,18+y,6.4,ECDC 2023
+2018-2019,Czechia,CZ,18+y,5.5,ECDC 2023
+2020-2021,Czechia,CZ,65+y,25.35,EUROSTAT
+2019-2020,Czechia,CZ,65+y,23.85,EUROSTAT
+2018-2019,Czechia,CZ,65+y,22.85,EUROSTAT
+2017-2018,Czechia,CZ,65+y,21.45,EUROSTAT
+2016-2017,Czechia,CZ,65+y,20.26,EUROSTAT
+2015-2016,Czechia,CZ,65+y,20.24,EUROSTAT
+2014-2015,Czechia,CZ,65+y,19.34,EUROSTAT
+2013-2014,Czechia,CZ,65+y,18.82,EUROSTAT
+2012-2013,Czechia,CZ,65+y,19.59,EUROSTAT
+2021-2022,Czechia,CZ,65+y,24.63,EUROSTAT
+2020-2021,Denmark,DK,18+y,23,ECDC 2023
+2018-2019,Denmark,DK,18+y,15,ECDC 2023
+2020-2021,Denmark,DK,65+y,75,ECDC 2023
+2018-2019,Denmark,DK,65+y,52,ECDC 2023
+2020-2021,Denmark,DK,15-64y,12,ECDC 2023
+2020-2021,Denmark,DK,65+y,75,EUROSTAT
+2019-2020,Denmark,DK,65+y,52,EUROSTAT
+2018-2019,Denmark,DK,65+y,52,EUROSTAT
+2017-2018,Denmark,DK,65+y,50,EUROSTAT
+2016-2017,Denmark,DK,65+y,47,EUROSTAT
+2015-2016,Denmark,DK,65+y,44,EUROSTAT
+2014-2015,Denmark,DK,65+y,45,EUROSTAT
+2013-2014,Denmark,DK,65+y,47,EUROSTAT
+2012-2013,Denmark,DK,65+y,45,EUROSTAT
+2021-2022,Denmark,DK,65+y,78.0,EUROSTAT
+2020-2021,Germany,DE,65+y,47.3,EUROSTAT
+2019-2020,Germany,DE,65+y,38.8,EUROSTAT
+2018-2019,Germany,DE,65+y,38,EUROSTAT
+2017-2018,Germany,DE,65+y,34.8,EUROSTAT
+2016-2017,Germany,DE,65+y,35.3,EUROSTAT
+2015-2016,Germany,DE,65+y,36.5,EUROSTAT
+2014-2015,Germany,DE,65+y,38.1,EUROSTAT
+2013-2014,Germany,DE,65+y,37.2,EUROSTAT
+2012-2013,Germany,DE,65+y,58.6,EUROSTAT
+2014-2015,Germany,DE,60-69y,26.8,RKI
+2014-2015,Germany,DE,70-79y,35.9,RKI
+2014-2015,Germany,DE,80+y,38.5,RKI
+2015-2016,Germany,DE,60-69y,27.5,RKI
+2015-2016,Germany,DE,70-79y,36.5,RKI
+2015-2016,Germany,DE,80+y,39.2,RKI
+2016-2017,Germany,DE,60-69y,28.9,RKI
+2016-2017,Germany,DE,70-79y,38.0,RKI
+2016-2017,Germany,DE,80+y,41.5,RKI
+2017-2018,Germany,DE,60-69y,30.2,RKI
+2017-2018,Germany,DE,70-79y,40.3,RKI
+2017-2018,Germany,DE,80+y,43.1,RKI
+2018-2019,Germany,DE,60-69y,31.5,RKI
+2018-2019,Germany,DE,70-79y,42.0,RKI
+2018-2019,Germany,DE,80+y,45.6,RKI
+2019-2020,Germany,DE,60-69y,28.9,RKI
+2019-2020,Germany,DE,70-79y,38.0,RKI
+2019-2020,Germany,DE,80+y,41.5,RKI
+2020-2021,Germany,DE,60-69y,34.8,RKI
+2020-2021,Germany,DE,70-79y,48.9,RKI
+2020-2021,Germany,DE,80+y,51.8,RKI
+2021-2022,Germany,DE,60-69y,34.8,RKI
+2021-2022,Germany,DE,70-79y,48.9,RKI
+2021-2022,Germany,DE,80+y,51.8,RKI
+2021-2022,Germany,DE,65+y,43.3,EUROSTAT
+2020-2021,Estonia,EE,65+y,21.1,EUROSTAT
+2019-2020,Estonia,EE,65+y,12,EUROSTAT
+2018-2019,Estonia,EE,65+y,15,EUROSTAT
+2017-2018,Estonia,EE,65+y,10.2,EUROSTAT
+2016-2017,Estonia,EE,65+y,4.8,EUROSTAT
+2015-2016,Estonia,EE,65+y,2.8,EUROSTAT
+2014-2015,Estonia,EE,65+y,1.6,EUROSTAT
+2013-2014,Estonia,EE,65+y,1.4,EUROSTAT
+2012-2013,Estonia,EE,65+y,1.1,EUROSTAT
+2021-2022,Estonia,EE,65+y,31.5,EUROSTAT
+2020-2021,Ireland,IE,2-12y,30,ECDC 2023
+2020-2021,Ireland,IE,65+y,70.5,ECDC 2023
+2018-2019,Ireland,IE,65+y,68.5,ECDC 2023
+2020-2021,Ireland,IE,65+y,75.4,EUROSTAT
+2019-2020,Ireland,IE,65+y,70.5,EUROSTAT
+2018-2019,Ireland,IE,65+y,58.9,EUROSTAT
+2017-2018,Ireland,IE,65+y,68.5,EUROSTAT
+2016-2017,Ireland,IE,65+y,57.6,EUROSTAT
+2015-2016,Ireland,IE,65+y,54.5,EUROSTAT
+2014-2015,Ireland,IE,65+y,55.4,EUROSTAT
+2013-2014,Ireland,IE,65+y,60.2,EUROSTAT
+2012-2013,Ireland,IE,65+y,59.4,EUROSTAT
+2021-2022,Ireland,IE,65+y,75.4,EUROSTAT
+2020-2021,Greece,GR,65+y,65.27,EUROSTAT
+2019-2020,Greece,GR,65+y,73.51,EUROSTAT
+2018-2019,Greece,GR,65+y,58.92,EUROSTAT
+2017-2018,Greece,GR,65+y,51.03,EUROSTAT
+2013-2014,Greece,GR,65+y,48.91,EUROSTAT
+2021-2022,Greece,GR,65+y,66.0,EUROSTAT
+2020-2021,Spain,ES,65+y,67.7,ECDC 2023
+2018-2019,Spain,ES,65+y,54.3,ECDC 2023
+2020-2021,Spain,ES,65+y,67.7,EUROSTAT
+2019-2020,Spain,ES,65+y,54.7,EUROSTAT
+2018-2019,Spain,ES,65+y,54.3,EUROSTAT
+2017-2018,Spain,ES,65+y,55.7,EUROSTAT
+2016-2017,Spain,ES,65+y,55.5,EUROSTAT
+2015-2016,Spain,ES,65+y,56.1,EUROSTAT
+2014-2015,Spain,ES,65+y,56.2,EUROSTAT
+2013-2014,Spain,ES,65+y,56.2,EUROSTAT
+2012-2013,Spain,ES,65+y,57,EUROSTAT
+2021-2022,Spain,ES,65+y,69.0,EUROSTAT
+2020-2021,France,FR,65+y,59.9,ECDC 2023
+2018-2019,France,FR,65+y,51,ECDC 2023
+2020-2021,France,FR,65+y,59.9,EUROSTAT
+2019-2020,France,FR,65+y,52,EUROSTAT
+2018-2019,France,FR,65+y,51,EUROSTAT
+2017-2018,France,FR,65+y,49.7,EUROSTAT
+2016-2017,France,FR,65+y,50,EUROSTAT
+2015-2016,France,FR,65+y,50.8,EUROSTAT
+2014-2015,France,FR,65+y,48.5,EUROSTAT
+2013-2014,France,FR,65+y,51.9,EUROSTAT
+2012-2013,France,FR,65+y,53.1,EUROSTAT
+2016-2017,France,FR,<65y(risk),28.7,SP France
+2016-2017,France,FR,65+y,50,SP France
+2017-2018,France,FR,<65y(risk),28.9,SP France
+2017-2018,France,FR,65+y,49.7,SP France
+2018-2019,France,FR,<65y(risk),29.2,SP France
+2018-2019,France,FR,65+y,51.0,SP France
+2019-2020,France,FR,<65y(risk),31,SP France
+2019-2020,France,FR,65+y,52,SP France
+2020-2021,France,FR,<65y(risk),38.7,SP France
+2020-2021,France,FR,65+y,59.9,SP France
+2021-2022,France,FR,<65y(risk),34.3,SP France
+2021-2022,France,FR,65+y,56.8,SP France
+2022-2023,France,FR,<65y(risk),31.6,SP France
+2022-2023,France,FR,65+y,56.8,SP France
+2023-2024,France,FR,<65y(risk),27.5,SP France
+2023-2024,France,FR,65+y,54,SP France
+2021-2022,France,FR,65+y,56.8,EUROSTAT
+2020-2021,Croatia,HR,65+y,39,ECDC 2023
+2018-2019,Croatia,HR,65+y,29,ECDC 2023
+2020-2021,Croatia,HR,65+y,39,EUROSTAT
+2019-2020,Croatia,HR,65+y,34,EUROSTAT
+2018-2019,Croatia,HR,65+y,29,EUROSTAT
+2017-2018,Croatia,HR,65+y,23,EUROSTAT
+2016-2017,Croatia,HR,65+y,21,EUROSTAT
+2015-2016,Croatia,HR,65+y,21.5,EUROSTAT
+2014-2015,Croatia,HR,65+y,19,EUROSTAT
+2013-2014,Croatia,HR,65+y,21,EUROSTAT
+2012-2013,Croatia,HR,65+y,23,EUROSTAT
+2021-2022,Croatia,HR,65+y,29,EUROSTAT
+2020-2021,Italy,IT,2-17y,9.4,ECDC 2023
+2020-2021,Italy,IT,18+y,26.4,ECDC 2023
+2018-2019,Italy,IT,18+y,16.4,ECDC 2023
+2020-2021,Italy,IT,65+y,65.3,ECDC 2023
+2018-2019,Italy,IT,65+y,53.1,ECDC 2023
+2020-2021,Italy,IT,65+y,65.3,EUROSTAT
+2019-2020,Italy,IT,65+y,54.6,EUROSTAT
+2018-2019,Italy,IT,65+y,53.1,EUROSTAT
+2017-2018,Italy,IT,65+y,52.7,EUROSTAT
+2016-2017,Italy,IT,65+y,52,EUROSTAT
+2015-2016,Italy,IT,65+y,49.9,EUROSTAT
+2014-2015,Italy,IT,65+y,48.6,EUROSTAT
+2013-2014,Italy,IT,65+y,55.4,EUROSTAT
+2012-2013,Italy,IT,65+y,54.2,EUROSTAT
+2022-2023,Italy,IT,6-23m,7.2,mSAL Italia
+2022-2023,Italy,IT,2-4y,9.2,mSAL Italia
+2022-2023,Italy,IT,5-8y,22.6,mSAL Italia
+2022-2023,Italy,IT,9-14y,4.9,mSAL Italia
+2022-2023,Italy,IT,15-17y,2.1,mSAL Italia
+2022-2023,Italy,IT,18-44y,4.1,mSAL Italia
+2022-2023,Italy,IT,45-64y,13.3,mSAL Italia
+2022-2023,Italy,IT,65y,56.7,mSAL Italia
+2021-2022,Italy,IT,6-23m,7,mSAL Italia
+2021-2022,Italy,IT,2-4y,17.4,mSAL Italia
+2021-2022,Italy,IT,5-8y,12.2,mSAL Italia
+2021-2022,Italy,IT,9-14y,4.4,mSAL Italia
+2021-2022,Italy,IT,15-17y,2.5,mSAL Italia
+2021-2022,Italy,IT,18-44y,4.2,mSAL Italia
+2021-2022,Italy,IT,45-64y,13.7,mSAL Italia
+2021-2022,Italy,IT,65y,58.1,mSAL Italia
+2020-2021,Italy,IT,6-23m,9.2,mSAL Italia
+2020-2021,Italy,IT,2-4y,19,mSAL Italia
+2020-2021,Italy,IT,5-8y,13.1,mSAL Italia
+2020-2021,Italy,IT,9-14y,6,mSAL Italia
+2020-2021,Italy,IT,15-17y,4.5,mSAL Italia
+2020-2021,Italy,IT,18-44y,5.9,mSAL Italia
+2020-2021,Italy,IT,45-64y,16.8,mSAL Italia
+2020-2021,Italy,IT,65y,65.3,mSAL Italia
+2019-2020,Italy,IT,6-23m,2.8,mSAL Italia
+2019-2020,Italy,IT,2-4y,4.2,mSAL Italia
+2019-2020,Italy,IT,5-8y,3.1,mSAL Italia
+2019-2020,Italy,IT,9-14y,1.9,mSAL Italia
+2019-2020,Italy,IT,15-17y,1.9,mSAL Italia
+2019-2020,Italy,IT,18-44y,3.1,mSAL Italia
+2019-2020,Italy,IT,45-64y,9.6,mSAL Italia
+2019-2020,Italy,IT,65y,54.6,mSAL Italia
+2017-2018,Italy,IT,6-23m,1.4,mSAL Italia
+2017-2018,Italy,IT,2-4y,2.4,mSAL Italia
+2017-2018,Italy,IT,5-8y,2.2,mSAL Italia
+2017-2018,Italy,IT,9-14y,1.8,mSAL Italia
+2017-2018,Italy,IT,15-17y,2.5,mSAL Italia
+2017-2018,Italy,IT,18-44y,2.2,mSAL Italia
+2017-2018,Italy,IT,45-64y,8.7,mSAL Italia
+2017-2018,Italy,IT,65y,52.7,mSAL Italia
+2016-2017,Italy,IT,6-23m,1.5,mSAL Italia
+2016-2017,Italy,IT,2-4y,2.6,mSAL Italia
+2016-2017,Italy,IT,5-8y,2.4,mSAL Italia
+2016-2017,Italy,IT,9-14y,1.8,mSAL Italia
+2016-2017,Italy,IT,15-17y,1.9,mSAL Italia
+2016-2017,Italy,IT,18-44y,2.2,mSAL Italia
+2016-2017,Italy,IT,45-64y,8.5,mSAL Italia
+2016-2017,Italy,IT,65y,52,mSAL Italia
+2015-2016,Italy,IT,6-23m,1.1,mSAL Italia
+2015-2016,Italy,IT,2-4y,1.8,mSAL Italia
+2015-2016,Italy,IT,5-8y,1.8,mSAL Italia
+2015-2016,Italy,IT,9-14y,1.4,mSAL Italia
+2015-2016,Italy,IT,15-17y,1.6,mSAL Italia
+2015-2016,Italy,IT,18-44y,1.8,mSAL Italia
+2015-2016,Italy,IT,45-64y,7.7,mSAL Italia
+2015-2016,Italy,IT,65y,49.9,mSAL Italia
+2014-2015,Italy,IT,6-23m,1.1,mSAL Italia
+2014-2015,Italy,IT,2-4y,1.8,mSAL Italia
+2014-2015,Italy,IT,5-8y,1.9,mSAL Italia
+2014-2015,Italy,IT,9-14y,1.5,mSAL Italia
+2014-2015,Italy,IT,15-17y,1.5,mSAL Italia
+2014-2015,Italy,IT,18-44y,1.9,mSAL Italia
+2014-2015,Italy,IT,45-64y,7.5,mSAL Italia
+2014-2015,Italy,IT,65y,48.6,mSAL Italia
+2013-2014,Italy,IT,6-23m,1.3,mSAL Italia
+2013-2014,Italy,IT,2-4y,2.5,mSAL Italia
+2013-2014,Italy,IT,5-8y,2.6,mSAL Italia
+2013-2014,Italy,IT,9-14y,2.1,mSAL Italia
+2013-2014,Italy,IT,15-17y,2.3,mSAL Italia
+2013-2014,Italy,IT,18-44y,2.5,mSAL Italia
+2013-2014,Italy,IT,45-64y,9.5,mSAL Italia
+2013-2014,Italy,IT,65y,55.4,mSAL Italia
+2012-2013,Italy,IT,6-23m,1.5,mSAL Italia
+2012-2013,Italy,IT,2-4y,2.6,mSAL Italia
+2012-2013,Italy,IT,5-8y,2.6,mSAL Italia
+2012-2013,Italy,IT,9-14y,2.0,mSAL Italia
+2012-2013,Italy,IT,15-17y,2.1,mSAL Italia
+2012-2013,Italy,IT,18-44y,2.1,mSAL Italia
+2012-2013,Italy,IT,45-64y,9.0,mSAL Italia
+2012-2013,Italy,IT,65y,54.2,mSAL Italia
+2021-2022,Italy,IT,65+y,58.1,EUROSTAT
+2020-2021,Cyprus,CY,65+y,43.3,EUROSTAT
+2019-2020,Cyprus,CY,65+y,38,EUROSTAT
+2018-2019,Cyprus,CY,65+y,25.9,EUROSTAT
+2017-2018,Cyprus,CY,65+y,:,EUROSTAT
+2013-2014,Cyprus,CY,65+y,32.4,EUROSTAT
+2021-2022,Cyprus,CY,65+y,42.2,EUROSTAT
+2020-2021,Latvia,LV,6m-2y,51.2,ECDC 2023
+2020-2021,Latvia,LV,65+y,4.5,ECDC 2023
+2018-2019,Latvia,LV,65+y,8.1,ECDC 2023
+2020-2021,Latvia,LV,65+y,7.7,EUROSTAT
+2019-2020,Latvia,LV,65+y,9.1,EUROSTAT
+2018-2019,Latvia,LV,65+y,11.65,EUROSTAT
+2017-2018,Latvia,LV,65+y,7.73,EUROSTAT
+2016-2017,Latvia,LV,65+y,6.88,EUROSTAT
+2015-2016,Latvia,LV,65+y,4.26,EUROSTAT
+2014-2015,Latvia,LV,65+y,2.46,EUROSTAT
+2013-2014,Latvia,LV,65+y,2.81,EUROSTAT
+2012-2013,Latvia,LV,65+y,3.07,EUROSTAT
+2021-2022,Latvia,LV,65+y,16.9,EUROSTAT
+2020-2021,Lithuania,LT,6m-8y,4.6,ECDC 2023
+2020-2021,Lithuania,LT,18+y,8.1,ECDC 2023
+2020-2021,Lithuania,LT,65+y,26.2,ECDC 2023
+2020-2021,Lithuania,LT,65+y,26.25,EUROSTAT
+2019-2020,Lithuania,LT,65+y,21.5,EUROSTAT
+2018-2019,Lithuania,LT,65+y,14.8,EUROSTAT
+2017-2018,Lithuania,LT,65+y,13.4,EUROSTAT
+2016-2017,Lithuania,LT,65+y,11.3,EUROSTAT
+2015-2016,Lithuania,LT,65+y,9.6,EUROSTAT
+2014-2015,Lithuania,LT,65+y,10.3,EUROSTAT
+2013-2014,Lithuania,LT,65+y,9.8,EUROSTAT
+2012-2013,Lithuania,LT,65+y,9.7,EUROSTAT
+2021-2022,Lithuania,LT,65+y,21.47,EUROSTAT
+2020-2021,Luxembourg,LU,<=59m,0.8,ECDC 2023
+2020-2021,Luxembourg,LU,5-11y,2.8,ECDC 2023
+2020-2021,Luxembourg,LU,<=18y,1.1,ECDC 2023
+2020-2021,Luxembourg,LU,18+y,11.4,ECDC 2023
+2018-2019,Luxembourg,LU,18+y,8.9,ECDC 2023
+2020-2021,Luxembourg,LU,65+y,44.8,ECDC 2023
+2018-2019,Luxembourg,LU,65+y,38.5,ECDC 2023
+2020-2021,Luxembourg,LU,18-49y,1.8,ECDC 2023
+2020-2021,Luxembourg,LU,50-64y,9.2,ECDC 2023
+2020-2021,Luxembourg,LU,65+y,44.21,EUROSTAT
+2019-2020,Luxembourg,LU,65+y,46.3,EUROSTAT
+2018-2019,Luxembourg,LU,65+y,40.37,EUROSTAT
+2017-2018,Luxembourg,LU,65+y,39.76,EUROSTAT
+2016-2017,Luxembourg,LU,65+y,37.61,EUROSTAT
+2015-2016,Luxembourg,LU,65+y,37.97,EUROSTAT
+2014-2015,Luxembourg,LU,65+y,39.54,EUROSTAT
+2013-2014,Luxembourg,LU,65+y,40.1,EUROSTAT
+2012-2013,Luxembourg,LU,65+y,42.08,EUROSTAT
+2021-2022,Luxembourg,LU,65+y,43.35,EUROSTAT
+2020-2021,Hungary,HU,65+y,30.5,ECDC 2023
+2018-2019,Hungary,HU,65+y,24.1,ECDC 2023
+2020-2021,Hungary,HU,65+y,30.5,EUROSTAT
+2019-2020,Hungary,HU,65+y,23.6,EUROSTAT
+2018-2019,Hungary,HU,65+y,24.1,EUROSTAT
+2017-2018,Hungary,HU,65+y,26.8,EUROSTAT
+2016-2017,Hungary,HU,65+y,24,EUROSTAT
+2015-2016,Hungary,HU,65+y,26,EUROSTAT
+2014-2015,Hungary,HU,65+y,27.1,EUROSTAT
+2013-2014,Hungary,HU,65+y,29,EUROSTAT
+2012-2013,Hungary,HU,65+y,30.9,EUROSTAT
+2021-2022,Hungary,HU,65+y,22.3,EUROSTAT
+2020-2021,Malta,MT,6m-4y,38,ECDC 2023
+2020-2021,Malta,MT,55+y,65.5,ECDC 2023
+2018-2019,Malta,MT,55+y,39.9,ECDC 2023
+2020-2021,Malta,MT,65+y,58.6,EUROSTAT
+2019-2020,Malta,MT,65+y,67,EUROSTAT
+2018-2019,Malta,MT,65+y,52.9,EUROSTAT
+2017-2018,Malta,MT,65+y,51.4,EUROSTAT
+2016-2017,Malta,MT,65+y,55.5,EUROSTAT
+2013-2014,Malta,MT,65+y,53.7,EUROSTAT
+2021-2022,Malta,MT,65+y,42.4,EUROSTAT
+2020-2021,Netherlands,NL,65+y,67.9,ECDC 2023
+2018-2019,Netherlands,NL,65+y,60.3,ECDC 2023
+2020-2021,Netherlands,NL,<59y,25.8,ECDC 2023
+2020-2021,Netherlands,NL,65+y,72.6,EUROSTAT
+2019-2020,Netherlands,NL,65+y,67.9,EUROSTAT
+2018-2019,Netherlands,NL,65+y,61.3,EUROSTAT
+2017-2018,Netherlands,NL,65+y,60.3,EUROSTAT
+2016-2017,Netherlands,NL,65+y,60.4,EUROSTAT
+2015-2016,Netherlands,NL,65+y,62.9,EUROSTAT
+2014-2015,Netherlands,NL,65+y,66.5,EUROSTAT
+2013-2014,Netherlands,NL,65+y,67.8,EUROSTAT
+2012-2013,Netherlands,NL,65+y,72.2,EUROSTAT
+2021-2022,Netherlands,NL,65+y,68.4,EUROSTAT
+2018-2019,Austria,AT,65+y,18.3,EUROSTAT
+2013-2014,Austria,AT,65+y,20.3,EUROSTAT
+2020-2021,Poland,PL,65+y,10,EUROSTAT
+2018-2019,Poland,PL,65+y,10.4,EUROSTAT
+2013-2014,Poland,PL,65+y,9.7,EUROSTAT
+2021-2022,Poland,PL,65+y,8.6,EUROSTAT
+2020-2021,Portugal,PT,65+y,70,ECDC 2023
+2018-2019,Portugal,PT,65+y,65,ECDC 2023
+2019-2020,Portugal,PT,65+y,60.7,EUROSTAT
+2018-2019,Portugal,PT,65+y,56,EUROSTAT
+2017-2018,Portugal,PT,65+y,60.8,EUROSTAT
+2016-2017,Portugal,PT,65+y,57.5,EUROSTAT
+2015-2016,Portugal,PT,65+y,50.1,EUROSTAT
+2014-2015,Portugal,PT,65+y,50.9,EUROSTAT
+2013-2014,Portugal,PT,65+y,49.9,EUROSTAT
+2012-2013,Portugal,PT,65+y,44.9,EUROSTAT
+2021-2022,Portugal,PT,65+y,75.8,EUROSTAT
+2020-2021,Romania,RO,65+y,35.5,ECDC 2023
+2018-2019,Romania,RO,65+y,20.9,ECDC 2023
+2020-2021,Romania,RO,65+y,34.8,EUROSTAT
+2019-2020,Romania,RO,65+y,22.6,EUROSTAT
+2018-2019,Romania,RO,65+y,20.5,EUROSTAT
+2017-2018,Romania,RO,65+y,15.9,EUROSTAT
+2016-2017,Romania,RO,65+y,7.6,EUROSTAT
+2015-2016,Romania,RO,65+y,9.8,EUROSTAT
+2014-2015,Romania,RO,65+y,7.2,EUROSTAT
+2013-2014,Romania,RO,65+y,8.6,EUROSTAT
+2012-2013,Romania,RO,65+y,14.6,EUROSTAT
+2021-2022,Romania,RO,65+y,22.1,EUROSTAT
+2020-2021,Slovenia,SI,6m-18y,2.3,ECDC 2023
+2020-2021,Slovenia,SI,18+y,11.7,ECDC 2023
+2018-2019,Slovenia,SI,18+y,5.4,ECDC 2023
+2020-2021,Slovenia,SI,65+y,27,ECDC 2023
+2018-2019,Slovenia,SI,65+y,12.8,ECDC 2023
+2020-2021,Slovenia,SI,65+y,24.5,EUROSTAT
+2019-2020,Slovenia,SI,65+y,27,EUROSTAT
+2018-2019,Slovenia,SI,65+y,18.8,EUROSTAT
+2017-2018,Slovenia,SI,65+y,12.9,EUROSTAT
+2016-2017,Slovenia,SI,65+y,11.8,EUROSTAT
+2015-2016,Slovenia,SI,65+y,9.78,EUROSTAT
+2014-2015,Slovenia,SI,65+y,10.41,EUROSTAT
+2013-2014,Slovenia,SI,65+y,10.85,EUROSTAT
+2012-2013,Slovenia,SI,65+y,12.8,EUROSTAT
+2021-2022,Slovenia,SI,65+y,19.1,EUROSTAT
+2020-2021,Slovakia,SK,<15y,1.4,ECDC 2023
+2020-2021,Slovakia,SK,59+y,12.8,ECDC 2023
+2018-2019,Slovakia,SK,59+y,12.5,ECDC 2023
+2020-2021,Slovakia,SK,18-58y,3.8,ECDC 2023
+2020-2021,Slovakia,SK,59+y,12.8,ECDC 2023
+2020-2021,Slovakia,SK,65+y,12.9,EUROSTAT
+2019-2020,Slovakia,SK,65+y,12.8,EUROSTAT
+2018-2019,Slovakia,SK,65+y,11.5,EUROSTAT
+2017-2018,Slovakia,SK,65+y,12.5,EUROSTAT
+2016-2017,Slovakia,SK,65+y,13,EUROSTAT
+2015-2016,Slovakia,SK,65+y,13.3,EUROSTAT
+2014-2015,Slovakia,SK,65+y,13.8,EUROSTAT
+2013-2014,Slovakia,SK,65+y,14.1,EUROSTAT
+2012-2013,Slovakia,SK,65+y,15.6,EUROSTAT
+2021-2022,Slovakia,SK,65+y,5.6,EUROSTAT
+2020-2021,Finland,FI,65+y,62.7,EUROSTAT
+2019-2020,Finland,FI,65+y,53.7,EUROSTAT
+2018-2019,Finland,FI,65+y,47.3,EUROSTAT
+2017-2018,Finland,FI,65+y,49.6,EUROSTAT
+2016-2017,Finland,FI,65+y,47.7,EUROSTAT
+2015-2016,Finland,FI,65+y,47.4,EUROSTAT
+2014-2015,Finland,FI,65+y,43.1,EUROSTAT
+2013-2014,Finland,FI,65+y,40,EUROSTAT
+2012-2013,Finland,FI,65+y,41,EUROSTAT
+2012-2013,Finland,FI,6-35m,12.4,Finnish Institute for Health and Welfare (THL)
+2013-2014,Finland,FI,6-35m,14.5,Finnish Institute for Health and Welfare (THL)
+2014-2015,Finland,FI,6-35m,15.7,Finnish Institute for Health and Welfare (THL)
+2015-2016,Finland,FI,6-35m,23,Finnish Institute for Health and Welfare (THL)
+2016-2017,Finland,FI,6-35m,30.3,Finnish Institute for Health and Welfare (THL)
+2017-2018,Finland,FI,6-35m,32.6,Finnish Institute for Health and Welfare (THL)
+2018-2019,Finland,FI,6-35m,40.1,Finnish Institute for Health and Welfare (THL)
+2019-2020,Finland,FI,6-35m,42.9,Finnish Institute for Health and Welfare (THL)
+2020-2021,Finland,FI,6-35m,41.9,Finnish Institute for Health and Welfare (THL)
+2021-2022,Finland,FI,6-35m,40.3,Finnish Institute for Health and Welfare (THL)
+2022-2023,Finland,FI,6-35m,37.3,Finnish Institute for Health and Welfare (THL)
+2023-2024,Finland,FI,6-35m,38.1,Finnish Institute for Health and Welfare (THL)
+2018-2019,Finland,FI,3-6y,27.5,Finnish Institute for Health and Welfare (THL)
+2019-2020,Finland,FI,3-6y,30.6,Finnish Institute for Health and Welfare (THL)
+2020-2021,Finland,FI,3-6y,33.9,Finnish Institute for Health and Welfare (THL)
+2021-2022,Finland,FI,3-6y,30.9,Finnish Institute for Health and Welfare (THL)
+2022-2023,Finland,FI,3-6y,27.3,Finnish Institute for Health and Welfare (THL)
+2023-2024,Finland,FI,3-6y,28,Finnish Institute for Health and Welfare (THL)
+2012-2013,Finland,FI,2y,10,Finnish Institute for Health and Welfare (THL)
+2013-2014,Finland,FI,2y,12.5,Finnish Institute for Health and Welfare (THL)
+2014-2015,Finland,FI,2y,13.1,Finnish Institute for Health and Welfare (THL)
+2015-2016,Finland,FI,2y,20.9,Finnish Institute for Health and Welfare (THL)
+2016-2017,Finland,FI,2y,27.2,Finnish Institute for Health and Welfare (THL)
+2017-2018,Finland,FI,2y,28.9,Finnish Institute for Health and Welfare (THL)
+2018-2019,Finland,FI,2y,36.2,Finnish Institute for Health and Welfare (THL)
+2019-2020,Finland,FI,2y,38.5,Finnish Institute for Health and Welfare (THL)
+2020-2021,Finland,FI,2y,39.6,Finnish Institute for Health and Welfare (THL)
+2021-2022,Finland,FI,2y,36.2,Finnish Institute for Health and Welfare (THL)
+2022-2023,Finland,FI,2y,33,Finnish Institute for Health and Welfare (THL)
+2023-2024,Finland,FI,2y,34.6,Finnish Institute for Health and Welfare (THL)
+2012-2013,Finland,FI,65+y,36.7,Finnish Institute for Health and Welfare (THL)
+2013-2014,Finland,FI,65+y,41.3,Finnish Institute for Health and Welfare (THL)
+2014-2015,Finland,FI,65+y,40,Finnish Institute for Health and Welfare (THL)
+2015-2016,Finland,FI,65+y,43.2,Finnish Institute for Health and Welfare (THL)
+2016-2017,Finland,FI,65+y,47.4,Finnish Institute for Health and Welfare (THL)
+2017-2018,Finland,FI,65+y,47.3,Finnish Institute for Health and Welfare (THL)
+2018-2019,Finland,FI,65+y,49.6,Finnish Institute for Health and Welfare (THL)
+2019-2020,Finland,FI,65+y,47.7,Finnish Institute for Health and Welfare (THL)
+2020-2021,Finland,FI,65+y,53.9,Finnish Institute for Health and Welfare (THL)
+2021-2022,Finland,FI,65+y,62.7,Finnish Institute for Health and Welfare (THL)
+2022-2023,Finland,FI,65+y,60.8,Finnish Institute for Health and Welfare (THL)
+2023-2024,Finland,FI,65+y,61.1,Finnish Institute for Health and Welfare (THL)
+2021-2022,Finland,FI,65+y,59.5,EUROSTAT
+2020-2021,Sweden,SE,18+y,18,ECDC 2023
+2018-2019,Sweden,SE,18+y,15,ECDC 2023
+2020-2021,Sweden,SE,65+y,60,ECDC 2023
+2018-2019,Sweden,SE,65+y,52,ECDC 2023
+2020-2021,Sweden,SE,65+y,60.4,EUROSTAT
+2019-2020,Sweden,SE,65+y,52.8,EUROSTAT
+2018-2019,Sweden,SE,65+y,52.2,EUROSTAT
+2017-2018,Sweden,SE,65+y,49.8,EUROSTAT
+2016-2017,Sweden,SE,65+y,49.4,EUROSTAT
+2015-2016,Sweden,SE,65+y,49.1,EUROSTAT
+2014-2015,Sweden,SE,65+y,49.7,EUROSTAT
+2013-2014,Sweden,SE,65+y,45.8,EUROSTAT
+2012-2013,Sweden,SE,65+y,44.3,EUROSTAT
+2015-2016,Sweden,SE,0-17y,0.5,Public Health Agency of Sweden
+2015-2016,Sweden,SE,18-39y,1.1,Public Health Agency of Sweden
+2015-2016,Sweden,SE,40-64y,3.9,Public Health Agency of Sweden
+2015-2016,Sweden,SE,65-74y,46.6,Public Health Agency of Sweden
+2015-2016,Sweden,SE,75-84y,54.2,Public Health Agency of Sweden
+2015-2016,Sweden,SE,85+y,57.1,Public Health Agency of Sweden
+2016-2017,Sweden,SE,0-17y,0.3,Public Health Agency of Sweden
+2016-2017,Sweden,SE,18-39y,1.3,Public Health Agency of Sweden
+2016-2017,Sweden,SE,40-64y,4.1,Public Health Agency of Sweden
+2016-2017,Sweden,SE,65-74y,42,Public Health Agency of Sweden
+2016-2017,Sweden,SE,75-84y,55,Public Health Agency of Sweden
+2016-2017,Sweden,SE,85+y,55,Public Health Agency of Sweden
+2017-2018,Sweden,SE,0-17y,0.2,Public Health Agency of Sweden
+2017-2018,Sweden,SE,18-39y,1.3,Public Health Agency of Sweden
+2017-2018,Sweden,SE,40-64y,11,Public Health Agency of Sweden
+2017-2018,Sweden,SE,65-74y,41.3,Public Health Agency of Sweden
+2017-2018,Sweden,SE,75-84y,55.3,Public Health Agency of Sweden
+2017-2018,Sweden,SE,85+y,55.8,Public Health Agency of Sweden
+2018-2019,Sweden,SE,0-17y,0.4,Public Health Agency of Sweden
+2018-2019,Sweden,SE,18-39y,1.8,Public Health Agency of Sweden
+2018-2019,Sweden,SE,40-64y,4.8,Public Health Agency of Sweden
+2018-2019,Sweden,SE,65-74y,44,Public Health Agency of Sweden
+2018-2019,Sweden,SE,75-84y,58,Public Health Agency of Sweden
+2018-2019,Sweden,SE,85+y,59,Public Health Agency of Sweden
+2021-2022,Sweden,SE,65+y,70.0,EUROSTAT
+2020-2021,Iceland,IS,6m-18y,0.9,ECDC 2023
+2020-2021,Iceland,IS,18+y,21.1,ECDC 2023
+2018-2019,Iceland,IS,18+y,18.9,ECDC 2023
+2020-2021,Iceland,IS,65+y,57,ECDC 2023
+2018-2019,Iceland,IS,65+y,56.6,ECDC 2023
+2020-2021,Iceland,IS,18-49y,9.8,ECDC 2023
+2020-2021,Iceland,IS,50-64y,25.1,ECDC 2023
+2020-2021,Iceland,IS,65+y,60.4,EUROSTAT
+2019-2020,Iceland,IS,65+y,54.6,EUROSTAT
+2018-2019,Iceland,IS,65+y,47.5,EUROSTAT
+2017-2018,Iceland,IS,65+y,49.4,EUROSTAT
+2016-2017,Iceland,IS,65+y,45,EUROSTAT
+2015-2016,Iceland,IS,65+y,47,EUROSTAT
+2014-2015,Iceland,IS,65+y,43,EUROSTAT
+2020-2021,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2019-2020,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2018-2019,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2017-2018,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2016-2017,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2015-2016,Liechtenstein,LI,65+y,27.8,EUROSTAT
+2014-2015,Liechtenstein,LI,65+y,27.8,EUROSTAT
+2013-2014,Liechtenstein,LI,65+y,27.8,EUROSTAT
+2012-2013,Liechtenstein,LI,65+y,27.8,EUROSTAT
+2021-2022,Liechtenstein,LI,65+y,20.2,EUROSTAT
+2020-2021,Norway,NO,18+y,27,ECDC 2023
+2020-2021,Norway,NO,18+y,23,ECDC 2023
+2018-2019,Norway,NO,18+y,,ECDC 2023
+2018-2019,Norway,NO,18+y,16,ECDC 2023
+2020-2021,Norway,NO,65+y,59,ECDC 2023
+2018-2019,Norway,NO,65+y,40,ECDC 2023
+2020-2021,Norway,NO,18-49y,10,ECDC 2023
+2020-2021,Norway,NO,50-64y,21,ECDC 2023
+2020-2021,Norway,NO,65-79y,59,ECDC 2023
+2020-2021,Norway,NO,65+y,65.5,EUROSTAT
+2019-2020,Norway,NO,65+y,57,EUROSTAT
+2018-2019,Norway,NO,65+y,43,EUROSTAT
+2017-2018,Norway,NO,65+y,38.2,EUROSTAT
+2016-2017,Norway,NO,65+y,34.4,EUROSTAT
+2015-2016,Norway,NO,65+y,38,EUROSTAT
+2014-2015,Norway,NO,65+y,27,EUROSTAT
+2013-2014,Norway,NO,65+y,26.9,EUROSTAT
+2012-2013,Norway,NO,65+y,30.9,EUROSTAT
+2022-2023,Norway,NO,0-17y,1,Norwegian Institute of Public Health
+2022-2023,Norway,NO,18-64y,20,Norwegian Institute of Public Health
+2021-2022,Norway,NO,0-17y,1,Norwegian Institute of Public Health
+2021-2022,Norway,NO,18-64y,21,Norwegian Institute of Public Health
+2013-2014,Norway,NO,0-17y,0.3,Norwegian Institute of Public Health
+2013-2014,Norway,NO,18-64y,2.3,Norwegian Institute of Public Health
+2016-2017,Norway,NO,0-17y,0.4,Norwegian Institute of Public Health
+2016-2017,Norway,NO,18-64y,3.8,Norwegian Institute of Public Health
+2017-2018,Norway,NO,0-17y,0.4,Norwegian Institute of Public Health
+2017-2018,Norway,NO,18-64y,5.2,Norwegian Institute of Public Health
+2018-2019,Norway,NO,0-17y,0.6,Norwegian Institute of Public Health
+2018-2019,Norway,NO,18-64y,11,Norwegian Institute of Public Health
+2019-2020,Norway,NO,0-17y,1,Norwegian Institute of Public Health
+2019-2020,Norway,NO,18-64y,12,Norwegian Institute of Public Health
+2021-2022,Norway,NO,65+y,63.3,EUROSTAT

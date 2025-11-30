@@ -1,0 +1,12 @@
+team_name: European Centre for Disease Prevention and Control
+model_name: CM_TWO
+team_abbr: ECDC
+model_abbr: CM_TWO
+model_contributors:
+  - name: ECDC Mathematical Modelling Team
+    affiliation: European Centre for Disease Prevention and Control
+    email: modelling@ecdc.europa.eu
+team_model_designation: primary
+methods: SIRS-type compartmental model with seasonality and stochastic observation model. Population divided by age, vaccination status and time since last recovery. Fitting based on extended Kalman filter
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
