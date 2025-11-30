@@ -1,5 +1,6 @@
 {
     "changes": [
-        "model-metadata/charite_cgh-CCGH_RSV.yaml"
+        "model-metadata/charite_cgh-CCGH_RSV.yaml",
+        "model-metadata/QMUL-MSEIRS.yaml"
     ]
 }
