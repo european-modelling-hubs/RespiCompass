@@ -1,43 +1,20 @@
 # Supporting Files
 
-This repository contains supporting files that provide additional information and context for various datasets. These files are intended to complement the main datasets by offering reference data, mappings, and other relevant information.
+This repository contains the following additional supporting files: 
 
-## Contents
+1. `countries.csv`: This file provides a mapping between the names of various countries and their corresponding [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). **Columns:**
+    - `country`: The name of the country.
+    - `iso2_code`: The ISO 3166-1 alpha-2 code of the country.
 
-### 1. locations_iso2_codes.csv
+2. `isoweeks.csv`: 
+This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date) related to the scenario period of RSV scenario round 2025/2026. **Columns:**
+    - `target_start_date`: Start day of the week (Monday).
+    - `target_end_date`: End day of the week (Sunday).
+    - `week`: Week number.
+    - `year`: Year.
+    - `year_week`: Year and ISO week in the format ```YYYY-Www```.
+    - `horizon`: Weeks ahead in the projection period. Weeks ahead are defined relative to the start of the projection: week $0$ corresponds to the first week of the projection period starting on September $1^{st}$, 2025, while negative values represent prior weeks. These past weeks are included because, in the case of maternal vaccination scenarios (C and D), teams are expected to report doses administered before September $1^{st}$, 2025, as the first immunized infants should be born on that date.
+  
 
-This file provides a mapping between the names of various locations (countries) and their corresponding ISO 3166-1 alpha-2 codes.
-
-- **Columns:**
-  - `location_name`: The name of the location (country).
-  - `iso2_code`: The ISO 3166-1 alpha-2 code of the location.
-
-- **Sample Data:**
-  ```csv
-  location_name,iso2_code
-  Belgium,BE
-  Bulgaria,BG
-  Czechia,CZ
-  Denmark,DK
-  Germany,DE
-  ```
-
-### 2. iso_weeks.csv
-
-This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date) related to Round 1 2024/2025 projections
-
-- **Columns:**
-  - `start_week_day`: Start day of the week (Monday).
-  - `end_week_day`: End day of the week (Sunday).
-  - `year_week`: Year and ISO week in the format YYYY-WW.
-  - `horizon`: Weeks ahead in the projection period.
-
-- **Sample Data:**
-  ```csv
-  start_week_day,end_week_day,year_week,horizon
-  2024-08-05,2024-08-11,2024-32,1
-  2024-08-12,2024-08-18,2024-33,2
-  2024-08-19,2024-08-25,2024-34,3
-  2024-08-26,2024-09-01,2024-35,4
-  2024-09-02,2024-09-08,2024-36,5
-  ```
+# Contacts
+If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).

@@ -1,13 +1,6 @@
 {
     "changes": [
-        "model-metadata/QMUL-FluSEIR.yml",
-        "model-metadata/HZI-Flumodel.yml",
-        "model-metadata/ISI-TestModel.yml",
-        "model-metadata/HZI-COVIDmodel.yml",
-        "model-metadata/ISI-FluGLEAM.yaml",
-        "model-metadata/ECDC-CM_TWO.yml",
-        "model-metadata/ECDC-flumod.yml",
-        "model-metadata/ISI-FluABC.yaml",
-        "model-metadata/Safinea-Respinea.yml"
+        "model-metadata/charite_cgh-CCGH_RSV.yaml",
+        "model-metadata/QMUL-MSEIRS.yaml"
     ]
 }

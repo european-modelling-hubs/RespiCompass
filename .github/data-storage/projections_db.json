@@ -1,45 +1,9 @@
 {
-    "ISI": [
+    "charite_cgh": [
         {
-            "model": "TestModel",
+            "model": "CCGH_RSV",
             "changes": [
-                "model-output/ISI-TestModel/2024_2025_1_FLU-ISI-TestModel.parquet"
-            ]
-        },
-        {
-            "model": "FluABC",
-            "changes": [
-                "model-output/ISI-FluABC/2024_2025_1_FLU-ISI-FluABC.parquet"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "CM_TWO",
-            "changes": [
-                "model-output/ECDC-CM_TWO/2024_2025_1_COVID-ECDC-CM_TWO.parquet"
-            ]
-        }
-    ],
-    "HZI": [
-        {
-            "model": "COVIDmodel",
-            "changes": [
-                "model-output/HZI-COVIDmodel/2024_2025_1_COVID-HZI-COVIDmodel.parquet"
-            ]
-        },
-        {
-            "model": "Flumodel",
-            "changes": [
-                "model-output/HZI-Flumodel/2024_2025_1_FLU-HZI-Flumodel.parquet"
-            ]
-        }
-    ],
-    "QMUL": [
-        {
-            "model": "FluSEIR",
-            "changes": [
-                "model-output/QMUL-FluSEIR/2024_2025_1_FLU-QMUL-FluSEIR.parquet"
+                "model-output/charite_cgh-CCGH_RSV/2025_2026_1_RSV-charite_cgh-CCGH_RSV.parquet"
             ]
         }
     ]

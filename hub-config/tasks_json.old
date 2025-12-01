@@ -1,0 +1,507 @@
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
+    "rounds": [
+        {
+            "round_id_from_variable": true,
+            "round_id": "round_id",
+            "model_tasks": [
+                {
+                    "task_ids": {
+                        "round_id": {
+                            "required": [
+                                "2025_2026_1_RSV"
+                            ],
+                            "optional": null
+                        },
+                        "target": {
+                            "required": ["rsv_hospitalisations","rsv_infections"],
+                            "optional": null
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-07-06",
+                                "2025-07-13",
+                                "2025-07-20",
+                                "2025-07-27",
+                                "2025-08-03",
+                                "2025-08-10",
+                                "2025-08-17",
+                                "2025-08-24",
+                                "2025-08-31",
+                                "2025-09-07",
+                                "2025-09-14",
+                                "2025-09-21",
+                                "2025-09-28",
+                                "2025-10-05",
+                                "2025-10-12",
+                                "2025-10-19",
+                                "2025-10-26",
+                                "2025-11-02",
+                                "2025-11-09",
+                                "2025-11-16",
+                                "2025-11-23",
+                                "2025-11-30",
+                                "2025-12-07",
+                                "2025-12-14",
+                                "2025-12-21",
+                                "2025-12-28",
+                                "2026-01-04",
+                                "2026-01-11",
+                                "2026-01-18",
+                                "2026-01-25",
+                                "2026-02-01",
+                                "2026-02-08",
+                                "2026-02-15",
+                                "2026-02-22",
+                                "2026-03-01",
+                                "2026-03-08",
+                                "2026-03-15",
+                                "2026-03-22",
+                                "2026-03-29",
+                                "2026-04-05",
+                                "2026-04-12",
+                                "2026-04-19",
+                                "2026-04-26",
+                                "2026-05-03",
+                                "2026-05-10",
+                                "2026-05-17",
+                                "2026-05-24",
+                                "2026-05-31"
+                            ]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28,
+                                29,
+                                30,
+                                31,
+                                32,
+                                33,
+                                34,
+                                35,
+                                36,
+                                37,
+                                38
+                            ]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                                "AT",
+                                "BE",
+                                "BG",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GR",
+                                "HR",
+                                "HU",
+                                "IE",
+                                "IS",
+                                "IT",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MT",
+                                "NL",
+                                "NO",
+                                "PL",
+                                "PT",
+                                "RO",
+                                "SE",
+                                "SI",
+                                "SK"
+                            ]
+                        },
+                        "scenario_id": {
+                            "required": null,
+                            "optional": [
+                                "A",
+                                "B",
+                                "C",
+                                "D",
+                                "E"
+                            ]
+                        },
+                        "pop_group": {
+                            "required": null,
+                            "optional": [
+                                "0-2mo_immYes",
+                                "0-2mo_immNo",
+                                "0-2mo_immTotal",
+                                "3-5mo_immYes",
+                                "3-5mo_immNo",
+                                "3-5mo_immTotal",
+                                "6-11mo_immYes",
+                                "6-11mo_immNo",
+                                "6-11mo_immTotal",
+                                "1-4y_immYes",
+                                "1-4y_immNo",
+                                "1-4y_immTotal",
+                                "5-64y_immYes",
+                                "5-64y_immNo",
+                                "5-64y_immTotal",
+                                "65+y_immYes",
+                                "65+y_immNo",
+                                "65+y_immTotal",
+                                "total_immYes",
+                                "total_immNo",
+                                "total_immTotal"
+                            ]
+                        }
+                    },
+                    "output_type": {
+                        "sample": {
+                            "output_type_id_params": {
+                                "type": "character",
+                                "max_length": 6,
+                                "min_samples_per_task": 1,
+                                "max_samples_per_task": 300,
+                                "compound_taskid_set": [
+                                    "round_id",
+                                    "scenario_id",
+                                    "target",
+                                    "location",
+                                    "pop_group"
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            },
+                            "is_required": true
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "rsv_hospitalisations",
+                            "target_name": "Weekly Covid19 infections count",
+                            "target_units": "The number of new infections",
+                            "target_keys": {
+                                "target": "rsv_hospitalisations"
+                            },
+                            "description": "This target represents the count of new Covid19 cases in the week ending on the date [horizon] weeks after the reference_date",
+                            "target_type": "continuous",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        },
+                        {
+                            "target_id": "rsv_infections",
+                            "target_name": "Weekly Covid19 infections count",
+                            "target_units": "The number of new infections",
+                            "target_keys": {
+                                "target": "rsv_infections"
+                            },
+                            "description": "This target represents the count of new Covid19 cases in the week ending on the date [horizon] weeks after the reference_date",
+                            "target_type": "continuous",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
+                },
+                {
+                    "task_ids": {
+                        "round_id": {
+                            "required": [
+                                "2025_2026_1_RSV"
+                            ],
+                            "optional": null
+                        },
+                        "target": {
+                            "required": ["administered_doses"],
+                            "optional": null
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-01-05",
+                                "2025-01-12",
+                                "2025-01-19",
+                                "2025-01-26",
+                                "2025-02-02",
+                                "2025-02-09",
+                                "2025-02-16",
+                                "2025-02-23",
+                                "2025-03-02",
+                                "2025-03-09",
+                                "2025-03-16",
+                                "2025-03-23",
+                                "2025-03-30",
+                                "2025-04-06",
+                                "2025-04-13",
+                                "2025-04-20",
+                                "2025-04-27",
+                                "2025-05-04",
+                                "2025-05-11",
+                                "2025-05-18",
+                                "2025-05-25",
+                                "2025-06-01",
+                                "2025-06-08",
+                                "2025-06-15",
+                                "2025-06-22",
+                                "2025-06-29",
+                                "2025-07-06",
+                                "2025-07-13",
+                                "2025-07-20",
+                                "2025-07-27",
+                                "2025-08-03",
+                                "2025-08-10",
+                                "2025-08-17",
+                                "2025-08-24",
+                                "2025-08-31",
+                                "2025-09-07",
+                                "2025-09-14",
+                                "2025-09-21",
+                                "2025-09-28",
+                                "2025-10-05",
+                                "2025-10-12",
+                                "2025-10-19",
+                                "2025-10-26",
+                                "2025-11-02",
+                                "2025-11-09",
+                                "2025-11-16",
+                                "2025-11-23",
+                                "2025-11-30",
+                                "2025-12-07",
+                                "2025-12-14",
+                                "2025-12-21",
+                                "2025-12-28",
+                                "2026-01-04",
+                                "2026-01-11",
+                                "2026-01-18",
+                                "2026-01-25",
+                                "2026-02-01",
+                                "2026-02-08",
+                                "2026-02-15",
+                                "2026-02-22",
+                                "2026-03-01",
+                                "2026-03-08",
+                                "2026-03-15",
+                                "2026-03-22",
+                                "2026-03-29",
+                                "2026-04-05",
+                                "2026-04-12",
+                                "2026-04-19",
+                                "2026-04-26",
+                                "2026-05-03",
+                                "2026-05-10",
+                                "2026-05-17",
+                                "2026-05-24",
+                                "2026-05-31"
+                            ]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [
+                                -35,
+                                -34,
+                                -33,
+                                -32,
+                                -31,
+                                -30,
+                                -29,
+                                -28,
+                                -27,
+                                -26,
+                                -25,
+                                -24,
+                                -23,
+                                -22,
+                                -21,
+                                -20,
+                                -19,
+                                -18,
+                                -17,
+                                -16,
+                                -15,
+                                -14,
+                                -13,
+                                -12,
+                                -11,
+                                -10,
+                                -9,
+                                -8,
+                                -7,
+                                -6,
+                                -5,
+                                -4,
+                                -3,
+                                -2,
+                                -1,
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28,
+                                29,
+                                30,
+                                31,
+                                32,
+                                33,
+                                34,
+                                35,
+                                36,
+                                37,
+                                38
+                            ]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                                "AT",
+                                "BE",
+                                "BG",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GR",
+                                "HR",
+                                "HU",
+                                "IE",
+                                "IS",
+                                "IT",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MT",
+                                "NL",
+                                "NO",
+                                "PL",
+                                "PT",
+                                "RO",
+                                "SE",
+                                "SI",
+                                "SK"
+                            ]
+                        },
+                        "scenario_id": {
+                            "required": null,
+                            "optional": [
+                                "A",
+                                "B",
+                                "C",
+                                "D",
+                                "E"
+                            ]
+                        },
+                        "pop_group": {
+                            "required": null,
+                            "optional": ["undefined"]
+                        }
+                    },
+                    "output_type": {
+                        "sample": {
+                            "output_type_id_params": {
+                                "type": "character",
+                                "max_length": 6,
+                                "min_samples_per_task": 1,
+                                "max_samples_per_task": 300,
+                                "compound_taskid_set": [
+                                    "round_id",
+                                    "scenario_id",
+                                    "target",
+                                    "location",
+                                    "pop_group"
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            },
+                            "is_required": true
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "administered_doses",
+                            "target_name": "Weekly Covid19 infections count",
+                            "target_units": "The number of new infections",
+                            "target_keys": {
+                                "target": "administered_doses"
+                            },
+                            "description": "This target represents the count of new Covid19 cases in the week ending on the date [horizon] weeks after the reference_date",
+                            "target_type": "continuous",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
+                }
+            ],
+            "submissions_due": {
+                "start": "2025-07-24",
+                "end": "2026-05-31"
+            }
+        }
+    ],
+    "output_type_id_datatype": "character",
+    "derived_task_ids": [
+        "target_end_date",
+        "pop_group"
+    ]
+}
