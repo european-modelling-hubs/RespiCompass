@@ -1,0 +1,21 @@
+team_name: UC3MEpiGraph
+model_name: EpiGraph
+team_abbr: UC3MEpiGraph
+model_abbr: EpiGraph
+model_contributors:
+  - name: David E. Singh
+    affiliation: Universidad Carlos III de Madrid
+    email: dexposit@inf.uc3m.es
+  - name: Jesus Carretero
+    affiliation: Universidad Carlos III de Madrid
+    email: jcarrete@inf.uc3m.es
+  - name: Alberto Cascajo
+    affiliation: Universidad Carlos III de Madrid
+    email: acascajo@inf.uc3m.es
+  - name: Paula Sánchez-Checa
+    affiliation: Universidad Carlos III de Madrid
+    email: paulasan@inf.uc3m.es
+team_model_designation: primary
+methods: EpiGraph is an agent-based parallel simulator that performs realistic stochastic simulations of the propagation of the respiratory virus across wide geographic expanses. 
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
