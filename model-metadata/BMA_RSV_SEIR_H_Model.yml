@@ -1,7 +1,7 @@
 team_name: "BMA"
-model_name: "RSV SEIR-H Model"
+model_name: "RSV_SEIR_H Model"
 team_abbr: "BMA"
-model_abbr: SEIR-H_Model
+model_abbr: SEIR_H_Model
 
 model_contributors:
   - name: "Kayode Oshinubi"
@@ -24,9 +24,9 @@ model_contributors:
     email: "aadeniji@latrobe.edu.au"
 
 methods:
-  Age-structured deterministic SEIR-H ODE model for RSV with seasonal transmission, 
-  age-progression, and dual immunization (maternal vaccine vs la-mAb) 
-  including waning; outputs age-specific hospitalizations.
+  Age-structured deterministic SEIR-H model of RSV with seasonality,
+  hospitalization, aging, waning immunity, and two immunization strategies:
+  maternal vaccine and long-acting monoclonal antibodies.
 
 data_inputs:
   Weekly age-stratified RSV hospital admissions from sentinel surveillance,
@@ -41,7 +41,7 @@ license: "CC-BY-4.0"
 
 method_long:
  methods_long: >
-  The SEIR-H_Model is a deterministic age-structured framework for RSV transmission.
+  The SEIR_H_Model is a deterministic age-structured framework for RSV transmission.
   It divides the population into six age groups with susceptible, exposed, infectious,
   recovered, and hospitalized states, including immunized compartments for maternal
   vaccination and long-acting monoclonal antibodies. Transmission is seasonal and
