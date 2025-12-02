@@ -1,0 +1,48 @@
+team_name: BMA
+model_name: RSV_SEIR_H Model
+team_abbr: BMA
+model_abbr: RSV_SEIR_H
+
+model_contributors:
+  - name: Kayode Oshinubi
+    affiliation: Northern Arizona University
+    email: kayode-isaac.oshinubi@nau.edu
+  - name: Kazeem Akande
+    affiliation: Baze University
+    email: akande.kb22002@gmail.com
+  - name: Emmanuel Dansu
+    affiliation: Tohoku University
+    email: ejdansu@gmail.com
+  - name: Idisi Oke
+    affiliation: Federal University of Technology
+    email: idisioke@gmail.com
+  - name: Musa Rabiu
+    affiliation: Tshwane University of Technology
+    email: rabiumusa003@gmail.com
+  - name: Adejimi Adeniji
+    affiliation: La Trobe University
+    email: aadeniji@latrobe.edu.au
+
+methods:
+  Age-structured deterministic SEIR-H model with seasonality, hospitalization,
+  ageing, waning immunity, and two immunization strategies: maternal vaccine
+  and long-acting monoclonal antibodies.
+
+data_inputs:
+  Weekly age-stratified RSV hospital admissions from sentinel surveillance,
+  population demographics by age band, and seasonal contact patterns.
+  Parameter priors for transmission, recovery, and hospitalization are drawn
+  from published RSV literature and calibration data.
+
+team_model_designation: primary
+
+license: CC-BY-4.0
+
+methods_long:
+  The SEIR-H model is a deterministic age-structured framework for RSV
+  transmission. It divides the population into six age groups with susceptible,
+  exposed, infectious, recovered, and hospitalized states, including immunized
+  compartments for maternal vaccination and long-acting monoclonal antibodies.
+  Transmission is seasonal and age-dependent, with births, aging, and waning
+  immunity. The model is calibrated to weekly age-specific RSV hospitalizations
+  and used to simulate intervention scenarios for forecasting hospital burden.
