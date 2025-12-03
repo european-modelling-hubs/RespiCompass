@@ -22,5 +22,13 @@
                 "model-output/UC3MEpiGraph-EpiGraph/2025_2026_1_RSV-UC3MEpiGraph-EpiGraph.parquet"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "MSEIRS",
+            "changes": [
+                "model-output/QMUL-MSEIRS/2025_2026_1_RSV-QMUL-MSEIRS.parquet"
+            ]
+        }
     ]
 }
