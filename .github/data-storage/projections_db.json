@@ -30,5 +30,13 @@
                 "model-output/QMUL-MSEIRS/2025_2026_1_RSV-QMUL-MSEIRS.parquet"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "RSViolet",
+            "changes": [
+                "model-output/ISI-RSViolet/2025_2026_1_RSV-ISI-RSViolet.parquet"
+            ]
+        }
     ]
 }
