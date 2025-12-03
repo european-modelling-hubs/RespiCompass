@@ -1,0 +1,13 @@
+team_name: University of Lübeck
+model_name: Respiratory syncytial virus model
+team_abbr: UoL
+model_abbr: RSVmodel
+model_contributors:
+  - name: Alexander Kuhlmann
+    affiliation: University of Lübeck
+    email: Alexander.Kuhlmann@uksh.de
+  - name: Cosima Krakau
+    affiliation: University of Lübeck
+    email: Cosima.Krakau@uksh.de
+methods: A deterministic, age-structured compartmental ODE model calibrated via Markov chain Monte Carlo
+data_inputs: POLYMOD contact data and Eurostat demographic data (demo_fmonth, demo_pjan)
