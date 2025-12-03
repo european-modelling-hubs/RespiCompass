@@ -18,6 +18,6 @@ model_contributors:
 team_model_designation: primary
 methods: EpiGraph is an agent-based parallel simulator that performs realistic stochastic simulations of the propagation of the COVID-19, influenza and RSV respiratory viruses across wide geographic areas. 
 license: Proprietary
-data_inputs: The following information is provided by the ECDC RSV - Round 1 2025/2026 Scenarios: vaccine waning curves, number of births, vaccine hospitalization effectiveness; The vaccine effectiveness against infection and severe outcomes was obtained the data from Ref[3], Figure 1.  [3] https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00248-X/fulltext  ; For developing the social model we used population pyramid and contact matrices for Spain and Italy. 
-website_url: https://epigraph.uc3m.es/
-citation: https://epigraph.uc3m.es/
+data_inputs: "The following information is provided by the ECDC RSV - Round 1 2025/2026 Scenarios: vaccine waning curves, number of births, vaccine hospitalization effectiveness; The vaccine effectiveness against infection and severe outcomes was obtained the data from Ref[3], Figure 1.  [3] https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00248-X/fulltext  ; For developing the social model we used population pyramid and contact matrices for Spain and Italy."
+website_url: "https://epigraph.uc3m.es/"
+citation: "https://epigraph.uc3m.es/"
