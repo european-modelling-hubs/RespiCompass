@@ -6,5 +6,21 @@
                 "model-output/charite_cgh-CCGH_RSV/2025_2026_1_RSV-charite_cgh-CCGH_RSV.parquet"
             ]
         }
+    ],
+    "OptimAgent": [
+        {
+            "model": "GEMS",
+            "changes": [
+                "model-output/OptimAgent-GEMS/2025_2026_1_RSV-OptimAgent-GEMS.parquet"
+            ]
+        }
+    ],
+    "UC3MEpiGraph": [
+        {
+            "model": "EpiGraph",
+            "changes": [
+                "model-output/UC3MEpiGraph-EpiGraph/2025_2026_1_RSV-UC3MEpiGraph-EpiGraph.parquet"
+            ]
+        }
     ]
 }

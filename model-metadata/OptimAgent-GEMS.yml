@@ -1,0 +1,33 @@
+team_name: OptimAgent 
+model_name: German Epidemic Microsimulation System
+team_abbr: OptimAgent
+model_abbr: GEMS
+model_contributors:
+    - name: Beryl Musundi
+      affiliation: Martin Luther University, Halle-Wittenberg, Germany
+      email: Beryl.Musundi@uk-halle.de
+    - name: Aleksandr Bryzgalov
+      affiliation: Martin Luther University, Halle-Wittenberg, Germany
+      email: Aleksandr.Bryzgalov@uk-halle.de
+    - name: Julian Patzner
+      affiliation: Martin Luther University, Halle-Wittenberg, Germany
+      email: Julian.Patzner@uk-halle.de
+    - name: Johannes Ponge
+      affiliation: University of Muenster, Germany
+      email: johannes.ponge@wi.uni-muenster.de
+    - name: Tyll Krueger
+      affiliation: Wroclaw University of Science and Technology, Poland
+      email: tyll.krueger@googlemail.com
+    - name: Karol Niedzielewski
+      affiliation: University of Warsaw, Poland
+      email: k.niedzielewski@icm.edu.pl
+    - name: Rafael Mikolajczyk
+      affiliation: Martin Luther University, Halle-Wittenberg, Germany
+      email: rafael.mikolajczyk@uk-halle.de
+    - name: Alexander Kuhlmann
+      affiliation: University of Luebeck, Germany
+      email: Alexander.Kuhlmann@uksh.de
+methods: An agent-based modelling framework with a superimposed network structure tailored for the German population.
+data_inputs: Epidemiological data on RSV hospitalisations and waning of immunization from RespiCompass, Synthentic population of Germany from the Gesyland dataset.
+team_model_designation: primary
+website_url: https://github.com/IMMIDD/GEMS
