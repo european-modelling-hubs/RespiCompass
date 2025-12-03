@@ -1,7 +1,7 @@
 {
     "changes": [
-        "model-metadata/charite_cgh-CCGH_RSV.yaml",
         "model-metadata/OptimAgent-GEMS.yml",
-        "model-metadata/QMUL-MSEIRS.yaml"
+        "model-metadata/QMUL-MSEIRS.yaml",
+        "model-metadata/charite_cgh-CCGH_RSV.yaml"
     ]
 }
