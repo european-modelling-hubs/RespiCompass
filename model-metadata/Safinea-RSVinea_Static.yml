@@ -1,0 +1,16 @@
+team_name: Safinea
+model_name: RSVinea Static
+team_abbr: Safinea
+model_abbr: RSVinea_Static
+model_contributors:
+  - name: Rok Grah
+    affiliation: Safinea
+    email: rok.grah@safinea.eu
+  - name: Helen Johnson
+    affiliation: Safinea
+    email: helen.johnson@safinea.eu
+team_model_designation: secondary
+methods: Takes provided data as the baseline and applies intervention impact directly from uptake and IE for each age group.
+method_long: This static RSV model allocates the total yearly hospitalisation burden across weeks by age group, scenarios are modelled by applying reductions in these hospitalisations based on the decreased risk among vaccinated individuals in the relevant age groups.
+license: CC-BY-4.0
+data_inputs: ECDC ERVISS
