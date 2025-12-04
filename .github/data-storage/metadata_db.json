@@ -1,10 +1,10 @@
 {
     "changes": [
-        "model-metadata/ISI-RSViolet.yml",
         "model-metadata/QMUL-MSEIRS.yaml",
-        "model-metadata/OptimAgent-GEMS.yml",
+        "model-metadata/ISI-RSViolet.yml",
         "model-metadata/UC3MEpiGraph-EpiGraph.yml",
         "model-metadata/charite_cgh-CCGH_RSV.yaml",
+        "model-metadata/OptimAgent-GEMS.yml",
         "model-metadata/UoL-RSVmodel.yml"
     ]
 }
