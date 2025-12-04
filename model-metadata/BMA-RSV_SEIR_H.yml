@@ -25,7 +25,7 @@ model_contributors:
 
 methods:
   Age-structured deterministic SEIR-H model with seasonality, hospitalization,
-  ageing, waning immunity, and two immunization strategies: maternal vaccine
+  ageing, waning immunity, and two immunization strategies, maternal vaccine
   and long-acting monoclonal antibodies.
 
 data_inputs:
