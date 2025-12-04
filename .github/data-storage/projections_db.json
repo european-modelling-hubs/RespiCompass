@@ -38,5 +38,13 @@
                 "model-output/ISI-RSViolet/2025_2026_1_RSV-ISI-RSViolet.parquet"
             ]
         }
+    ],
+    "UoL": [
+        {
+            "model": "RSVmodel",
+            "changes": [
+                "model-output/UoL-RSVmodel/2025_2026_1_RSV-UoL-RSVmodel.parquet"
+            ]
+        }
     ]
 }
