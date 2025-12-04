@@ -1,5 +1,5 @@
 team_name: "ISI Foundation"
-model_name: "RSV Intervention Outcome & Epidemic Trends"
+model_name: "RSV Intervention Outcome & Long-term Epi Trends"
 team_abbr: "ISI"
 model_abbr: "RSViolet"
 model_contributors:
@@ -8,7 +8,7 @@ model_contributors:
     email: "nicolo.gozzi@isi.it"
   - name: "Mattia Mazzoli"
     affiliation: "ISI Foundation"
-    email: "mattia.mazzolit@isi.it"
+    email: "mattia.mazzoli@isi.it"
   - name: "Daniela Paolotti"
     affiliation: "ISI Foundation"
     email: "daniela.paolotti@isi.it"
