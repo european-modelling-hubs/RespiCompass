@@ -46,5 +46,13 @@
                 "model-output/UoL-RSVmodel/2025_2026_1_RSV-UoL-RSVmodel.parquet"
             ]
         }
+    ],
+    "PHAS": [
+        {
+            "model": "RespiPHAS",
+            "changes": [
+                "model-output/PHAS-RespiPHAS/2025_2026_1_RSV-PHAS-RespiPHAS.parquet"
+            ]
+        }
     ]
 }

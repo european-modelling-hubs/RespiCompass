@@ -1,11 +1,12 @@
 {
     "changes": [
-        "model-metadata/QMUL-MSEIRS.yaml",
-        "model-metadata/ISI-RSViolet.yml",
-        "model-metadata/UoL-RSVmodel.yml",
-        "model-metadata/OptimAgent-GEMS.yml",
         "model-metadata/charite_cgh-CCGH_RSV.yaml",
         "model-metadata/BMA-RSV_SEIR_H.yml",
-        "model-metadata/UC3MEpiGraph-EpiGraph.yml"
+        "model-metadata/UC3MEpiGraph-EpiGraph.yml",
+        "model-metadata/PHAS-RespiPHAS.yml",
+        "model-metadata/QMUL-MSEIRS.yaml",
+        "model-metadata/ISI-RSViolet.yml",
+        "model-metadata/OptimAgent-GEMS.yml",
+        "model-metadata/UoL-RSVmodel.yml"
     ]
 }
