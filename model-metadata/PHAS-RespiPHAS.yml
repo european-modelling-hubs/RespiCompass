@@ -1,0 +1,22 @@
+team_name: Public Health Agency of Sweden
+model_name: RespiPHAS
+team_abbr: PHAS
+model_abbr: RespiPHAS
+model_contributors:
+  - name: Gerard Farré
+    affiliation: Public Health Agency of Sweden
+    email: gerard.f.puiggali@folkhalsomyndigheten.se
+  - name: Federico Benzi
+    affiliation: Public Health Agency of Sweden
+    email: federico.benzi@folkhalsomyndigheten.se
+  - name: Hatef Darabi
+    affiliation: Public Health Agency of Sweden
+    email: hatef.darabi@folkhalsomyndigheten.se
+  - name: Lisa Browers
+    affiliation: Public Health Agency of Sweden
+    email: lisa.browers@folkhalsomyndigheten.se
+team_model_designation: primary
+methods: A deterministic SEIHRS model optimized with least squares
+license: CC-BY-4.0
+data_inputs: ECDC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10681872/, https://pmc.ncbi.nlm.nih.gov/articles/PMC10681866/
+
