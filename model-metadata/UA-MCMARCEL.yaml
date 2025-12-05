@@ -1,0 +1,32 @@
+team_name: UAntwerp
+team_abbr: UA
+
+model_name: MCMARCEL
+model_abbr: MCMARCEL
+
+model_contributors:
+  - name: Xiao Li
+    affiliation: "Centre for Health Economics Research & Modelling Infectious Diseases (CHERMID), Vaccine & Infectious Disease Institute (VAXINFECTIO), University of Antwerp, Belgium"
+    email: "xiao.li@uantwerpen.be"
+
+  - name: Lander Willem
+    affiliations:
+      - "Centre for Health Economics Research & Modelling Infectious Diseases (CHERMID), Vaccine & Infectious Disease Institute (VAXINFECTIO), University of Antwerp, Belgium"
+      - "Primary and Interdisciplinary Care Antwerp (ELIZA), University of Antwerp, Antwerp, Belgium"
+    email: "lander.willem@uantwerpen.be"
+
+  - name: Regina Manansala
+    affiliation: "Centre for Health Economics Research & Modelling Infectious Diseases (CHERMID), Vaccine & Infectious Disease Institute (VAXINFECTIO), University of Antwerp, Belgium"
+    email: "Regina.Manansala@uantwerpen.be"
+
+  - name: Philippe Beutels
+    affiliation: "Centre for Health Economics Research & Modelling Infectious Diseases (CHERMID), Vaccine & Infectious Disease Institute (VAXINFECTIO), University of Antwerp, Belgium"
+    email: "philippe.beutels@uantwerpen.be"
+
+team_model_designation: primary
+methods: "static cohort model"
+license: "CC-BY-4.0"
+
+data_inputs:
+  - "RespiCompass"
+  - "Time series estimates: Johannesen et al. 10.1016/j.lanepe.2025.101227"
