@@ -1,0 +1,18 @@
+team_name: Helmholtz Zentrum fuer Infektionsforschung
+model_name: RSV model 
+team_abbr: HZI
+model_abbr: RSVmodel
+model_contributors:
+  - name: Isti Rodiah
+    affiliation: Helmholtz Zentrum fuer Infektionsforschung
+    email: Isti.Rodiah@helmholtz-hzi.de
+  - name: Berit Lange
+    affiliation: Helmholtz Zentrum fuer Infektionsforschung
+    email: Berit.Lange@helmholtz-hzi.de
+methods: Extended deterministic SEIR model with age stratification and reinfection process 
+data_inputs: ECDC (epidemiological data), COVIMOD (social contact patterns) 
+team_model_designation: primary
+team_funding: RESPINOW 
+website_url: https://doi.org/10.1101/2024.11.20.24317653
+citation: https://doi.org/10.1101/2024.11.20.24317653
+methods_long: This model is an extended SEIR model with additional compartments for the vaccinated, hospitalized, and death. It is designed as an age-structured model and is calibrated to reported hospitalizations. The fitted parameters are then used to forecast the number of hospitalizations, accounting for seasonal variations based on these parameters.
