@@ -54,5 +54,13 @@
                 "model-output/PHAS-RespiPHAS/2025_2026_1_RSV-PHAS-RespiPHAS.parquet"
             ]
         }
+    ],
+    "UA": [
+        {
+            "model": "MCMARCEL",
+            "changes": [
+                "model-output/UA-MCMARCEL/2025_2026_1_RSV-UA-MCMARCEL.parquet"
+            ]
+        }
     ]
 }
