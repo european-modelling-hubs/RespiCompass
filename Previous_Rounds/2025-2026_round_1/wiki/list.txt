@@ -1,0 +1,12 @@
+Create-a-Pull-Request.md
+Home.md
+How-to-join.md
+Metadata.md
+Preparing-to-submit.md
+Submission-format.md
+Submitting-using-GitHub-Command-Line.md
+Submitting-using-GitHub-Website.md
+_Footer.md
+_Sidebar.md
+images
+list.txt
