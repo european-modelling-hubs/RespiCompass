@@ -7,13 +7,13 @@ This repository contains the following additional supporting files:
     - `iso2_code`: The ISO 3166-1 alpha-2 code of the country.
 
 2. `isoweeks.csv`: 
-This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date) related to the scenario period of RSV scenario round 2026/2027. **Columns:**
+This file provides a list of [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date) related to the scenario period of RSV scenario round 2026/2027, covering two RSV seasons (September $1^{st}$, 2026 to May $28^{th}$, 2028). **Columns:**
     - `target_start_date`: Start day of the week (Monday).
     - `target_end_date`: End day of the week (Sunday).
     - `week`: Week number.
     - `year`: Year.
     - `year_week`: Year and ISO week in the format ```YYYY-Www```.
-    - `horizon`: Weeks ahead in the projection period. Weeks ahead are defined relative to the start of the projection: week $0$ corresponds to the first week of the projection period starting on September $1^{st}$, 2026, while negative values represent prior weeks. These past weeks are included because, in the case of maternal vaccination scenarios (C and D), teams are expected to report doses administered before September $1^{st}$, 2026, as the first immunized infants should be born on that date.
+    - `horizon`: Weeks ahead in the projection period. Weeks ahead are defined relative to the start of the projection: week $0$ corresponds to the first week of the projection period starting on September $1^{st}$, 2026, the date on which all eligible individuals are assumed to be vaccinated (see [round1_2627_rsv.md](../round1_2627_rsv.md#shared-modelling-assumptions)). The file only includes weeks from horizon $0$ onward, as this is the first horizon teams are expected to submit.
   
 
 # Contacts

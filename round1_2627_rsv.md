@@ -27,25 +27,48 @@ The RespiCompass 2026/27 RSV Scenario round aims to support country-level health
 The goal of this round of RespiCompass is to provide modelling evidence supporting country-level decisions on the introduction of novel RSV immunisation strategies for protecting older adults. This will be achieved by comparing scenarios with universally offered adult vaccination against a status-quo (no universal intervention) baseline. In more detail, this round will aim to answer the following questions:
 1. Should one dose of RSV vaccine be recommended for all adults ≥60, ≥65, ≥70, ≥75, ≥80 years of age and older?
 2. What is the expected impact of varying duration of protection following a single dose, and when might re-vaccination be considered in different age groups?
+3. What is the expected impact of varying vaccination coverage among the eligible population?
 
 ### Table of Scenarios
-To jointly address both questions, this round explores the full combination of eligibility age thresholds and durations of immunity as a single set of scenarios, rather than as two sequential steps. Each cell of the table below corresponds to one scenario, combining a minimum eligibility age for universal immunisation with an assumed duration of vaccine-induced immunity.
+To jointly address all three questions, this round explores the full combination of eligibility age thresholds, durations of immunity, and vaccination coverage levels as a single set of scenarios. Each cell of the tables below corresponds to one scenario, combining a minimum eligibility age for universal immunisation with an assumed duration of vaccine-induced immunity, at a given coverage level. We consider three coverage levels: 25%, 50%, and 75% of the eligible population.
+
+#### Coverage: 25%
 
 | | **Eligibility Age** ≥60 | ≥65 | ≥70 | ≥75 | ≥80 |
 |  :-:|  :-: | :-: | :-: | :-: | :-: |
-| **Duration of Immunity**: 6 months  | A.1 | A.2 | A.3 | A.4 | A.5 |
-| **Duration of Immunity**: 12 months | B.1 | B.2 | B.3 | B.4 | B.5 |
-| **Duration of Immunity**: 18 months | C.1 | C.2 | C.3 | C.4 | C.5 |
-| **No Universal Immunisation**. No universal RSV immunisation is implemented.$^*$ | Scenario F  (Baseline scenario) | | | | |
+| **Duration of Immunity**: 6 months  | A.1-25 | A.2-25 | A.3-25 | A.4-25 | A.5-25 |
+| **Duration of Immunity**: 12 months | B.1-25 | B.2-25 | B.3-25 | B.4-25 | B.5-25 |
+| **Duration of Immunity**: 18 months | C.1-25 | C.2-25 | C.3-25 | C.4-25 | C.5-25 |
+
+#### Coverage: 50%
+
+| | **Eligibility Age** ≥60 | ≥65 | ≥70 | ≥75 | ≥80 |
+|  :-:|  :-: | :-: | :-: | :-: | :-: |
+| **Duration of Immunity**: 6 months  | A.1-50 | A.2-50 | A.3-50 | A.4-50 | A.5-50 |
+| **Duration of Immunity**: 12 months | B.1-50 | B.2-50 | B.3-50 | B.4-50 | B.5-50 |
+| **Duration of Immunity**: 18 months | C.1-50 | C.2-50 | C.3-50 | C.4-50 | C.5-50 |
+
+#### Coverage: 75%
+
+| | **Eligibility Age** ≥60 | ≥65 | ≥70 | ≥75 | ≥80 |
+|  :-:|  :-: | :-: | :-: | :-: | :-: |
+| **Duration of Immunity**: 6 months  | A.1-75 | A.2-75 | A.3-75 | A.4-75 | A.5-75 |
+| **Duration of Immunity**: 12 months | B.1-75 | B.2-75 | B.3-75 | B.4-75 | B.5-75 |
+| **Duration of Immunity**: 18 months | C.1-75 | C.2-75 | C.3-75 | C.4-75 | C.5-75 |
+
+#### Baseline
+
+| **No Universal Immunisation**. No universal RSV immunisation is implemented.$^*$ | Scenario F  (Baseline scenario) |
+|  :-: | :-: |
 
 $^*$ Teams should use target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions. In other words, the target data represents the baseline or status-quo scenario burden and models should be calibrated to match the target data as closely as possible in Scenario F.
 
 
 ## Targets
-Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions. Requested modelling outputs or "targets" for all scenarios are: 
-- **weekly RSV hospitalisation incidence** (i.e., new admissions) for each modelled country by age group (0-2mo, 3-5mo, 6-11mo, 1-4, 5-17, 18-59, 60-64, 65-69, 70-74, 75-79, 80+, total) and immunisation status (yes, no, total) between September $1^{st}$, 2026 and August $31^{st}$, 2027. This target is **mandatory**.
-- **weekly administered doses** for each modelled country, on a given week and country, between September $1^{st}$, 2026 and August $31^{st}$, 2027. This target is **mandatory**.
-- **weekly RSV infection incidence** (i.e., new infections) in each individual countries by age group (0-2mo, 3-5mo, 6-11mo, 1-4, 5-17, 18-59, 60-64, 65-69, 70-74, 75-79, 80+, total) and immunisation status (yes, no, total) between September $1^{st}$, 2026 and August $31^{st}$, 2027. This target is **optional**.
+Teams should use the target data provided in the [target-data](./target-data/) folder to estimate typical country-specific RSV hospitalisation patterns in absence of universal interventions. Note that the target data covers a single reference season (September $1^{st}$, 2026 to August $31^{st}$, 2027), while the scenario period spans two RSV seasons (see below); teams should calibrate their models to this single reference season and then project both scenario seasons forward accordingly. Note also that while the target data itself is provided at a finer infant age resolution (0-2mo, 3-5mo, 6-11mo), teams should aggregate these into a single `<1year` group for submission, to keep the submission age granularity manageable. Requested modelling outputs or "targets" for all scenarios are: 
+- **weekly RSV hospitalisation incidence** (i.e., new admissions) for each modelled country by age group (<1year, 1-4, 5-17, 18-59, 60-64, 65-69, 70-74, 75-79, 80+, total) and immunisation status (yes, no, total) between September $1^{st}$, 2026 and May $28^{th}$, 2028 (two RSV seasons). This target is **mandatory**.
+- **total administered doses** for each modelled country. Since the eligible age group and coverage level are both fully determined by the scenario itself, and all eligible individuals are vaccinated at once at the beginning of the scenario period (see [Shared Modelling Assumptions](#shared-modelling-assumptions)), this target is reported as a single cumulative number per country/scenario, not broken down by age group nor as a weekly time series. This target is **mandatory**.
+- **weekly RSV infection incidence** (i.e., new infections) in each individual countries by age group (<1year, 1-4, 5-17, 18-59, 60-64, 65-69, 70-74, 75-79, 80+, total) and immunisation status (yes, no, total) between September $1^{st}$, 2026 and May $28^{th}$, 2028 (two RSV seasons). This target is **optional**.
 
 While teams may choose to submit targets for a subset of EU/EEA countries, we strongly encourage them to cover as many countries as possible. For each submitted country, we require teams to submit projections for all modelled scenarios and all modelled population groups (see [Submission Format](#submission-format) below).
 
@@ -54,6 +77,7 @@ While teams may choose to submit targets for a subset of EU/EEA countries, we st
 The following assumptions must be shared by all contributing models:
 - We assume a common births cohort, specific for each country, for the scenario period. The data is provided [here](./auxiliary-data/births/).
 - We assume no universal RSV intervention in the infant population (e.g., la-mAbs, maternal vaccination) are implemented during the scenario period and that the target data is representative of the typical RSV hospitalisation patterns in absence of such interventions.
+- We assume that all individuals eligible for vaccination under a given scenario are vaccinated at the beginning of the scenario period, i.e. September $1^{st}$, 2026 (no vaccination rollout).
 
 
 ## Modelling Assumptions Left to the Modellers Judgement
@@ -76,17 +100,15 @@ General guidance for the submission format is provided in the [Wiki](https://git
 
 Where `<team>-<model>` will be specific for each team/model and must match the `team_abbr` and `model_abbr` parameters in the metadata file. Additionally, you should set: 
 -  ```round_id = '2026_2027_1_RSV'```
--  ```scenario_id```: TBD
+-  ```scenario_id```: allowed values are ```'A.1-25', 'A.2-25', 'A.3-25', 'A.4-25', 'A.5-25', 'A.1-50', 'A.2-50', 'A.3-50', 'A.4-50', 'A.5-50', 'A.1-75', 'A.2-75', 'A.3-75', 'A.4-75', 'A.5-75', 'B.1-25', 'B.2-25', 'B.3-25', 'B.4-25', 'B.5-25', 'B.1-50', 'B.2-50', 'B.3-50', 'B.4-50', 'B.5-50', 'B.1-75', 'B.2-75', 'B.3-75', 'B.4-75', 'B.5-75', 'C.1-25', 'C.2-25', 'C.3-25', 'C.4-25', 'C.5-25', 'C.1-50', 'C.2-50', 'C.3-50', 'C.4-50', 'C.5-50', 'C.1-75', 'C.2-75', 'C.3-75', 'C.4-75', 'C.5-75', 'F'```, related to the different scenarios in the [Table of Scenarios](#table-of-scenarios). The letter (A/B/C) denotes the duration of immunity (6/12/18 months), the number (1-5) denotes the eligibility age threshold (≥60/≥65/≥70/≥75/≥80), and the suffix (25/50/75) denotes the vaccination coverage level. ```'F'``` denotes the baseline scenario (no universal immunisation).
 - ```location```: one of the ISO 3166-1 alpha-2 (ISO-2) geocodes for each EU/EEA country. We provide a [geocode file](./supporting-files/countries.csv) to convert between country names and ISO-2 codes.
--  ```target = 'rsv_hospitalisations'```,  ```'administered_doses'```, ```'rsv_infections'```, which denote weekly new RSV hospitalisations, doses administered or infections.
--  ```pop_group``` allowed values are ```'0-2mo_immYes', '0-2mo_immNo', '0-2mo_immTotal', '3-5mo_immYes', '3-5mo_immNo', '3-5mo_immTotal', '6-11mo_immYes', '6-11mo_immNo', '6-11mo_immTotal', '1-4_immYes', '1-4_immNo', '1-4_immTotal', '5-17_immYes', '5-17_immNo', '5-17_immTotal', '18-59_immYes', '18-59_immNo', '18-59_immTotal', '60-64_immYes', '60-64_immNo', '60-64_immTotal', '65-69_immYes', '65-69_immNo', '65-69_immTotal', '70-74_immYes', '70-74_immNo', '70-74_immTotal', '75-79_immYes', '75-79_immNo', '75-79_immTotal', '80+_immYes', '80+_immNo', '80+_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```, and ```'undefined'``` (when ```target='administered_doses'```, see below), covering all combinations of considered age groups and immunisation status that are the source population for the weekly incidence. Note that groups ```immYes``` are individuals that were immunised prior to the hospitalisation or infection during the scenario period. When ```target='administered_doses'``` set ```pop_group``` equal to ```'undefined'```.
-- ```horizon```: weeks ahead in the projection period, see [here](./supporting-files/isoweeks.csv) for a horizon/week correspondence
-- ```target_end_date``` end date of target week, see [here](./supporting-files/isoweeks.csv) for a date/week correspondence
+-  ```target = 'rsv_hospitalisations'```,  ```'administered_doses'```, ```'rsv_infections'```, which denote weekly new RSV hospitalisations, total doses administered, or weekly new infections.
+-  ```pop_group``` allowed values are ```'<1year_immYes', '<1year_immNo', '<1year_immTotal', '1-4_immYes', '1-4_immNo', '1-4_immTotal', '5-17_immYes', '5-17_immNo', '5-17_immTotal', '18-59_immYes', '18-59_immNo', '18-59_immTotal', '60-64_immYes', '60-64_immNo', '60-64_immTotal', '65-69_immYes', '65-69_immNo', '65-69_immTotal', '70-74_immYes', '70-74_immNo', '70-74_immTotal', '75-79_immYes', '75-79_immNo', '75-79_immTotal', '80+_immYes', '80+_immNo', '80+_immTotal', 'total_immYes', 'total_immNo', 'total_immTotal'```, and ```'undefined'``` (when ```target='administered_doses'```, see below), covering all combinations of considered age groups and immunisation status that are the source population for the weekly incidence. Note that groups ```immYes``` are individuals that were immunised prior to the hospitalisation or infection during the scenario period. When ```target='administered_doses'```, set ```pop_group``` equal to ```'undefined'```, since the eligible age group and coverage are already fully determined by ```scenario_id```.
+- ```horizon```: weeks ahead in the projection period, see [here](./supporting-files/isoweeks.csv) for a horizon/week correspondence. Not applicable when ```target='administered_doses'``` (see below).
+- ```target_end_date``` end date of target week, see [here](./supporting-files/isoweeks.csv) for a date/week correspondence. When ```target='administered_doses'```, set ```target_end_date``` to September $1^{st}$, 2026, since all doses are administered at once at the beginning of the scenario period (see [Shared Modelling Assumptions](#shared-modelling-assumptions)).
 - ```output_type```: we request teams to submit between 100 and 300 individual trajectories for each scenario. For trajectories ```output_type='sample'```.
 - ```output_type_id```: '1' to '300' for samples. In cases where “matched” trajectories are used (i.e., trajectories that share the same parameter set across different scenarios), the same ```output_type_id``` should be assigned across those scenarios to maintain consistency.
-- ```value```: the value for the given target, location, week, population group and trajectory.
-
-**Note on age groups**: the age groups are defined such that ```'0-2mo'``` includes infants that have between 0 and approximately 89 days of age, ```'3-5mo'``` includes infants that have between 90 and 179 days of age, ```'6-11mo'``` includes infants that have between 180 and 364 days of age.
+- ```value```: the value for the given target, location, week (or, for ```administered_doses```, total), population group and trajectory.
 
 # Contacts
 If you have any question regarding this scenario round do not hesitate to get in touch at [rsv-respicompass@isi.it](mailto:rsv-respicompass@isi.it).
