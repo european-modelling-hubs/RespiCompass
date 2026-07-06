@@ -12,6 +12,11 @@ See dedicated [README](https://github.com/european-modelling-hubs/RespiCompass/t
 See dedicated [README](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/births) for more information.
 
 
+## Mortality data
+
+See dedicated [README](https://github.com/european-modelling-hubs/RespiCompass/tree/main/auxiliary-data/mortality) for more information.
+
+
 ## Additional information 
 We provide below additional information and links that may be useful for model development, calibration and projection.
 
