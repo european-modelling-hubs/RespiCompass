@@ -1,0 +1,13 @@
+team_name: "ISI Foundation"
+model_name: "ReSVnewal"
+team_abbr: "ISI"
+model_abbr: "ReSVnewal"
+model_contributors:
+  - name: "Nicolò Gozzi"
+    affiliation: "ISI Foundation"
+    email: "nicolo.gozzi@isi.it"
+team_model_designation: "secondary"
+methods: "Deterministic age-structured renewal-equation model of RSV transmission in daily steps, with seasonal forcing, waning natural immunity, births, ageing and mortality, and 9 age groups."
+methods_long: "Age-structured renewal-equation model of RSV transmission in daily time steps. New infections in each of 9 age groups are generated from recent infections through a gamma generation-time distribution, weighted by age-specific contacts and a cosine seasonal transmission rate, and limited by the susceptible pool. Natural immunity wanes over time, and the population is updated for births, ageing and age-specific mortality. Hospitalisations follow from infections through age-specific hospitalisation probabilities and a gamma-distributed delay from infection to admission. Parameters are calibrated per country to the target data with approximate Bayesian computation (rejection sampling), and trajectories are drawn from the accepted parameter sets. Vaccination reduces infection and severe disease in vaccinated individuals following the provided waning curves, with the same parameter set and waning curve used across scenarios for each trajectory."
+license: "CC-BY-4.0"
+data_inputs: "RespiCompass target data, population, births and mortality data; https://doi.org/10.1038/s41467-020-20544-y (via epydemix) for contact matrices; RespiCompass waning-immunity curves for vaccine efficacy."
