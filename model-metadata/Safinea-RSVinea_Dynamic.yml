@@ -6,9 +6,9 @@ model_contributors:
   - name: Rok Grah
     affiliation: Safinea
     email: rok.grah@safinea.eu
-  - name: Helen Johnson
+  - name: Helen Brown
     affiliation: Safinea
-    email: helen.johnson@safinea.eu
+    email: helen.brown@safinea.eu
 team_model_designation: secondary
 methods: Age-specific compartmental model with cohort aging, accounting for repeated infections, waning immunity, maternal immunity, seasonality, age-specific contact patterns, etc.
 method_long: Age-specific compartmental model with cohort aging. We simulate RSV transmission and hospitalizations across age groups, accounting for repeated infections, waning immunity, maternal immunity, seasonality, age-specific contact patterns, etc as well as for  intervention effects. The model tracks monthly cohort aging and integrates both vaccination and natural infection dynamics.
